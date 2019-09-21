@@ -1,0 +1,72 @@
+<svg width="100%" height="100%" viewBox="500 0 500 700"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc><![CDATA[
+    Greeting Card Template
+    
+    Animated card can be used for any purpose
+    Modify text and images as needed. Openclipart has great images to use for any occasion.
+    
+    Use <image> for any standard image SVG, JPEG, PNG, etc. - which is easier to implement.
+    Use <foreignObject> <body> <iframe> example for SVG images that use script. 
+    For security reasons, script won't run in an <image> tag, but will run in an <iframe>
+    
+    Change the font using any of the Google open source fonts at https://fonts.google.com
+    
+    written by Jay Nick
+    STEAMcoded.org
+  ]]>
+  </desc>
+     
+  <style type="text/css"><![CDATA[
+     @import 'https://fonts.googleapis.com/css?family=Kalam';
+    .t1 {font-family:'Kalam',cursive;font-size:50px;text-anchor:middle;fill:#eb4b9b;stroke:none;}
+    .t2 {font-family:'Kalam',cursive;font-size:30px;text-anchor:middle;fill:red;stroke:none;}
+    
+    .c1 {fill:#fce7f8;stroke:black;}
+    .c2 {fill:#fffff8;stroke:black;}
+    
+    .show {visibility:visible;}
+    .hide {visibility:hidden;}
+  ]]>
+  </style>
+
+  <animate attributeName="viewBox" values="500 0 500 700;0 0 1000 700;" begin="3s" dur="1s" fill="freeze" />
+
+  <g id="insideRight">     
+    <rect x="500" y="0" width="500" height="700" class="c2" />
+    <g transform="translate(750,100)" class="t2">
+      <text x="0" y="0">Happy Birthday, Princess!</text>
+      <text x="0" y="500">Hope you have a magical day!</text>
+      <text x="230" y="540" style="text-anchor:end;fill:black;">- Grandma &amp; Grandpa</text>
+    </g>
+
+    <foreignObject id="insideRightImage" x="550" y="120" width="400" height="400">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <iframe src="https://openclipart.org/download/263723/bdaycake.svg" width="400" height="400" frameborder="no" ></iframe>
+      </body>
+    </foreignObject>
+  </g>
+      
+
+  <g id="coverPage" transform="translate(500,0)" class="c1">
+    <animate attributeName="class" values="c1;c2;" begin="3s" dur="1s" calcMode="discrete" fill="freeze" />
+    <g id="openCardAnimation">
+      <animateTransform attributeType="XML" attributeName="transform" type="scale" values="1,1;-1,1;" dur="1s" begin="3s" fill="freeze" />
+      <rect x="0" y="0" width="500" height="700" />
+      <g id="coverFront" class="show">
+        <animate attributeName="class" values="show;hide;" begin="3s" dur="1s" calcMode="discrete" fill="freeze" />
+        <text x="250" y="250" class="t1">Happy Birthday</text>
+        <text x="250" y="350" class="t1">to our Princess</text>
+        <image id="coverImage" x="0" y="0" width="500" height="700" xlink:href="https://openclipart.org/download/221254/Happy-Birthday-Card.svg" />
+      </g>
+
+      <g id="coverBack" transform="translate(500,0) scale(-1,1)" class="hide" style="fill:red;">
+        <animate attributeName="class" values="hide;show;" begin="3s" dur="1s" fill="freeze" />
+        <image id="insideLeftImage" x="0" y="200" width="500" height="200" xlink:href="https://openclipart.org/download/174682/Happy-Bithday-in-pink.svg" />
+      </g>
+    </g>
+  </g>
+
+</svg>

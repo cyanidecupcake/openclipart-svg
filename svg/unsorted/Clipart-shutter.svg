@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="229" width="229" viewBox="0 0 240 240">
+ <title>Window Shutters</title>
+ <defs>
+   <style type="text/css">
+     .lamelle {
+	   fill: white; 
+	   stroke: #000;
+	   stroke-width: 2;
+	 }
+    </style>
+	<symbol id="lamelle">
+	  <path class="lamelle" d="m20,20 v10h70v-10z"/>
+	  <path d="m20,20 v9 l9,-9 z"/>
+	</symbol>
+  </defs>	
+  <rect id="shutterRight" x="115" y="10" width="95" height="210" fill="palegreen" stroke="#000" stroke-width="2"  />
+  <rect id="shutterLeft" x="10" y

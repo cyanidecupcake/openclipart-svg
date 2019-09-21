@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    id="Layer_1"
+    xml:space="preserve"
+    version="1.1"
+    viewBox="0 0 1024 1024"
+  >
+<filter
+      id="AI_BevelShadow_1"
+      height="1.4"
+      width="1.4"
+      color-interpolation-filters="sRGB"
+      y="-.2"
+      x="-.2"
+    >
+	<feGaussianBlur
+        id="feGaussianBlur4"
+        in="SourceAlpha"
+        stdDeviation="4"
+        result="blur"
+    />
+	<feOffset
+        id="feOffset6"
+        dy="4"
+        in="blur"
+        dx="0"
+        result="offsetBlur"
+    />
+		<feSpecularLighting
+        id="feSpecularLighting8"
+        specularConstant="1"
+        result="specOut"
+        specularExponent="10"
+        in="blur"
+        surfaceScale="5"
+      >
+		<fePointLight
+          id="fePointLight10"
+          y="-10000"
+          x="-5000"
+          z="-20000"
+      />
+	</feSpecularLighting
+    >
+	<feComposite
+        id="feComposite12"
+        operator="in"
+        result="specOut"
+        in2="SourceAlpha"
+        in="specOut"
+    />
+	<feComposite
+        id="feComposite14"
+        in="SourceGraphic"
+        in2="specOut"
+        k3="1"
+        k2="1"
+        k1="0"
+        result="litPaint"
+        k4="0"
+        operator="arithmetic"
+    />
+	<feMerge
+        id="feMerge16"
+      >
+		<feMergeNode
+          id="feMergeNode18"
+          in="offsetBlur"
+      />
+		<feMergeNode
+          id="feMergeNode20"
+          in="litPaint"
+      />
+	</feMerge
+    >
+</filter
+  >
+<path
+      id="path5949_1_"
+      style="fill:#008000"
+      d="m256.77 262c-38.508-0.32-78.043 16.586-89.62 48.157-17.204 38.104 10.406 82.609 57.537 96.322 0.154 0.04 0.366-0.04 0.503 0 51.416 18.58 115.39 27.648 171.11 85.29l20.87 21.636-18.831 19.179c-55.876 57.538-119.64 66.408-171.1 84.897-0.115 0.057-0.377-0.07-0.503 0-47.005 13.57-74.278 57.881-57.538 95.897 0.058 0.118-0.057 0.295 0 0.404 14.303 38.495 70.464 55.527 115.6 45.303 0.148-0.028 0.354 0.028 0.502 0 46.218-8.057 84.051-45.651 73.336-83.68-5.289-18.745-12.052-27.449-18.323-32.657-3.136-2.583-5.866-4.227-7.642-5.717-1.748-1.492-9.19-5.668-9.19-5.668 4.597-3.346 7.283-4.95 11.235-7.396 5.906-3.848 16.221-8.577 29.534-14.276 26.404-11.333 65.306-27.303 109.99-53.05 80.826 45.932 185.86 105.46 243.91 138.34 58.052 32.899 117.48 16.32 142.07 1.223l-311.34-182.7 313.12-184.51c-48.536-29.928-103.92-17.261-140.81 0.76-82.023 46.509-164.29 92.801-246.46 139.17-37.468-20.475-77.688-39.255-112.54-54.277-13.331-5.734-23.612-10.417-29.529-14.284-2.958-1.931-10.441-6.118-10.441-6.118 6.831-3.986 14.074-11.337 19.351-16.94 5.254-5.609 11.463-13.908 15.021-28.372 9.413-38.225-27.13-75.938-73.336-84.068-8.944-1.944-18.585-2.244-26.494-2.836zm-5.091 32.256c17.181-0.803 34.921 3.895 46.344 13.064 17.089 13.729 20.356 32.648 13.742 48.16-6.591 15.513-22.412 26.98-44.807 26.93h-0.502c-20.521 0.959-40.534-8.528-52.448-22.447-11.914-13.907-15.302-31.225-3.553-46.115v-0.411c8.098-12.361 24.045-18.378 41.224-19.181zm13.252 347.3c1.519-0.034 3.09-0.057 4.078 0 22.39 0 38.256 11.435 44.813 26.925 6.557 15.513 3.375 34.462-13.753 48.159-11.424 9.133-29.649 14.268-46.847 13.469-17.203-0.801-32.658-7.208-40.734-19.604l-0.508-0.399c-11.321-14.45-8.042-30.785 3.055-44.471 11.073-13.702 30.111-23.799 49.896-24.079z"
+  />
+<g
+      id="g23"
+      style="filter:url(#AI_BevelShadow_1)"
+    >
+</g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>

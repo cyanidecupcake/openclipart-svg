@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-500 -500 1000 1000">
+	<g id="Cross-70">
+		<title>Cross LXX, by Adam Stanislav</title>
+
+		<g id="Double">
+			<path id="Single" d="m-50 0l-50-200 50-100 50-200 50 200 50 100-50 200z"/>
+			<use xlink:href="#Single" transform="rotate(180)"/>
+		</g>
+		<use xlink:href="#Double" transform="rotate(90)"/>
+	</g>
+</svg>

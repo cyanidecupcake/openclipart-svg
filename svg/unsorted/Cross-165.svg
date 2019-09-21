@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-500 -500 1000 1000">
+	<g id="Cross-165">
+		<title>Cross CLXV, by Adam Stanislav</title>
+
+		<g id="Tvary">
+			<g id="Tvar">
+				<path id="Polka" d="m-70-490v80l50 50-20 90 20 200 20 70-10-500-60 10z"/>
+				<use xlink:href="#Polka" transform="scale(-1,1)"/>
+			</g>
+			<use xlink:href="#Tvar" transform="rotate(180)"/>
+		</g>
+		<use xlink:href="#Tvary" transform="rotate(90)"/>
+	</g>
+</svg>
