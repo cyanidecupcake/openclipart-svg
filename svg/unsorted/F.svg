@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="1200"
+   viewBox="0 0 1200.00006836103 1200.000068331545"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="F.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#646464"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.6633333333333333"
+     inkscape:cx="600"
+     inkscape:cy="600"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4419"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4315"
+       inkscape:label="blackboard">
+      <feFlood
+         id="feFlood4317"
+         flood-color="rgb(53,53,53)"
+         result="result2" />
+      <feFlood
+         id="feFlood4333"
+         baseFrequency="0.41299999999999998"
+         flood-color="rgb(0,0,0)"
+         result="result5" />
+      <feTurbulence
+         id="feTurbulence4335"
+         type="fractalNoise"
+         baseFrequency="0.4125809435707678"
+         numOctaves="9"
+         result="result3" />
+      <feComposite
+         id="feComposite4337"
+         operator="in"
+         in="result5"
+         in2="result3" />
+      <feColorMatrix
+         id="feColorMatrix4339"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 3 -1 "
+         result="result4"
+         baseFrequency="0.11600000000000001" />
+      <feComposite
+         id="feComposite4348"
+         in2="result2"
+         result="result6" />
+      <feComposite
+         id="feComposite4350"
+         in2="SourceGraphic"
+         operator="in" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4230"
+       inkscape:label="chalk"
+       x="-1"
+       y="-1"
+       height="3"
+       width="3">
+      <feFlood
+         id="feFlood4244"
+         flood-color="rgb(255,255,255)"
+         result="result2" />
+      <feComposite
+         id="feComposite4248"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2"
+         result="result4" />
+      <feMorphology
+         id="feMorphology4250"
+         operator="dilate"
+         result="result3"
+         radius="1.2" />
+      <feComposite
+         id="feComposite4252"
+         in2="result4"
+         operator="out"
+         result="result7" />
+      <feMorphology
+         id="feMorphology4268"
+         operator="dilate"
+         radius="2"
+         result="result10" />
+      <feTurbulence
+         id="feTurbulence4270"
+         baseFrequency="0.27700000000000002"
+         type="fractalNoise"
+         numOctaves="10"
+         result="result8" />
+      <feComposite
+         id="feComposite4272"
+         in2="result8"
+         operator="in"
+         in="result4" />
+      <feColorMatrix
+         id="feColorMatrix4274"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 8 -2.5 "
+         result="result9" />
+      <feTurbulence
+         id="feTurbulence4278"
+         result="result11"
+         baseFrequency="0.092999999999999999"
+         numOctaves="3" />
+      <feColorMatrix
+         id="feColorMatrix4284"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -2 "
+         result="result12" />
+      <feDisplacementMap
+         yChannelSelector="A"
+         xChannelSelector="A"
+         id="feDisplacementMap4286"
+         in2="result12"
+         in="result10"
+         result="result13"
+         scale="2" />
+      <feComposite
+         id="feComposite4288"
+         in2="result9"
+         result="result16" />
+      <feTurbulence
+         id="feTurbulence4431"
+         result="result14"
+         type="fractalNoise"
+         baseFrequency="0.01"
+         numOctaves="9" />
+      <feComposite
+         id="feComposite4441"
+         in2="result14"
+         operator="in"
+         in="result2" />
+      <feColorMatrix
+         id="feColorMatrix4443"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 -0.5 "
+         result="result17" />
+      <feComposite
+         id="feComposite4445"
+         in2="SourceGraphic"
+         operator="in"
+         result="result18" />
+      <feComposite
+         id="feComposite4447"
+         in2="result16"
+         operator="over" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3402">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3404"
+         d="m 1793.735443115234,1520.619584322052 600.000048828125,0 0,600.000074631088 -600.000048828125,0 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         clip-path="none"
+         sodipodi:nodetypes="ccccc" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-1793.735443115233,-920.6195157944838)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="1. réteg">
+    <g
+       id="g4419"
+       transform="matrix(2.0000000406901,0,0,2.0000000406901,-1793.735516102509,-2120.619745241366)">
+      <g
+         id="g3398"
+         clip-path="url(#clipPath3402)">
+        <path
+           inkscape:connector-curvature="0"
+           id="rect3336"
+           d="m 1793.735443115234,1520.619584322052 600.000048828125,0 0,600.000074631088 -600.000048828125,0 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1;marker:none;filter:url(#filter4315);enable-background:accumulate"
+           clip-path="none"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           transform="matrix(2.592893763935919,0,0,2.592893763935917,-3335.098167128308,-2900.053667435904)"
+           inkscape:connector-curvature="0"
+           id="path3391"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:100%;font-family:'Alte DIN 1451 Mittelschrift';-inkscape-font-specification:'Alte DIN 1451 Mittelschrift, Normal';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker:none;filter:url(#filter4230)"
+           d="m 2036.793296874901,1909.637599552113 0,-178.035923648598 113.884338257033,0 0,25.538440660614 -86.879575644557,0 0,52.421009777106 74.04925856626,0 0,24.072118708835 -74.049258566262,0 0,76.004354502034 -27.004762612467,0 z" />
+      </g>
+    </g>
+  </g>
+</svg>
