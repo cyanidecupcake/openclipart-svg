@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="230"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="motorsports-jacket.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3809">
+      <stop
+         style="stop-color:#472d17;stop-opacity:1;"
+         offset="0"
+         id="stop3811" />
+      <stop
+         style="stop-color:#472d17;stop-opacity:0;"
+         offset="1"
+         id="stop3813" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3801">
+      <stop
+         style="stop-color:#472d17;stop-opacity:1;"
+         offset="0"
+         id="stop3803" />
+      <stop
+         style="stop-color:#472d17;stop-opacity:0;"
+         offset="1"
+         id="stop3805" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2824"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2838"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2856"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       id="filter2908"
+       inkscape:label="Organic"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Bulging, knotty, slick 3D surface"
+       color-interpolation-filters="sRGB"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feMorphology
+         id="feMorphology2910"
+         radius="4.3"
+         in="SourceAlpha"
+         result="result91" />
+      <feComposite
+         id="feComposite2912"
+         in2="result91"
+         operator="out"
+         in="SourceGraphic" />
+      <feGaussianBlur
+         id="feGaussianBlur2914"
+         result="result0"
+         stdDeviation="1.2" />
+      <feDiffuseLighting
+         id="feDiffuseLighting2916"
+         diffuseConstant="1"
+         result="result92">
+        <feDistantLight
+           id="feDistantLight2918"
+           elevation="66"
+           azimuth="225" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend2920"
+         in2="SourceGraphic"
+         mode="multiply"
+         result="result93" />
+      <feComposite
+         id="feComposite2922"
+         in2="SourceAlpha"
+         operator="in"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2998" />
+      <feTurbulence
+         id="feTurbulence3000"
+         numOctaves="3"
+         baseFrequency="0.037"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting3002"
+         specularExponent="24.29999924"
+         surfaceScale="2"
+         specularConstant="1"
+         result="result1">
+        <feDistantLight
+           id="feDistantLight3004"
+           elevation="45"
+           azimuth="225" />
+      </feSpecularLighting>
+      <feDiffuseLighting
+         id="feDiffuseLighting3006"
+         in="result0"
+         surfaceScale="3"
+         diffuseConstant="1.21000004"
+         result="result94">
+        <feDistantLight
+           id="feDistantLight3008"
+           azimuth="225"
+           elevation="42" />
+      </feDiffuseLighting>
+      <feBlend
+         id="feBlend3010"
+         in2="fbSourceGraphic"
+         mode="multiply"
+         result="result91" />
+      <feComposite
+         id="feComposite3012"
+         in2="result91"
+         operator="arithmetic"
+         in="result1"
+         k2="1"
+         k3="1"
+         result="result95"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3014"
+         in2="fbSourceGraphicAlpha"
+         operator="in"
+         result="result2" />
+    </filter>
+    <inkscape:perspective
+       id="perspective2853"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter3717"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.0963419"
+         id="feGaussianBlur3719" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3801"
+       id="radialGradient3807"
+       cx="12.477848"
+       cy="485.46265"
+       fx="12.477848"
+       fy="485.46265"
+       r="30.13489"
+       gradientTransform="matrix(0.22278918,2.5081155,-1.4503492,0.12883061,780.27707,855.73947)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3809"
+       id="radialGradient3815"
+       cx="137.25633"
+       cy="497.27417"
+       fx="137.25633"
+       fy="497.27417"
+       r="26.235565"
+       gradientTransform="matrix(-0.09951696,2.047207,-1.7556971,-0.08534624,1025.3663,719.23174)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32056809"
+     inkscape:cx="29.467818"
+     inkscape:cy="438.93385"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="712"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36218)">
+    <path
+       sodipodi:nodetypes="cssccsscccsccccsccc"
+       id="path3721"
+       d="m -121.0062,646.28565 c -63.34703,-172.11265 5.4844,-191.39729 24.306384,-280.96101 9.591479,-45.64069 19.448968,-57.83359 38.694757,-69.92605 21.582746,-13.56081 54.294453,-21.94324 79.709553,-29.72644 14.68906,12.09693 54.228311,-35.81124 129.246076,9.62061 24.44432,12.75612 40.4535,4.60694 66.33756,27.19994 22.50305,19.64187 31.31525,46.11078 35.25616,71.61064 9.91801,64.17516 84.69287,88.24234 24.10313,269.29499 -30.95173,0.73409 1.88753,-10.64835 -39.04932,-4.02952 -4.89793,-180.37253 -15.91407,-150.98575 -53.7704,-206.31151 2.26651,11.0541 28.18776,2.80568 24.88273,9.58816 -20.47512,42.01838 -15.30132,64.75242 -29.22047,75.00512 -6.66781,35.92072 4.07051,75.79947 2.52297,79.38377 -45.41307,22.6747 -162.556062,16.76603 -211.214662,-3.63083 -16.185954,-2.54447 15.222617,-33.79471 2.063997,-73.15375 -7.02639,-14.44735 -14.102993,-54.03837 -21.955539,-84.94649 -2.759519,-10.86164 33.101636,-9.53337 34.120766,-14.06438 -83.180992,25.30782 -65.875503,116.38142 -71.009787,221.79336 -0.934835,-27.10592 -24.348165,6.23678 -35.023905,3.25339 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3717)"
+       transform="matrix(0.47826611,0,0,0.47826635,72.998947,738.68739)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#003366;stroke:#000000;stroke-width:0.47421697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 89.382885,864.17216 c 0,0 9.791135,-6.16623 18.873595,-7.23418 8.18457,-0.96241 23.49245,6.27518 23.49245,6.27518 l 0.41189,7.14039 c 0,0 -14.12521,-9.02193 -21.38435,-7.78071 -8.20851,1.40356 -25.940183,14.1374 -25.940183,14.1374 l 4.546598,-12.53808 z"
+       id="path3028"
+       sodipodi:nodetypes="csccscc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#fdca01;fill-opacity:1;stroke:#edb628;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3717)"
+       d="m -119.0062,650.28565 c -63.34703,-172.11265 5.4844,-191.39729 24.306384,-280.96101 9.591479,-45.64069 19.448968,-57.83359 38.694757,-69.92605 21.582746,-13.56081 54.294453,-21.94324 79.709553,-29.72644 14.68906,12.09693 54.228311,-35.81124 129.246076,9.62061 24.44432,12.75612 40.4535,4.60694 66.33756,27.19994 22.50305,19.64187 31.31525,46.11078 35.25616,71.61064 9.91801,64.17516 84.69287,88.24234 24.10313,269.29499 -30.95173,0.73409 1.88753,-10.64835 -39.04932,-4.02952 -4.89793,-180.37253 -15.91407,-150.98575 -53.7704,-206.31151 2.26651,11.0541 28.18776,2.80568 24.88273,9.58816 -20.47512,42.01838 -15.30132,64.75242 -29.22047,75.00512 -6.66781,35.92072 4.07051,75.79947 2.52297,79.38377 -45.41307,22.6747 -162.556062,16.76603 -211.214662,-3.63083 -16.185954,-2.54447 15.222617,-33.79471 2.063997,-73.15375 -7.02639,-14.44735 -14.102993,-54.03837 -21.955539,-84.94649 -2.759519,-10.86164 33.101636,-9.53337 34.120766,-14.06438 -83.180992,25.30782 -65.875503,116.38142 -71.009787,221.79336 -0.934835,-27.10592 -24.348165,6.23678 -35.023905,3.25339 z"
+       id="path2866"
+       sodipodi:nodetypes="cssccsscccsccccsccc"
+       transform="matrix(0.47826611,0,0,0.47826635,72.998947,738.68739)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.38874167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 91.205214,867.61019 c 0.652505,8.651 10.458186,14.68676 17.548366,21.49844 7.99082,-7.01356 16.22423,-13.78454 23.27353,-21.73962 0,0 -14.78373,-6.62622 -24.21212,-5.83998 -7.3518,0.6131 -16.609776,6.08116 -16.609776,6.08116 z"
+       id="path2872"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.47826624px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 112.29159,1026.9247 -3.26068,-137.03055 0.95868,1.42781 2.302,135.60274 z"
+       id="path2874"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.38874167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 107.8393,893.08753 0,0 z"
+       id="path2924"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2520428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 73.595116,1028.3953 33.722804,0.6674 43.90325,-0.8899 -77.626054,0.2225 z"
+       id="path2938"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.47826624px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 60.376986,1024.7918 c 0,0 38.185549,8.6052 51.882554,8.6951 15.11225,0.099 49.45234,-5.7113 49.45234,-5.7113 -25.27497,-4.4758 -69.617165,-2.9838 -101.334894,-2.9838 z"
+       id="path2940"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#003366;stroke:#000000;stroke-width:0.38874167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 106.82911,882.59537 2.75129,7.11233 C 99.420305,883.00076 90.576349,879.2308 86.187821,869.20731 l 3.481909,-5.32956 c 1.642729,11.3939 6.986821,12.22521 17.15938,18.71762 z"
+       id="path3024"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:#003366;stroke:#000000;stroke-width:0.38874167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.5804,884.62406 c 12.05803,-4.38979 17.74294,-8.75001 22.61679,-21.39635 l 2.70647,4.35457 c -5.37025,10.43885 -13.55823,17.00431 -25.93352,22.61279 l 0.61026,-5.57101 z"
+       id="path3026"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#4a442d;stroke-width:3.25221086;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82.161113,893.63028 c -2.983865,0.74596 -22.099929,3.99864 -26.854795,12.68146 0,0 -29.126439,39.41929 -34.31446,62.66121 -5.264663,23.58522 4.475796,72.35875 4.475796,72.35875 l 0,0"
+       id="path3633"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#5e5134;stroke-width:0.38261297;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 95.377942,878.71097 c 3.051818,0 -18.432264,20.99818 -26.854796,35.80639 -8.539347,15.01358 15.331584,31.15285 20.141099,47.7419 5.896324,20.33769 10.443533,62.66124 10.443533,62.66124"
+       id="path3635"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       sodipodi:nodetypes="csscc"
+       id="path3637"
+       d="m 138.3644,891.1818 c 2.98387,0.74596 22.09996,3.99864 26.8548,12.68146 0,0 29.12646,39.41934 34.31449,62.66121 5.26466,23.58527 -4.47584,72.35883 -4.47584,72.35883 l 0,0"
+       style="fill:none;stroke:#474133;stroke-width:3.25221086;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       id="path3639"
+       d="m 126.70854,880.2029 c 0,0 24.29112,24.72803 26.10883,39.53622 2.10437,17.14349 -17.01692,28.15739 -19.39514,44.01207 l -8.95159,59.67731"
+       style="fill:none;stroke:#5e5134;stroke-width:0.47826624;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:url(#radialGradient3807);fill-opacity:1;stroke:#000000;stroke-width:0.50173128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.842013,1024.9087 c 0,0 -3.953554,-32.83206 -9.773936,-48.79038 C 85.25408,962.9193 71.518748,938.39351 71.518748,938.39351 l 4.305467,-0.73945 c -1.074312,0 12.036794,19.90049 16.146964,32.53564 5.416755,16.65171 7.870834,54.719 7.870834,54.719 z"
+       id="path3697"
+       sodipodi:nodetypes="csccsc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       sodipodi:nodetypes="csccsc"
+       id="path3757"
+       d="m 123.72536,1029.3956 c 0,0 3.436,-34.52459 8.49445,-51.30553 4.18378,-13.87944 16.12106,-39.66951 16.12106,-39.66951 l -3.74184,-0.77755 c 0.93366,0 -10.46106,20.92637 -14.03319,34.21284 -4.70766,17.51009 -6.84048,57.53975 -6.84048,57.53975 z"
+       style="fill:url(#radialGradient3815);fill-opacity:1;stroke:#000000;stroke-width:0.47964376px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <rect
+       style="fill:#f0a513;fill-opacity:1;fill-rule:evenodd;stroke:#825e0a;stroke-width:0.29989687;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3783"
+       width="0.86543417"
+       height="32.505257"
+       x="75.023636"
+       y="-1009.8563"
+       ry="0.12599106"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <rect
+       ry="0.12599106"
+       y="-1009.8563"
+       x="76.608955"
+       height="32.505257"
+       width="0.86543417"
+       id="rect3785"
+       style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#825e0a;stroke-width:0.29989687;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <rect
+       transform="scale(1,-1)"
+       ry="0.12599106"
+       y="-1009.8563"
+       x="146.76353"
+       height="32.505257"
+       width="0.86543417"
+       id="rect3787"
+       style="fill:#f0a513;fill-opacity:1;fill-rule:evenodd;stroke:#825e0a;stroke-width:0.29989687;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#825e0a;stroke-width:0.29989687;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3789"
+       width="0.86543417"
+       height="32.505257"
+       x="148.34885"
+       y="-1009.8563"
+       ry="0.12599106"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.47826624px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 49.128018,951.06973 c 8.357433,-12.67491 9.3294,-13.60186 21.633029,-16.41125"
+       id="path3791"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.47826624px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 172.95843,959.27538 c -1.36765,-14.04899 -12.84031,-17.99301 -23.87087,-22.379"
+       id="path3793"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.40389535px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 57.370834,901.87313 C 54.285189,891.55877 48.688841,886.2658 41.631168,883.89555"
+       id="path3795"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       id="path3797"
+       d="m 160.74201,897.6808 c -2.75005,-6.82385 4.66142,-11.10732 9.32362,-16.07815"
+       style="fill:none;stroke:#000000;stroke-width:0.29397774px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#edb628;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3817"
+       sodipodi:cx="-382.13409"
+       sodipodi:cy="518.93414"
+       sodipodi:rx="24.955696"
+       sodipodi:ry="6.238924"
+       d="m -357.1784,518.93414 a 24.955696,6.238924 0 1 1 -49.91139,0 24.955696,6.238924 0 1 1 49.91139,0 z"
+       transform="matrix(0.34674889,-0.10623069,0,0.34674906,156.26973,825.2732)"
+       inkscape:transform-center-x="99.765274"
+       inkscape:transform-center-y="-120.25285"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+    <path
+       inkscape:transform-center-y="-120.25279"
+       inkscape:transform-center-x="-99.765274"
+       transform="matrix(-0.34674889,-0.10623069,0,0.34674906,62.690948,826.3282)"
+       d="m -357.1784,518.93414 a 24.955696,6.238924 0 1 1 -49.91139,0 24.955696,6.238924 0 1 1 49.91139,0 z"
+       sodipodi:ry="6.238924"
+       sodipodi:rx="24.955696"
+       sodipodi:cy="518.93414"
+       sodipodi:cx="-382.13409"
+       id="path3819"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#edb628;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\motrsports-jacket.png"
+       inkscape:export-xdpi="102.06926"
+       inkscape:export-ydpi="102.06926" />
+  </g>
+</svg>
