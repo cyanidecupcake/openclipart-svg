@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="271.03564"
+   height="312.69739"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="snowflake.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3031"
+       inkscape:label="Raised border"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Strongly raised border around a flat surface"
+       height="1.5"
+       width="1.5"
+       y="-0.25"
+       x="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3033"
+         stdDeviation="4"
+         result="result1" />
+      <feComposite
+         id="feComposite3035"
+         in2="result1"
+         in="result1"
+         result="result4"
+         operator="in" />
+      <feGaussianBlur
+         id="feGaussianBlur3037"
+         stdDeviation="2"
+         result="result6"
+         in="result4" />
+      <feComposite
+         id="feComposite3039"
+         in2="result4"
+         operator="xor"
+         in="result6"
+         result="result8" />
+      <feComposite
+         id="feComposite3041"
+         in2="result8"
+         operator="atop"
+         result="fbSourceGraphic"
+         in="result4" />
+      <feSpecularLighting
+         id="feSpecularLighting3043"
+         specularExponent="10"
+         specularConstant="1.29999995"
+         surfaceScale="3"
+         lighting-color="#ffffff"
+         result="result1"
+         in="fbSourceGraphic">
+        <feDistantLight
+           id="feDistantLight3045"
+           azimuth="235"
+           elevation="55" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3047"
+         in2="fbSourceGraphic"
+         operator="atop"
+         result="result2"
+         in="result1" />
+      <feComposite
+         id="feComposite3049"
+         in2="result2"
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3051"
+         in2="SourceGraphic"
+         operator="over"
+         in="result4"
+         result="result9" />
+      <feBlend
+         id="feBlend3053"
+         in2="result2"
+         mode="multiply" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-161.95427"
+     inkscape:cy="551.16601"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.8114093,-12.862007)">
+    <text
+       xml:space="preserve"
+       style="font-size:278.31326294px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#5fbcd3;stroke-width:1;filter:url(#filter3031);font-family:Bitstream Vera Sans"
+       x="68.942268"
+       y="310.00668"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.98346337,0,0,1.0168147,-37.142857,-42.857143)"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="68.942268"
+         y="310.00668"
+         style="stroke-width:1">❄</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ff0000;stroke-width:29.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3074"
+       sodipodi:cx="151.42857"
+       sodipodi:cy="159.84024"
+       sodipodi:rx="100"
+       sodipodi:ry="107.14286"
+       d="m 251.42857,159.84024 a 100,107.14286 0 1 1 -199.999996,0 100,107.14286 0 1 1 199.999996,0 z"
+       transform="matrix(1,0,0,0.97884157,-4.1885907,15.977001)" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:29.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3844"
+       width="11.428572"
+       height="162.85715"
+       x="227.54222"
+       y="-76.915672"
+       transform="matrix(0.65323477,0.75715543,-0.75715543,0.65323477,0,0)" />
+  </g>
+</svg>
