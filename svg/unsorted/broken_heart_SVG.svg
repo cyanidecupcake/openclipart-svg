@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <svg 
+ xmlns="http://www.w3.org/2000/svg" 
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.1" height="656" width="856" >
+ <defs>
+  <path id="right" d="M0,0 c288.5,-288.5 721.25,144.25 0,577
+  l40 -163 l-120 -138 l180 -125 l-100 -150
+  " />
+  <path id="left" d="M0,0 c-288.5,-288.5 -721.25,144.25 0,577
+  l20 -150 l-120 -125 l140 -138 l-40 -163
+  " />
+ </defs>
+ <g id="heartgroup" transform="translate(428,79)" >
+  <use xlink:href="#right" transform="rotate(4 0 577)"
+  style="fill:red;stroke:green;stroke-width:0"/>
+  <use xlink:href="#left"  transform="rotate(-4 0 577)"
+  style="fill:red;stroke:green;stroke-width:0"/>
+ </g>
+ </svg>

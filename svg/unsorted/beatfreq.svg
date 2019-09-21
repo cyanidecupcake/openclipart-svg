@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://sozi.baierouge.fr" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" viewBox="0 0 480 480" style="background-color: black" onload="startup(evt)">
+  <script><![CDATA[
+             var svgDocument=null;
+             var T,ASG;
+             var lMA = -1;
+             var numCopies = 24;
+             var updateTimeMillis = 100;
+             var shapeArray = new Array(numCopies);
+             var pathArray = new Array(numCopies);
+             var sInHD = 60*60*12;
+             var SVGns = "http://www.w3.org/2000/svg";
+             var SVGxmlns = 'http://www.w3.org/2000/xmlns/';
+             var SVGxlink = 'http://www.w3.org/1999/xlink';
+             function pad2(number) {
+               var str = "" + ~~number;
+               while(str.length < 2){
+                 str = "0" + str;
+               }
+               return(str);
+             }
+             function startup(evt){
+               svgDocument=evt.target.ownerDocument;
+               var thumb = svgDocument.getElementById("gThumbnail");
+               thumb.parentNode.removeChild(thumb);
+               T = svgDocument.getElementById("tTime");
+               for(i = 0; i < numCopies; i++){
+                 ASG = svgDocument.getElementById("gAllShapes");
+                 var shapeGroup = svgDocument.createElementNS(SVGns,"g");
+                 var shape = svgDocument.createElementNS(SVGns,"use");
+                 shape.setAttribute("x", 10 + i * 470/numCopies);
+                 shape.setAttribute("y", 240);
+                 shape.setAttributeNS(SVGxlink, "href","#gTemplate");
+                 shapeGroup.appendChild(shape);
+                 ASG.appendChild(shapeGroup);
+                 shapeArray[i] = shapeGroup;
+               }
+               window.setInterval("changeTime()",updateTimeMillis);
+             }
+             function changeTime(){
+               var currentDate = new Date();
+               var dateSeconds = (currentDate.getTime() / 1000) % (sInHD);
+               var secInt = ~~dateSeconds;
+               <!-- var secFrac = -->
+               <!--    (1 - Math.sin((0.5 - (dateSeconds - secInt)) * Math.PI))/2; -->
+               var secFrac = (dateSeconds - secInt);
+               var hourPart = currentDate.getHours();
+               var minPart = currentDate.getMinutes();
+               var secPart = dateSeconds % 60;
+               var hAng = ((dateSeconds / sInHD) * 360);
+               var mAng = (~~((dateSeconds % 3600) / 60) * 6);
+               var sAng = (((secInt + secFrac) % 60) / 60 +
+                           (minPart % 2)) * 360; // #0 .. 720
+                for(i = 0; i < numCopies; i++){
+                 shapeGroup = shapeArray[i];
+                 var iRel = (i * 1/120)+0.25;
+                 var dotAngle = iRel*sAng*60/360;
+                 shapeGroup.setAttribute("transform",
+                   "translate(0 "+Math.sin(dotAngle*2*Math.PI)*100+")");
+               }
+               T.firstChild.nodeValue = pad2(hourPart) + ":" +
+                 pad2(minPart) + ":" + pad2(secPart);
+             }
+             //]]></script>
+  <defs>
+    <g id="gTemplate">
+      <circle id="circ1" cy="0" cx="-3" r="5" fill="#ff8b60"/>
+    </g>
+  </defs>
+  <g id="gAllShapes"/>
+  <g id="gThumbnail">
+    <use x="240" y="240" xlink:href="#gTemplate"/>
+  </g>
+  <text id="tTime" x="240" y="400" text-anchor="middle" fill="#9494ff" stroke="none" dominant-baseline="middle">00:00</text>
+</svg>
