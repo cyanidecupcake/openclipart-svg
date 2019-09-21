@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-500 -500 1000 1000">
+<g id="Kruhotvar2">
+	<title>Kruhotvar II, by Adam Stanislav</title>
+
+	<g id="Mnohotvary">
+		<g id="Mnohotvar">
+			<g id="Tvary">
+				<g id="Tvar">
+					<path id="Polka" d="m-70-490a50 50 0 0 1 0 80 50 50 0 0 1 50 50 20 90 0 0 0 -20 90l20 200 20 70-10-500a100 100 0 0 1 -60 10z"/>
+					<use xlink:href="#Polka" transform="scale(-1,1)"/>
+				</g>
+				<use xlink:href="#Tvar" transform="rotate(180)"/>
+			</g>
+			<use xlink:href="#Tvary" transform="rotate(90)"/>
+		</g>
+		<use xlink:href="#Mnohotvar" transform="rotate(45)"/>
+	</g>
+	<use xlink:href="#Mnohotvary" transform="rotate(22.5)"/>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-500 -500 1000 1000">
+	<g id="Kruhotvar-3">
+		<title>Kruhotvar III, by Adam Stanislav</title>
+
+		<g id="Sovy">
+			<g id="Tvary">
+				<path id="Tvar" d="m0 20l-20-110-60-130 20-90-60-50 30-70-60-50 150 20l150-20-60 50 30 70-60 50 20 90-60 130zm-56.213-434.213c-13.659 13.659-15.244 34.254-3.536 45.962c11.708 11.708 32.303 10.123 45.962-3.536c-9.047-0.852-20.176-5.326-28.638-13.788c-8.462-8.462-12.936-19.591-13.788-28.638zm112.426 0c-0.852 9.047-5.326 20.176-13.788 28.638c-8.462 8.462-19.591 12.936-28.638 13.788c13.659 13.659 34.254 15.244 45.962 3.536c11.708-11.708 10.123-32.303-3.536-45.962z"/>
+				<use xlink:href="#Tvar" transform="rotate(180)"/>
+			</g>
+			<use xlink:href="#Tvary" transform="rotate(90)"/>
+		</g>
+		<use xlink:href="#Sovy" transform="rotate(45)"/>
+	</g>
+</svg>
