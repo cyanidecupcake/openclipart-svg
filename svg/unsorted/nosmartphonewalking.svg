@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="nosmartphonewalking.svg"
+   viewBox="0 0 278.47666 349.18888"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   width="297.04178"
+   height="372.46814">
+  <defs
+     id="defs6259">
+    <filter
+       inkscape:label="Raised border"
+       inkscape:menu-tooltip="Strongly raised border around a flat surface"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       inkscape:menu="Bevels"
+       id="filter3031"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         result="result1"
+         stdDeviation="4"
+         id="feGaussianBlur3033" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         operator="in"
+         result="result4"
+         id="feComposite3035" />
+      <feGaussianBlur
+         result="result6"
+         stdDeviation="2"
+         in="result4"
+         id="feGaussianBlur3037" />
+      <feComposite
+         in="result6"
+         in2="result4"
+         result="result8"
+         operator="xor"
+         id="feComposite3039" />
+      <feComposite
+         result="fbSourceGraphic"
+         in2="result8"
+         in="result4"
+         operator="atop"
+         id="feComposite3041" />
+      <feSpecularLighting
+         in="fbSourceGraphic"
+         specularExponent="10"
+         result="result1"
+         surfaceScale="3"
+         specularConstant="1.29999995"
+         lighting-color="#ffffff"
+         id="feSpecularLighting3043">
+        <feDistantLight
+           azimuth="235"
+           elevation="55"
+           id="feDistantLight3045" />
+      </feSpecularLighting>
+      <feComposite
+         result="result2"
+         in2="fbSourceGraphic"
+         in="result1"
+         operator="atop"
+         id="feComposite3047" />
+      <feComposite
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         result="result4"
+         k1="0"
+         k2="1"
+         k3="1"
+         in2="result2"
+         k4="0"
+         id="feComposite3049" />
+      <feComposite
+         in="result4"
+         in2="SourceGraphic"
+         result="result9"
+         operator="over"
+         id="feComposite3051" />
+      <feBlend
+         mode="multiply"
+         in2="result2"
+         id="feBlend3053" />
+    </filter>
+  </defs>
+  <title
+     id="title10934">Crosswalk Signal</title>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="-8"
+     pagecolor="#ffffff"
+     inkscape:window-height="705"
+     inkscape:window-maximized="1"
+     inkscape:zoom="0.98994949"
+     inkscape:window-x="-8"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g5625"
+     inkscape:cx="99.617204"
+     inkscape:cy="194.99561"
+     inkscape:window-width="1366"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(1382.1458,-1923.8668)">
+    <g
+       id="g5625">
+      <path
+         id="path9484"
+         style="fill:#000000;fill-rule:evenodd;stroke-width:3.44933701"
+         d="m -1332.0159,2110.7124 c 0,0 -3.2697,-24.7709 -3.0485,-31.268 0.2196,-6.4947 16.8075,-51.4217 16.8075,-51.4217 l -17.8622,2.0395 -9.0401,64.6518 -19.2636,3.3151 1.5356,-85.658 98.5482,-44.8823 c -4.7904,-4.835 -7.6274,-11.3976 -7.3838,-18.5574 0.4861,-14.2957 13.0898,-25.5126 28.1517,-25.0508 15.0531,0.4593 26.8793,12.4259 26.3936,26.7196 -0.4854,14.2934 -13.1001,25.4975 -28.1529,25.0357 -1.049,0 -2.0507,-0.215 -3.0332,-0.3797 l 1.6255,1.6433 c 0,0 3.6645,13.1874 8.953,18.5349 l 14.589,53.69 54.854,36.7365 -11.4583,15.2403 -56.8049,-19.9161 -16.7894,-29.0887 -20.5059,39.6365 28.2339,55.4139 30.2814,115.2098 -31.8294,10.6991 -30.747,-102.2217 -18.3377,-23.9443 -57.5838,124.2092 -28.2626,-13.8428 50.138,-146.5158"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -1178.0399,2047.646 -14.2053,36.9337 -8.5232,23.6755 31.2516,9.4702 19.8874,-63.4503 z"
+         id="path6804"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <g
+         id="g6851"
+         transform="matrix(0.67522213,0,0,0.57746179,-164.2502,936.51638)">
+        <ellipse
+           style="fill:none;stroke:#ff0000;stroke-width:27.36208153"
+           id="path3074"
+           cx="-1498.705"
+           cy="1986.7177"
+           rx="93.75"
+           ry="98.320984" />
+        <rect
+           x="412.37604"
+           y="2337.9612"
+           width="10.584414"
+           height="148.91634"
+           transform="matrix(0.6202764,0.78438332,-0.72816651,0.68540027,0,0)"
+           style="fill:#ff0000;stroke:#ff0000;stroke-width:27.14658928"
+           id="rect3844" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata6256">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Crosswalk Signal</dc:title>
+        <dc:date>2010-11-06T19:41:28</dc:date>
+        <dc:description>A crosswalk signal showing the symbol for &quot;walk&quot;.  Walking signal symbol is from Manual on Uniform Traffic Control Devices (MUTCD), Millennium Edition with incorporated Revision Number 1 changes, dated December 28, 2001; &quot;Any traffic control device design or application provision contained in this Manual shall be considered to be in the public domain. Traffic control devices contained in this Manual shall not be protected by a patent or copyright, except for the Interstate Shield.&quot;; http://mutcd.fhwa.dot.gov/HTM/millennium/12.28.01/introduction/MUTCD_intro.htm</dc:description>
+        <dc:source>https://openclipart.org/detail/94549/crosswalk-signal-by-mazeo</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mazeo</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>crossing</rdf:li>
+            <rdf:li>crosswalk</rdf:li>
+            <rdf:li>crosswalk signal</rdf:li>
+            <rdf:li>pedestrian crossing</rdf:li>
+            <rdf:li>remix</rdf:li>
+            <rdf:li>transportation</rdf:li>
+            <rdf:li>walk</rdf:li>
+            <rdf:li>walk signal</rdf:li>
+            <rdf:li>walking</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

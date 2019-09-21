@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="180.4875"
+   height="232.8"
+   id="svg4199">
+  <defs
+     id="defs4201">
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter5337">
+      <feGaussianBlur
+         stdDeviation="1"
+         in="SourceGraphic"
+         result="result0"
+         id="feGaussianBlur5339" />
+      <feTurbulence
+         result="result1"
+         numOctaves="4"
+         seed="4"
+         baseFrequency="0.057"
+         type="turbulence"
+         id="feTurbulence5341" />
+      <feDisplacementMap
+         in2="result1"
+         scale="0"
+         xChannelSelector="R"
+         yChannelSelector="A"
+         result="result91"
+         id="feDisplacementMap5343" />
+      <feComposite
+         in2="result91"
+         operator="out"
+         in="result0"
+         result="result2"
+         id="feComposite5345" />
+      <feComposite
+         in2="result2"
+         operator="arithmetic"
+         k1="0.1"
+         k2="0"
+         k3="1.2"
+         k4="0"
+         in="SourceAlpha"
+         result="result5"
+         id="feComposite5347" />
+      <feBlend
+         in2="result5"
+         mode="multiply"
+         result="fbSourceGraphic"
+         id="feBlend5349" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="3"
+         id="feGaussianBlur5351" />
+      <feSpecularLighting
+         specularExponent="15"
+         specularConstant="0.40000001"
+         surfaceScale="3"
+         lighting-color="#fee65d"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting5353">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5355" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphic"
+         operator="in"
+         in="result1"
+         result="result2"
+         id="feComposite5357" />
+      <feComposite
+         in2="result2"
+         operator="arithmetic"
+         k1="-1"
+         k2="2.5"
+         k3="3.5"
+         k4="0"
+         in="fbSourceGraphic"
+         result="result4"
+         id="feComposite5359" />
+      <feBlend
+         in2="result4"
+         mode="multiply"
+         id="feBlend5361" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4204">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(15.040625,19.400006)"
+     id="g5275"
+     style="filter:url(#filter5337)">
+    <text
+       x="-3.7269454"
+       y="49.89666"
+       id="text4206"
+       xml:space="preserve"
+       style="font-size:32.14991379px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="-3.7269454"
+         y="49.89666"
+         id="tspan4208"
+         style="font-size:64.29982758px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium">Nuke</tspan></text>
+    <text
+       x="11.864285"
+       y="193.16409"
+       id="text4210"
+       xml:space="preserve"
+       style="font-size:32.14991379px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="11.864285"
+         y="193.16409"
+         id="tspan4212"
+         style="font-size:64.29982758px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium">free</tspan></text>
+    <text
+       x="23.321714"
+       y="146.34641"
+       id="text4214"
+       xml:space="preserve"
+       style="font-size:32.14991379px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="23.321714"
+         y="146.34641"
+         id="tspan4216"
+         style="font-size:115.73968506px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">☢</tspan></text>
+    <path
+       d="M 2.8638131,65.971621 C 147.53842,144.04998 147.53842,144.04998 147.53842,144.04998"
+       id="path4256"
+       style="fill:none;stroke:#000000;stroke-width:12.05621719;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>

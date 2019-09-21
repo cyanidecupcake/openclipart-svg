@@ -1,0 +1,38 @@
+<svg width="100%" height="100%" viewBox="0 0 600 600"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc>
+    No Sign
+    
+    Can be used with any image by changing the link in the image element
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <defs>
+    <clipPath id="cp1">
+      <circle cx="300" cy="300" r="240" />
+    </clipPath>
+    <mask id="m1">
+      <circle style="fill:white;" cx="300" cy="300" r="294" />
+      <circle style="fill:black;" cx="300" cy="300" r="240" />
+    </mask>
+    <mask id="m2">
+      <circle style="fill:black;" cx="300" cy="300" r="290" />
+      <circle style="fill:white;" cx="300" cy="300" r="244" />
+    </mask>
+  </defs>
+
+  <image x="60" y="60" width="480" height="480" xlink:href="https://openclipart.org/download/181891/NEW:%20Upload%20clipart%20from%20email.svg" style="clip-path:url(#cp1);" />
+
+  <g style="fill:red;stroke:black;stroke-width:8px;opacity:0.8;">
+    <circle cx="300" cy="300" r="290" style="mask:url(#m1);" />
+    <circle cx="300" cy="300" r="240" style="fill:none;" />
+    <g transform="rotate(-45,300,300)">
+      <path d="M275,35l50,0l0,530l-50,0z" style="stroke:none;" />
+      <path d="M275,35l50,0l0,530l-50,0z" style="mask:url(#m2);" />
+    </g>
+  </g>
+</svg>
