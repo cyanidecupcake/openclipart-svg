@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="900" height="600">
+ <title>The German Colors Flag Gradient</title>
+ <defs>
+  <linearGradient id="German" x1="0" x2="0" y1="0" y2="1" gradientUnits="objectBoundingBox">
+   <stop offset="0" stop-color="#000"/>
+   <stop offset="0.3333" stop-color="#000"/>
+   <stop offset="0.3333" stop-color="#D00"/>
+   <stop offset="0.6667" stop-color="#D00"/>
+   <stop offset="0.6667" stop-color="#FFCE00"/>
+   <stop offset="1.00" stop-color="#FFCE00"/>
+  </linearGradient>
+ </defs>
+ <rect id="GermanFlag" fill="url(#German)" width="900" height="600"/>
+</svg>
