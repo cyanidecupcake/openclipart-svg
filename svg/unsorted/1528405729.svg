@@ -1,0 +1,143 @@
+<svg width="100%" height="100%" viewBox="0 0 980 780"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"> 
+     
+  <desc>
+    Animated Dump Truck
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+     
+  <style type="text/css"><![CDATA[
+    @keyframes dump 
+    { 
+      0% {transform:rotate(0deg)} 
+      30% {transform:rotate(-36deg)} 
+      50% {transform:rotate(-36deg)} 
+      80% {transform:rotate(0deg)}
+    }
+    #dumper {animation:dump 8s linear infinite;transform-origin:80px 420px;}
+    @keyframes gate
+    { 
+      0% {transform:rotate(0deg)} 
+      30% {transform:rotate(36deg)} 
+      50% {transform:rotate(36deg)} 
+      80% {transform:rotate(0deg)}
+    }
+    #gate {animation:gate 8s linear infinite;transform-origin:50px 230px;}
+    
+    #dumper {stroke:black;fill:#999999;stroke-width:5;}
+    .tire {fill:#222222;stroke:#222222;stroke-width:4px;stroke-dasharray:10,2;}
+  ]]>
+  </style>
+  
+  <defs>
+    <pattern id="pat1" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" style="fill:#cccccc;" />
+      <path d="M0,0L10,10M10,0L0,10" style="stroke:#444444;" />
+    </pattern>
+
+    <linearGradient id="tank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#333333;" />
+      <stop offset="40%" style="stop-color:white;stop-opacity:0.6;" />
+      <stop offset="100%" style="stop-color:#333333;" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" style="stroke:red;fill:none;display:none;" />
+  <g transform="translate(85,185)">
+
+    <rect x="512" y="80" width="16" height="150" rx="4" style="fill:#aaaaaa;stroke:#444444;stroke-width:2;" />
+    <rect x="505" y="150" width="30" height="150" rx="4" style="fill:url(#pat1);stroke:#444444;stroke-width:2;" />
+
+    <g id="dumper" transform="rotate(0,80,420)">
+      <path d="M50,230L450,210L490,100L650,100L650,120L520,120L500,190L500,420L50,420z" />
+      <g id="indents" style="fill:#bbbbbb;">
+        <path d="M140,250L100,250L100,380L140,380" style="stroke:none;" />
+        <path d="M140,250L100,250L100,380L140,380" style="stroke:none;" transform="translate(90,0)"/>
+        <path d="M140,250L100,250L100,380L140,380" style="stroke:none;" transform="translate(180,0)"/>
+        <path d="M140,250L100,250L100,380L140,380" style="stroke:none;" transform="translate(270,0)"/>
+      </g>
+      <rect id="shadow" x="75" y="250" width="365" height="12" style="fill:#666666;stroke:none" transform="rotate(-2,75,250)" />
+      <rect id="gate" x="35" y="230" width="15" height="195" transform="rotate(0,50,230)" />
+    </g>
+
+    <rect id="frame" x="70" y="425" width="810" height="80" rx="20" style="fill:#666666;stroke:#333333;stroke-width:5;" />
+    <path id="cab" d="M540,140L690,140q20,0,20,20l10,90q10,25,110,40q30,0,30,30l0,100q0,20,-20,20l-300,0q-20,0,-20,-20l0,-250q0,-30,20,-30" style="stroke:black;stroke-width:5;fill:red" />
+    <path id="windshield" d="M695,160l15,0l10,90l-20,0z" style="stroke:black;stroke-width:5;fill:#cccccc" />
+
+    <rect id="door" x="550" y="160" width="130" height="210" rx="10" style="fill:red;stroke:black;stroke-width:5px;" />
+    <rect id="window" x="560" y="170" width="110" height="80" rx="10" style="fill:#cccccc;stroke:black;stroke-width:5px;" />
+    <rect id="handle" x="565" y="270" width="20" height="6" rx="2" style="fill:#cccccc;stroke:#999999;" />
+    
+    <g id="grill" style="fill:#cccccc;">
+      <rect x="848" y="330" width="15" height="90" rx="4" style="stroke:#999999;" />
+      <path d="M855,330L855,420" style="fill:none;stroke:#999999;stroke-width:15;stroke-dasharray:2,8" />
+    </g>
+
+    <path id="hood" d="M861,330L735,325a10,10,0,0,1,-10,-10l0,-60" style="stroke:black;stroke-width:2;fill:none" />
+
+    <path d="M60,480L100,428L350,428L410,505L650,505" style="stroke:#bbbbbb;stroke-width:8px;fill:none;" />
+    <path d="M62,475L62,560" style="stroke:#111111;stroke-width:10px;" />
+    <circle cx="62" cy="475" r="6" style="fill:#666666;" />
+    <g id="tire1" transform="translate(0,10)">
+      <circle cx="150" cy="500" r="70" class="tire" />
+      <circle cx="150" cy="500" r="35" style="fill:#999999;stroke:black;stroke-width:4px" />
+      <g style="fill:#666666;;stroke:black">
+        <circle cx="135" cy="500" r="4" />
+        <circle cx="135" cy="500" r="4" transform="rotate(72,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(144,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(216,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(288,150,500)" />
+      </g>
+    </g>
+    <g id="tire2" transform="translate(150,10) rotate(10,150,500)">
+      <circle cx="150" cy="500" r="70" class="tire" />
+      <circle cx="150" cy="500" r="35" style="fill:#999999;stroke:black;stroke-width:4px" />
+      <g style="fill:#666666;;stroke:black">
+        <circle cx="135" cy="500" r="4" />
+        <circle cx="135" cy="500" r="4" transform="rotate(72,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(144,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(216,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(288,150,500)" />
+      </g>
+    </g>
+
+    <path d="M650,460A85,70,0,0,1,845,460L845,507L650,507z" style="fill:#111111" />
+    <g id="fender" style="fill:red">
+      <path d="M550,470L550,410L650,410L650,470z" style="fill:#333333;stroke:none" />
+      <path d="M550,470L550,410L650,410L650,470z" style="opacity:0.9;stroke:none" />
+      <path d="M550,440L550,470L660,470L660,465A54,40,0,0,1,830,450L845,450A50,40,0,0,0,640,440z" style="fill:#333333;stroke:black;stroke-width:5px" />
+      <path d="M550,440L550,470L660,470L660,465A54,40,0,0,1,830,450L845,450A50,40,0,0,0,640,440z" style="opacity:0.9;stroke:black;stroke-width:5px" />
+      <path d="M640,440L640,470" style="stroke:black;stroke-width:5px" />
+      <path d="M640,470L640,500L550,500L550,410L650,410" style="fill:none;stroke:black;stroke-width:5px" />
+    </g>
+    <g id="fronttire" transform="translate(600,10) rotate(20,150,500)">
+      <circle cx="150" cy="500" r="70" class="tire" />
+      <circle cx="150" cy="500" r="35" style="fill:#999999;stroke:black;stroke-width:4px" />
+      <g style="fill:#666666;;stroke:black">
+        <circle cx="135" cy="500" r="4" />
+        <circle cx="135" cy="500" r="4" transform="rotate(72,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(144,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(216,150,500)" />
+        <circle cx="135" cy="500" r="4" transform="rotate(288,150,500)" />
+      </g>
+    </g>
+    
+    <g id="gastank" style="fill:url(#tank);">
+      <g style="stroke:#444444;stroke-width:2;">
+        <rect x="410" y="430" width="110" height="70" rx="15" ry="20" />
+        <circle cx="500" cy="450" r="7" />
+        <path d="M497,450L503,450" />
+        <path d="M465,430L465,500" style="stroke-width:8;" />
+      </g>
+    </g>
+    
+
+  </g>
+  <g style="display:none;">
+    <path d="M0,770l180,0l-90,-120z" style="fill:brown;" />
+    <path d="M90,760q-40,-120,120,-240" style="fill:none;stroke:brown;stroke-width:30px;" />
+  </g>
+</svg>

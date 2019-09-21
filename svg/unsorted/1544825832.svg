@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="-100 -100 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<defs>
+<linearGradient id="g" x2="0" y2="1" >
+	<stop offset="0" stop-color="#f0f"/>
+	<stop offset="0.1429" stop-color="#f0f"/>
+	<stop offset="0.1429" stop-color="#00F"/>
+	<stop offset="0.2857" stop-color="#00F"/>
+	<stop offset="0.2857" stop-color="cyan"/>
+	<stop offset="0.4286" stop-color="cyan"/>
+	<stop offset="0.4286" stop-color="lime"/>
+	<stop offset="0.5714" stop-color="lime"/>
+	<stop offset="0.5714" stop-color="#ff0"/>
+	<stop offset="0.7143" stop-color="#ff0"/>
+	<stop offset="0.7143" stop-color="#FF8000"/>
+	<stop offset="0.8571" stop-color="#FF8000"/>
+	<stop offset="0.8571" stop-color="red"/>
+	<stop offset="1.00" stop-color="red"/>
+</linearGradient>
+</defs>
+<g fill="url(#g)">
+	<path id="a" d="m0 0 100 100 h-200 z" />
+	<use xlink:href="#a" transform="rotate(90)" />
+	<use xlink:href="#a" transform="rotate(180)" />
+	<use xlink:href="#a" transform="rotate(-90)" />
+</g>
+</svg>

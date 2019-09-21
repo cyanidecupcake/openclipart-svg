@@ -1,0 +1,7 @@
+<svg version="1.1" viewBox="-270 -103 600 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Penrose Triangle</title>
+<desc>https://en.wikipedia.org/wiki/Penrose_triangle</desc>
+ <g fill="#00f"><path id="x" d="m0 0 -240 416 h540 l30 -52 h-480 l180 -312 -30-52z"/></g>
+ <use xlink:href="#x" fill="#f00" transform="translate(240,312) rotate(120)" />
+ <use xlink:href="#x" fill="#0f0" transform="translate(-150,364) rotate(240)"/>
+</svg>

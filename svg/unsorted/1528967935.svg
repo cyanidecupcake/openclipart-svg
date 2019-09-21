@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%"
+	viewBox="-1220 -720 2440 1460"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css"><![CDATA[
+		.numbers {fill:#999;font-size:10px;}
+	]]>
+	</style>
+ <defs>
+  <pattern id="green" width="100" height="100"  patternUnits="userSpaceOnUse" stroke="green" >
+    <circle r="0" />
+	<g stroke-width="100" id="grid">
+		<path d="m0,50 l100,0" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m0,50 l100,0" stroke-dasharray="0.5,99,0.5,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.5,99,0.5,0" />
+	</g>
+  </pattern>
+  <pattern id="test" width="100" height="100"  patternUnits="userSpaceOnUse" stroke="royalblue" >
+    <circle r="0" />
+	<g stroke-width="100" id="grid">
+		<path d="m0,50 l100,0" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m0,50 l100,0" stroke-dasharray="0.5,99,0.5,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.5,99,0.5,0" />
+	</g>
+  </pattern>
+  <title>Kite</title>
+ <path id="kitex"
+ d="M466,0 l-233,-717.1 -987 717.1 987,717.1 z" />
+ 
+ <title>Thick Rhomb</title>
+ <path id="thickx"
+ d="M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z" />
+ 
+ <title>Dart</title>
+ <path id="dartx"
+ d="M0,0 l233,-717.1 -987,717.1 987,717.1 z" />
+ 
+ <title>Thin Rhomb</title>
+ <path id="thinx"
+ d="M 466 0 l-233,-717.1 -233,717.1 233,717.1 z" />
+</defs>
+<rect width="400%" height="400%" fill="url(#test) none" x="-1220" y="-720" stroke="none"/>
+<g transform="translate(100,0)">
+ <path id="ch" 
+  d="M466,0 l-233,-717.1 -987 717.1 987,717.1 z"
+  fill="url(#green) none" stroke-width="10" 
+    stroke="#00f" >
+   <animate begin="beg.activate;beg.click" end="end.activate;end.click;ch.click; indefinite"
+	attributeName="d"
+	attributeType="XML"
+	values="
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M0,0 l233,-717.1 -987,717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+    M 466 0 l-233,-717.1 -233,717.1 233,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	"
+	dur="15s" repeatCount ="indefinite "
+	fill="freeze" additive="replace" />
+	<animateTransform begin="rot.activate;rot.click" end="srot.activate;ch.click;indefinite"
+    type="rotate" attributeName="transform"
+    values="0 100 100;360;180 200 0;0"
+    dur="20s" additive="sum" fill="freeze" 
+    repeatCount="indefinite" />
+	<set attributeName="d" dur="indefinite" begin="ch.click;reset.click" 
+      to="M466,0 l-233,-717.1 -987 717.1 987,717.1 z;"	/>
+	<set attributeName="d" dur="indefinite" begin="thick.click" 
+      to="M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z"	/>
+	<set attributeName="d" dur="indefinite" begin="dart.click" 
+      to="M0,0 l233,-717.1 -987,717.1 987,717.1 z"	/>
+	<set attributeName="d" dur="indefinite" begin="thin.click" 
+      to="M 466 0 l-233,-717.1 -233,717.1 233,717.1 z"	/>
+	<set attributeName="d" dur="indefinite" begin="kite.click" 
+      to="M466,0 l-233,-717.1 -987 717.1 987,717.1 z"	/>
+	<animateTransform dur="1s" begin="ch.activate;ch.click;rrot.click" type="rotate" attributeName="transform"
+      values="0"  additive="replace" fill="freeze" />
+	<set attributeName="display" to="none" begin="hide.click"/>
+	<set attributeName="display" to="inline" begin="show.click"/>
+</path>	
+</g>
+<circle r="10" fill="blue" />
+<g stroke="none" font-family="fantasy" font-size="40" transform="translate(-1000,-700)">
+<text y="110" x="50">start morph</text>
+<circle cy="100"  r="30" id="beg" fill="#060" />
+<text y="210" x="50">stop morph</text>
+<circle cy="200"  r="30" id="end" fill="#f00" />
+<text y="310" x="50">reset morph</text>
+<circle cy="300"  r="30" id="reset" fill="#808" />
+<text y="410" x="50">Dart</text>
+<circle cy="400"  r="30" id="dart" fill="#00ffd0" />
+<text y="510" x="50">Kite</text>
+<circle cy="500"  r="30" id="kite" fill="#00efff" />
+<text y="610" x="50">Thick Rhomb</text>
+<circle cy="600"  r="30" id="thick" fill="#00b1ff" />
+<text y="710" x="50">Thin Rhomb</text>
+<circle cy="700"  r="30" id="thin" fill="#0072ff" />
+<text y="910" x="50">start rotation</text>
+<circle cy="900"  r="30" id="rot" fill="#2a00ff" />
+<text y="1010" x="50">stop rotation</text>
+<circle cy="1000" r="30" id="srot" fill="#8700ff" />
+<text y="1110" x="50">reset rotation</text>
+<circle cy="1100" r="30" id="rrot" fill="#e500ff" />
+<text y="1210" x="50">show</text>
+<circle cy="1200" r="30" id="show" fill="#888" />
+<text y="1310" x="50">hide</text>
+<circle cy="1300" r="30" id="hide" fill="#333" />
+</g>
+
+</svg>
+

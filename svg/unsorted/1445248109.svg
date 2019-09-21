@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+
+
+	viewBox="0 0 50 30"
+
+
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<style type="text/css"><![CDATA[
+
+]]></style>
+
+<defs>
+
+<!-- ** Wii Remote and Classic Controller D-Pad. ** -->
+
+<radialGradient id="dpad_gradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+	<stop offset="0" stop-color="#fff"/>
+	<stop offset="1" stop-color="#ccc"/>
+</radialGradient>
+
+<path id="dpad_shape" d="M1,12 h10 q1,0 1,-1 v-10 q0,-1 1,-1 h10 q1,0 1,1 v10 q0,1 1,1 h10 q1,0 1,1 v10 q0,1 -1,1 h-10 q-1,0 -1,1 v10 q0,1 -1,1 h-10 q-1,0 -1,-1 v-10 q0,-1 -1,-1 h-10 q-1,0 -1,-1 v-10 q0,-1 1,-1 z"/>
+
+<clipPath id="dpad_clip" clipPathUnits="userSpaceOnUse">
+	<use xlink:href="#dpad_shape" x="0" y="0" />
+</clipPath>
+
+<symbol id="dpad" viewBox="-1.5 -1.5 39 39">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="silver"/ -->
+	<!-- Shadow. -->
+	<use xlink:href="#dpad_shape" x="1" y="1" opacity="0.887" stroke-width="1" stroke="#000000" fill="#000000" />
+	<!-- Base. -->
+	<use xlink:href="#dpad_shape" x="0" y="0" stroke="none" fill="url(#dpad_gradient)" />
+	<!-- Trick for creating highlights and shadows. -->
+	<g clip-path="url(#dpad_clip)">
+		<use xlink:href="#dpad_shape" x="-0.5" y="-0.5" stroke-width="2" stroke="#000000" stroke-opacity="0.5" fill="none" />
+	</g>
+	<g clip-path="url(#dpad_clip)">
+		<use xlink:href="#dpad_shape" x="0.5" y="0.5" stroke-width="2" stroke="#ffffff" stroke-opacity="0.5" fill="none" />
+	</g>
+	<!-- The dark outline. -->
+	<use xlink:href="#dpad_shape" x="0" y="0" stroke-width="1" stroke="#000000" fill="none" />
+	<!-- Directional ticks. -->
+	<path d="M4,18 h7 M32,18 h-7 M18,4 v7 M18,32 v-7" stroke-width="1" stroke="#909090" fill="none"/>
+</symbol>
+
+<linearGradient id="dpad_press_gradient" x1="0" y1="0" x2="0" y2="1">
+	<stop offset="0.5" stop-color="#0094ff" stop-opacity="0.75"/>
+	<stop offset="1.0" stop-color="#0094ff" stop-opacity="0"/>
+</linearGradient>
+
+<g id="dpad_press">
+	<rect x="-4.5" y="-16.5" width="9" height="12" fill="url(#dpad_press_gradient)"/>
+</g>
+
+<symbol id="dpad_up" viewBox="0 0 39 39">
+	<use xlink:href="#dpad" x="0" y="0" width="39" height="39" />
+	<use xlink:href="#dpad_press" x="0" y="0" transform="translate(19.5 19.5) rotate(0)"/>
+</symbol>
+<symbol id="dpad_right" viewBox="0 0 39 39">
+	<use xlink:href="#dpad" x="0" y="0" width="39" height="39" />
+	<use xlink:href="#dpad_press" x="0" y="0" transform="translate(19.5 19.5) rotate(90)"/>
+</symbol>
+<symbol id="dpad_down" viewBox="0 0 39 39">
+	<use xlink:href="#dpad" x="0" y="0" width="39" height="39" />
+	<use xlink:href="#dpad_press" x="0" y="0" transform="translate(19.5 19.5) rotate(180)"/>
+</symbol>
+<symbol id="dpad_left" viewBox="0 0 39 39">
+	<use xlink:href="#dpad" x="0" y="0" width="39" height="39" />
+	<use xlink:href="#dpad_press" x="0" y="0" transform="translate(19.5 19.5) rotate(270)"/>
+</symbol>
+
+<!-- On all buttons and keys in this file, the label is being placed on top of the lighting, which is not accurate, but is good enough and is very easy to implement. -->
+
+<!-- ** Wii Remote/Nunchuk/Classic Controller buttons (round shapes). ** -->
+<!-- Inspired by http://ftpmerou.free.fr/ubuntu/wiimote/wiimote.svg -->
+
+<radialGradient id="button_diffuse_gradient" cx="0.4" cy="0.4" r="0.5" fx="0.66" fy="0.66">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0.39634147"/>
+</radialGradient>
+<linearGradient id="button_shiny_specular_gradient" x1="0.333" y1="0.4" x2="0.666" y2="0.5">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+
+<symbol id="button_shiny" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<circle cx="15.75" cy="15.75" r="15" opacity="0.333" fill="#000000" stroke-width="1" stroke="#000000"  />
+	<circle cx="15" cy="15" r="15" fill="#d0d4d6" stroke-width="0.4" stroke="#cbcacf" />
+
+	<!-- Base. -->
+	<circle cx="15" cy="15" r="15" fill="#d0d4d6" stroke-width="0.4" stroke="#cbcacf" />
+
+	<!-- Diffuse lighting. -->
+	<circle cx="16" cy="16.5" r="14" fill="url(#button_diffuse_gradient)" stroke="none"  />
+
+	<!-- Specular lighting. -->
+	<path d="M 2,20 a 14.25,14.25 0,0,1 22,-16 z" fill="url(#button_shiny_specular_gradient)" stroke="none"  />
+</symbol>
+
+<linearGradient id="button_matte_specular_gradient" x1="0.333" y1="0.333" x2="0.56" y2="0.56">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+
+<symbol id="button_matte" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<circle cx="15.75" cy="15.75" r="15" opacity="0.887" fill="#000000" stroke-width="1" stroke="#000000"  />
+
+	<!-- Base. -->
+	<circle cx="15" cy="15" r="15" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<path d="M 2,20 a 14.25,14.25 0,0,1 22,-16 z" fill="url(#button_matte_specular_gradient)" stroke="none"  />
+</symbol>
+
+<symbol id="button_matte_oval" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<ellipse cx="15.75" cy="15.75" rx="15" ry="11" opacity="0.887" fill="#000000" stroke-width="1" stroke="#000000"  />
+
+	<!-- Base. -->
+	<ellipse cx="15" cy="15" rx="15" ry="11" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<path d="M 2,18 a 13.75,9.75 0,0,1 21,-11 z" fill="url(#button_matte_specular_gradient)" stroke="none"  />
+</symbol>
+
+<linearGradient id="button_inset_shadow" x1="0" y1="0" x2="1" y2="1">
+	<stop offset="0" stop-color="#000000" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
+</linearGradient>
+
+<symbol id="button_inset" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<circle cx="15" cy="15" r="16.9" fill="url(#button_inset_shadow)" stroke="none" />
+
+	<!-- Base. -->
+	<circle cx="15" cy="15" r="15" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<path d="M 2,20 a 14.25,14.25 0,0,1 22,-16 z" fill="url(#button_matte_specular_gradient)" stroke="none"  />
+</symbol>
+
+<symbol id="home_outline" viewBox="0 0 16 16">
+	<path fill="#34beed" d="M 8,0 l 8,8 h-2 v8 h-12 v-8 h-2 z M 6,8 v4 h4 v-4 z" />
+</symbol>
+
+<symbol id="power_outline" viewBox="0 0 16 16">
+	<path fill="none" stroke="#cc3333" stroke-width="1.5" stroke-linecap="round" d="M 8,1 v7 M 5.5,3 a 5.5,5.5 0,1,0 5,0" />
+</symbol>
+
+<symbol id="button_A" viewBox="0 0 34 34">
+	<use xlink:href="#button_shiny" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">A</text>
+</symbol>
+
+<symbol id="button_minus" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<line x1="10" y1="17" x2="24" y2="17" stroke-width="1.5" stroke="#909090" stroke-linecap="round" />
+</symbol>
+<symbol id="button_plus" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<line x1="10" y1="17" x2="24" y2="17" stroke-width="1.5" stroke="#909090" stroke-linecap="round" />
+	<line x1="17" y1="10" x2="17" y2="24" stroke-width="1.5" stroke="#909090" stroke-linecap="round" />
+</symbol>
+<symbol id="button_1" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">1</text>
+</symbol>
+<symbol id="button_2" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">2</text>
+</symbol>
+<symbol id="button_home" viewBox="0 0 34 34">
+	<use xlink:href="#button_inset" x="0" y="0" width="34" height="34" />
+	<use xlink:href="#home_outline" x="8" y="8" width="18" height="18" />
+</symbol>
+<symbol id="button_power" viewBox="0 0 34 34">
+	<use xlink:href="#button_inset" x="0" y="0" width="34" height="34" />
+	<use xlink:href="#power_outline" x="8" y="8" width="18" height="18" />
+</symbol>
+<symbol id="button_C" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte_oval" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">C</text>
+</symbol>
+
+<symbol id="button_classic_a" viewBox="0 0 34 34">
+	<use xlink:href="#button_shiny" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">a</text>
+</symbol>
+<symbol id="button_classic_b" viewBox="0 0 34 34">
+	<use xlink:href="#button_shiny" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">b</text>
+</symbol>
+<symbol id="button_classic_x" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">x</text>
+</symbol>
+<symbol id="button_classic_y" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">y</text>
+</symbol>
+<symbol id="button_classic_ZL" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte_oval" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">ZL</text>
+</symbol>
+<symbol id="button_classic_ZR" viewBox="0 0 34 34">
+	<use xlink:href="#button_matte_oval" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">ZR</text>
+</symbol>
+
+<!-- ** Wii Remote B button (custom shape). ** -->
+
+<radialGradient id="button_B_gradient1" cx="0.5" cy="0.25" r="0.5" fx="0.5" fy="-0.25">
+	<stop offset="0" stop-color="#000000" stop-opacity="0.5"/>
+	<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="button_B_gradient2" cx="0.5" cy="0.5" r="0.666" fx="0.25" fy="0.25">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+
+<symbol id="button_B" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<rect x="4.5" y="0.75" width="22" height="30" rx="2" opacity="0.887" fill="#000000" stroke-width="1" stroke="#000000" />
+
+	<!-- Base. -->
+	<rect x="4" y="0" width="22" height="30" rx="2" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<path d="M 3.5,0.5 a 12,18 0,0,0 23,0 z" fill="url(#button_B_gradient1)" stroke="none"  />
+	<path d="M 4.5,28.5 a 12,8 0,0,1 21,0 z" fill="url(#button_B_gradient2)" stroke="none"  />
+
+	<!-- The label is placed incorrectly here. In the actual controller, it is placed at the edge. In this graphic, it is just centered, which makes it easier to read. -->
+	<text x="15" y="15" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">B</text>
+</symbol>
+
+<radialGradient id="button_Z_gradient1" cx="0.5" cy="0.25" r="1" fx="0.5" fy="-0.0625" gradientTransform="scale(0.175 1) translate(0.5 0)">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+
+<!-- ** Wii Nunchuk Z button (custom shape). ** -->
+
+<symbol id="button_Z" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<rect x="0.5" y="1.75" width="30" height="28" rx="2" opacity="0.887" fill="#000000" stroke-width="1" stroke="#000000" />
+
+	<!-- Base. -->
+	<rect x="0" y="1" width="30" height="28" rx="2" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<rect x="2" y="1.5" width="26" height="27" fill="url(#button_Z_gradient1)" stroke="none" />
+	<text x="15" y="15" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">Z</text>
+</symbol>
+
+<!-- ** Wii Classic Controller L and R buttons (custom shape). ** -->
+
+<symbol id="button_long_LR" viewBox="-2 -2 34 34">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="yellow"/ -->
+
+	<!-- Shadow. -->
+	<rect x="0.5" y="7.5" width="30" height="16" rx="8" opacity="0.887" fill="#000000" stroke-width="1" stroke="#000000" />
+
+	<!-- Base. -->
+	<rect x="0" y="7" width="30" height="16" rx="8" fill="#d0d4d6" stroke-width="1" stroke="#8a8993" />
+
+	<!-- Specular lighting. -->
+	<rect x="1" y="8" width="28" height="14" rx="8" fill="url(#button_Z_gradient1)" stroke="none" />
+</symbol>
+
+<symbol id="button_classic_L" viewBox="0 0 34 34">
+	<use xlink:href="#button_long_LR" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">L</text>
+</symbol>
+<symbol id="button_classic_R" viewBox="0 0 34 34">
+	<use xlink:href="#button_long_LR" x="0" y="0" width="34" height="34" />
+	<text x="17" y="17" font-size="15px" font-family="Arial, sans-serif" fill="#909090" text-anchor="middle" dominant-baseline="central">R</text>
+</symbol>
+
+<!-- ** Analog stick from Wii Nunchuk or Classic Controller. ** -->
+
+<radialGradient id="analog_stick_gradient1" cx="0.5" cy="0.5" r="0.5">
+	<stop offset="0" stop-color="#fff"/>
+	<stop offset="1" stop-color="#eee"/>
+</radialGradient>
+<linearGradient id="analog_stick_gradient2" x1="0" y1="0.5" x2="0" y2="1">
+	<stop offset="0" stop-color="#fff"/>
+	<stop offset="1" stop-color="#ccc"/>
+</linearGradient>
+<linearGradient id="analog_stick_gradient3" x1="0" y1="0.5" x2="0" y2="1">
+	<stop offset="0.5" stop-color="#999"/>
+	<stop offset="1" stop-color="#ccc"/>
+</linearGradient>
+<radialGradient id="analog_stick_shadow" cx="0.5" cy="0.5" r="0.5">
+	<stop offset="0.5" stop-color="#000" stop-opacity="1"/>
+	<stop offset="1" stop-color="#000" stop-opacity="0"/>
+</radialGradient>
+
+<!-- Based on http://www.mariowiki.com/File:Def_Stick.svg -->
+<symbol id="analog_stick" viewBox="0 0 32 32">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="lime"/ -->
+
+	<!-- Base. -->
+	<ellipse cx="16" cy="21" rx="10" ry="9" stroke-width="0.8" stroke="#000" fill="url(#analog_stick_gradient3)"/>
+
+	<!-- Shadow. -->
+	<ellipse cx="17" cy="17" rx="15" ry="12" opacity="0.887" stroke="none" fill="url(#analog_stick_shadow)"/>
+
+	<!-- Thumb stick. -->
+	<ellipse cx="16" cy="13" rx="15" ry="12" stroke-width="0.8" stroke="#000" fill="url(#analog_stick_gradient2)"/>
+	<ellipse cx="16" cy="10" rx="11" ry="8" stroke-width="0.4" stroke="#777" fill="url(#analog_stick_gradient1)"/>
+</symbol>
+
+<symbol id="twin_analog_sticks" viewBox="0 0 2 1">
+	<use xlink:href="#analog_stick" x="0" y="0" width="1" height="1" />
+	<use xlink:href="#analog_stick" x="1" y="0" width="1" height="1" />
+</symbol>
+
+<!-- ** A computer mouse. ** -->
+
+<radialGradient id="mouse_gradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.75">
+	<stop offset="0" stop-color="#fff"/>
+	<stop offset="1" stop-color="#ccc"/>
+</radialGradient>
+
+<radialGradient id="mouse_specular_gradient" cx="0.5" cy="0.25" r="1" fx="0.5" fy="-0.0625" gradientTransform="scale(0.333 1) translate(0.5 0)">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+	<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+
+<linearGradient id="mouse_wheel_gradient_up" x1="0" y1="0" x2="0" y2="1">
+	<stop offset="0.333" stop-color="#0094ff" stop-opacity="0.75"/>
+	<stop offset="0.666" stop-color="#0094ff" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="mouse_wheel_gradient_down" xlink:href="#mouse_wheel_gradient_up" gradientTransform="translate(0 1) scale(1 -1)" />
+
+<path id="mouse_shape" d="M16,0 q8,0 9,4 q4,16 0,24 q-2,4 -9,4 q-7,0 -9,-4 q-4,-8 0,-24 q1,-4 9,-4 z" />
+<path id="mouse_left_button" d="M16,0 v2 q-2,0 -2,6 q0,6 2,6 v2 q -9,0 -9,-4 v-12 z" clip-path="url(#mouse_clip)" />
+<use id="mouse_right_button" xlink:href="#mouse_left_button" x="0" y="0" transform="translate(16 0) scale(-1 1) translate(-16 0)" />
+<path id="mouse_wheel" d="M16,2 q-2,0 -2,6 q0,6 2,6 q2,0 2,-6 q0,-6 -2,-6 z" />
+
+<clipPath id="mouse_clip" clipPathUnits="userSpaceOnUse">
+	<use xlink:href="#mouse_shape" x="0" y="0" />
+</clipPath>
+
+
+
+<!-- Inspired by https://openclipart.org/detail/211818/mouse -->
+<symbol id="mouse" viewBox="2 -2 28 36">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="lime"/ -->
+
+	<!-- Shadow. -->
+	<use xlink:href="#mouse_shape" x="1" y="0.5" opacity="0.887" stroke-width="1" stroke="#000000" fill="#000000" />
+
+	<!-- Base. -->
+	<use xlink:href="#mouse_shape" x="0" y="0" stroke="none" fill="url(#mouse_gradient)" />
+
+	<!-- Specular lighting. -->
+	<rect x="3" y="0" width="26" height="32" fill="url(#mouse_specular_gradient)" clip-path="url(#mouse_clip)" />
+
+	<!-- Buttons. -->
+	<use xlink:href="#mouse_left_button"  x="0" y="0" stroke-width="0.25" stroke="#8a8993" fill="none" />
+	<use xlink:href="#mouse_right_button" x="0" y="0" stroke-width="0.25" stroke="#8a8993" fill="none" />
+
+	<!-- The dark outline. -->
+	<use xlink:href="#mouse_shape" x="0" y="0" stroke-width="0.5" stroke="#8a8993" fill="none" />
+</symbol>
+
+<symbol id="mouse_left" viewBox="0 0 28 36">
+	<use xlink:href="#mouse" x="0" y="0" width="28" height="36" />
+	<use xlink:href="#mouse_left_button" x="-2" y="2" stroke="none" fill="url(#dpad_press_gradient)"/>
+</symbol>
+
+<symbol id="mouse_right" viewBox="0 0 28 36">
+	<use xlink:href="#mouse" x="0" y="0" width="28" height="36" />
+	<use xlink:href="#mouse_right_button" x="-2" y="2" stroke="none" fill="url(#dpad_press_gradient)"/>
+</symbol>
+
+<symbol id="mouse_up" viewBox="0 0 28 36">
+	<use xlink:href="#mouse" x="0" y="0" width="28" height="36" />
+	<use xlink:href="#mouse_wheel" x="-2" y="2" stroke="none" fill="url(#mouse_wheel_gradient_up)"/>
+</symbol>
+
+<symbol id="mouse_down" viewBox="0 0 28 36">
+	<use xlink:href="#mouse" x="0" y="0" width="28" height="36" />
+	<use xlink:href="#mouse_wheel" x="-2" y="2" stroke="none" fill="url(#mouse_wheel_gradient_down)"/>
+</symbol>
+
+<!-- ** A key from a keyboard. ** -->
+
+<linearGradient id="key_gradient1" x1="0" y1="0" x2="0" y2="1">
+	<stop offset="0" stop-color="#d8d8d8" />
+	<stop offset="1" stop-color="#a3a3a3" />
+</linearGradient>
+
+<linearGradient id="key_gradient2" x1="0" y1="0" x2="1" y2="0">
+	<stop offset="0"     stop-color="#cccccc" />
+	<stop offset="0.666" stop-color="#eeeeee" />
+	<stop offset="1"     stop-color="#cccccc" />
+</linearGradient>
+
+
+
+<!-- Inspired by https://openclipart.org/detail/27549/keyboard-keys -->
+<symbol id="key" viewBox="-2 -2 36 32">
+	<!-- DEBUG: rect x="-5" y="-5" width="50" height="50" fill="lime"/ -->
+
+	<!-- Shadow. -->
+	<rect x="1" y="1" width="32" height="28" rx="4" stroke-width="0.5" stroke="#000000" fill="#000000" />
+
+	<!-- Base. -->
+	<rect x="0" y="0" width="32" height="28" rx="4" stroke-width="0.5" stroke="#8a8993" fill="url(#key_gradient1)" />
+	<rect x="3" y="2" width="26" height="23" rx="3" stroke-width="0.25" stroke="#8a8993" fill="url(#key_gradient2)" />
+
+</symbol>
+
+<!-- ** Symbols for keyboard keys. For an arbitrary reason, they are restricted to 13x13. ** -->
+
+<path id="arrow_up" d="M 2,0 l 2,5 h-1.5 v8 h-1 v-8 h-1.5 z" />
+<use id="arrow_right" xlink:href="#arrow_up" x="0" y="0" transform="translate(13 0) rotate(90)" />
+<use id="arrow_down" xlink:href="#arrow_up" x="0" y="0" transform="translate(4 13) rotate(180)" />
+<use id="arrow_left" xlink:href="#arrow_up" x="0" y="0" transform="translate(0 4) rotate(270)" />
+<path id="arrow_enter" d="M0,10 l5,-2 v1.5 h7 v-8 h1 v9 h-8 v1.5 z" />
+
+<symbol id="volume_down" viewBox="0 0 13 13">
+	<path d="M0,3 h2 l2,-2.5 q2,4 0,8 l-2,-2.5 h-2 z" />
+	<path d="M7,4 q-0.5,0.5 0,1 h5 q0.5,-0.5 0,-1 z" />
+</symbol>
+
+<symbol id="volume_up" viewBox="0 0 13 13">
+	<use xlink:href="#volume_down" x="0" y="0" width="13" height="13" />
+	<path d="M9,2 q0.5,-0.5 1,0 v5 q-0.5,0.5 -1,0 z" />
+	<!-- DEBUG: path d="
+		M0,0 h0.1 v13 h-0.1 z
+		M13,0 h-0.1 v13 h0.1 z
+		M0,0 v0.1 h13 v-0.1 z
+		M0,13 v-0.1 h13 v0.1 z
+		M0,6.5 v-0.1 h13 v0.2 z
+	" /-->
+</symbol>
+
+<path id="play" d="M0,0 l5.2,3 L0,6 z" />
+<path id="pause" d="M0,0 h2 v6 h-2 z M4,0 h2 v6 h-2 z" />
+<path id="stop" d="M0,0 h6 v6 h-6 z" />
+
+<symbol id="play_pause" viewBox="0 0 13 13">
+	<use xlink:href="#play" x="0" y="0" width="13" height="13" />
+	<use xlink:href="#pause" x="7" y="0" width="13" height="13" />
+</symbol>
+
+<symbol id="forward" viewBox="0 0 13 13">
+	<use xlink:href="#play" x="0" y="0" width="13" height="13" />
+	<use xlink:href="#play" x="5" y="0" width="13" height="13" />
+</symbol>
+
+<symbol id="rewind" viewBox="0 0 13 13">
+	<use xlink:href="#forward" x="0" y="0" width="13" height="13" transform="translate(10.2 0) scale(-1 1)" />
+</symbol>
+
+<symbol id="next" viewBox="0 0 13 13">
+	<use xlink:href="#forward" x="0" y="0" width="13" height="13" />
+	<path d="M10,0 h2 v6 h-2 z" />
+</symbol>
+
+<symbol id="previous" viewBox="0 0 13 13">
+	<use xlink:href="#next" x="0" y="0" width="13" height="13" transform="translate(12.2 0) scale(-1 1)" />
+</symbol>
+
+
+
+<symbol id="key_up" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#arrow_up" x="8" y="8" fill="#404020" />
+</symbol>
+
+<symbol id="key_right" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#arrow_right" x="8" y="8" fill="#404020" />
+</symbol>
+
+<symbol id="key_down" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#arrow_down" x="8" y="8" fill="#404020" />
+</symbol>
+
+<symbol id="key_left" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#arrow_left" x="8" y="8" fill="#404020" />
+</symbol>
+
+<symbol id="key_enter" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#arrow_enter" x="8" y="8" fill="#404020" />
+</symbol>
+
+
+
+
+<symbol id="key_win" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<text x="8" y="8" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Win</text>
+	<text x="8" y="17" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Key</text>
+</symbol>
+
+<symbol id="key_volume_up" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#volume_up" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_volume_down" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#volume_down" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_play_pause" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#play_pause" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_stop" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#stop" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_previous" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#previous" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_next" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#next" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_rewind" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#rewind" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+<symbol id="key_forward" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<use xlink:href="#forward" x="8" y="8" width="13" height="13" fill="#404020" />
+</symbol>
+
+
+<symbol id="key_esc" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<text x="8" y="8" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Esc</text>
+</symbol>
+
+<symbol id="key_pageup" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<text x="8" y="8" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Page</text>
+	<text x="8" y="17" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Up</text>
+</symbol>
+
+<symbol id="key_pagedown" viewBox="0 0 36 32">
+	<use xlink:href="#key" x="0" y="0" width="36" height="32" />
+	<text x="8" y="8" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Page</text>
+	<text x="8" y="17" font-size="8px" font-family="Arial, sans-serif" font-style="italic" fill="#404020" text-anchor="start" dominant-baseline="text-before-edge">Down</text>
+</symbol>
+
+<symbol id="keys_arrows" viewBox="0 0 108 64">
+	<use xlink:href="#key_up"    x="36" y="0" width="36" height="32" />
+	<use xlink:href="#key_left"  x="0" y="32" width="36" height="32" />
+	<use xlink:href="#key_down"  x="36" y="32" width="36" height="32" />
+	<use xlink:href="#key_right" x="72" y="32" width="36" height="32" />
+</symbol>
+
+<!-- ** Wii Remote LED indicators. ** -->
+
+<radialGradient id="wii_led_light_gradient" cx="0.5" cy="0.5" r="0.5">
+	<stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+	<stop offset="1" stop-color="#adcefb" stop-opacity="0"/>
+</radialGradient>
+
+<!-- Colors from http://ftpmerou.free.fr/ubuntu/wiimote/wiimote.svg -->
+<g id="wii_led_off">
+	<rect x="-6" y="-6" width="12" height="12" stroke-width="1" stroke="#979a9c" fill="#818588" />
+</g>
+<g id="wii_led_on">
+	<rect x="-6" y="-6" width="12" height="12" stroke-width="1" stroke="#59b2e3" fill="#83cff8" />
+	<circle cx="0" cy="0" r="9" fill="url(#wii_led_light_gradient)" />
+</g>
+
+<symbol id="wii_leds_12" viewBox="0 0 80 20">
+	<use xlink:href="#wii_led_on"  x="10" y="10" />
+	<use xlink:href="#wii_led_on"  x="30" y="10" />
+	<use xlink:href="#wii_led_off" x="50" y="10" />
+	<use xlink:href="#wii_led_off" x="70" y="10" />
+</symbol>
+
+<symbol id="wii_leds_13" viewBox="0 0 80 20">
+	<use xlink:href="#wii_led_on"  x="10" y="10" />
+	<use xlink:href="#wii_led_off" x="30" y="10" />
+	<use xlink:href="#wii_led_on"  x="50" y="10" />
+	<use xlink:href="#wii_led_off" x="70" y="10" />
+</symbol>
+
+<symbol id="wii_leds_14" viewBox="0 0 80 20">
+	<use xlink:href="#wii_led_on"  x="10" y="10" />
+	<use xlink:href="#wii_led_off" x="30" y="10" />
+	<use xlink:href="#wii_led_off" x="50" y="10" />
+	<use xlink:href="#wii_led_on"  x="70" y="10" />
+</symbol>
+
+<symbol id="wii_leds_any" viewBox="0 0 80 80">
+	<use xlink:href="#wii_led_on"  x="10" y="10" />
+	<use xlink:href="#wii_led_off" x="30" y="10" />
+	<use xlink:href="#wii_led_off" x="50" y="10" />
+	<use xlink:href="#wii_led_off" x="70" y="10" />
+
+	<use xlink:href="#wii_led_off" x="10" y="30" />
+	<use xlink:href="#wii_led_on"  x="30" y="30" />
+	<use xlink:href="#wii_led_off" x="50" y="30" />
+	<use xlink:href="#wii_led_off" x="70" y="30" />
+
+	<use xlink:href="#wii_led_off" x="10" y="50" />
+	<use xlink:href="#wii_led_off" x="30" y="50" />
+	<use xlink:href="#wii_led_on"  x="50" y="50" />
+	<use xlink:href="#wii_led_off" x="70" y="50" />
+
+	<use xlink:href="#wii_led_off" x="10" y="70" />
+	<use xlink:href="#wii_led_off" x="30" y="70" />
+	<use xlink:href="#wii_led_off" x="50" y="70" />
+	<use xlink:href="#wii_led_on"  x="70" y="70" />
+</symbol>
+
+
+
+<symbol id="wii_leds_12_square" viewBox="0 0 1 1">
+	<use xlink:href="#wii_leds_12"  x="0" y="0" width="1" height="1" />
+</symbol>
+
+<symbol id="wii_leds_13_square" viewBox="0 0 1 1">
+	<use xlink:href="#wii_leds_13"  x="0" y="0" width="1" height="1" />
+</symbol>
+
+<symbol id="wii_leds_14_square" viewBox="0 0 1 1">
+	<use xlink:href="#wii_leds_14"  x="0" y="0" width="1" height="1" />
+</symbol>
+
+
+
+
+<symbol id="home_and_down" viewBox="0 0 2 1">
+	<use xlink:href="#button_home"  x="0" y="0" width="1" height="1" />
+	<use xlink:href="#dpad_down"  x="1" y="0" width="1" height="1" />
+</symbol>
+
+<symbol id="home_and_left" viewBox="0 0 2 1">
+	<use xlink:href="#button_home"  x="0" y="0" width="1" height="1" />
+	<use xlink:href="#dpad_left"  x="1" y="0" width="1" height="1" />
+</symbol>
+
+<symbol id="home_and_up" viewBox="0 0 2 1">
+	<use xlink:href="#button_home"  x="0" y="0" width="1" height="1" />
+	<use xlink:href="#dpad_up"  x="1" y="0" width="1" height="1" />
+</symbol>
+
+<symbol id="home_and_right" viewBox="0 0 2 1">
+	<use xlink:href="#button_home"  x="0" y="0" width="1" height="1" />
+	<use xlink:href="#dpad_right"  x="1" y="0" width="1" height="1" />
+</symbol>
+
+
+<!-- ** End of definitions. ** -->
+
+
+
+</defs>
+
+
+
+	
+		
+		
+			
+			
+				<use xlink:href="#button_power" x="0" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_A" x="5" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_B" x="10" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_minus" x="15" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_home" x="20" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_plus" x="25" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_1" x="30" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_2" x="35" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_C" x="40" y="0" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_Z" x="45" y="0" width="5" height="5" />
+			
+		
+	
+		
+		
+			
+			
+				<use xlink:href="#wii_leds_12" x="0" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_a" x="5" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_b" x="10" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_x" x="15" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_y" x="20" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_L" x="25" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_ZL" x="30" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_ZR" x="35" y="5" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_classic_R" x="40" y="5" width="5" height="5" />
+			
+		
+	
+		
+		
+			
+			
+				<use xlink:href="#wii_leds_13" x="0" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#dpad_up" x="5" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#dpad_right" x="10" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#dpad_down" x="15" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#dpad_left" x="20" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#mouse_left" x="25" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#mouse_right" x="30" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#mouse_up" x="35" y="10" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#mouse_down" x="40" y="10" width="5" height="5" />
+			
+		
+	
+		
+		
+			
+			
+				<use xlink:href="#wii_leds_14" x="0" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_up" x="5" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_down" x="10" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_left" x="15" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_right" x="20" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_enter" x="25" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_esc" x="30" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_pageup" x="35" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_pagedown" x="40" y="15" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_win" x="45" y="15" width="5" height="5" />
+			
+		
+	
+		
+		
+			
+			
+				<use xlink:href="#wii_leds_any" x="0" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_volume_up" x="5" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_volume_down" x="10" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_stop" x="15" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_play_pause" x="20" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_previous" x="25" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_next" x="30" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_rewind" x="35" y="20" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key_forward" x="40" y="20" width="5" height="5" />
+			
+		
+	
+		
+		
+			
+			
+				<use xlink:href="#dpad" x="0" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#analog_stick" x="5" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#twin_analog_sticks" x="10" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_shiny" x="15" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_matte" x="20" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#button_inset" x="25" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#mouse" x="30" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#key" x="35" y="25" width="5" height="5" />
+			
+		
+			
+			
+				<use xlink:href="#keys_arrows" x="40" y="25" width="5" height="5" />
+			
+		
+	
+
+
+
+</svg>

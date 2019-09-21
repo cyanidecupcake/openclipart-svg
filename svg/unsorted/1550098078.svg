@@ -1,0 +1,108 @@
+<svg width="100%" height="100%" viewBox="0 0 640 640"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Animated Hearts
+    
+    inspired by work of @beesandbombs 
+    https://twitter.com/beesandbombs/status/870061547137236992
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css?family=Tangerine:700');
+    text {font-family:Tangerine, cursive;font-size:40px;font-weight:700;fill:#fff;text-anchor:middle;}
+    
+    .heart {fill:red;stroke:darkred;stroke-width:10px;stroke-linejoin:miter;}
+    .outline {fill:none;stroke:white;stroke-width:6px;stroke-dasharray:0.001,9.999;stroke-linecap:round;}
+  ]]>
+  </style>
+
+  <defs>
+    <symbol id="heart" viewBox="0 0 280 270">
+      <path d="M140,58C170,-2,250,-2,270,58C300,158,160,208,140,268C120,208,-20,158,10,58C30,-2,110,-2,140,58" />
+    </symbol>
+
+    <symbol id="heart2" viewBox="0 0 280 270" overflow="visible">
+      <path d="M140,58C170,-2,250,-2,270,58C300,158,160,208,140,268C120,208,-20,158,10,58C30,-2,110,-2,140,58" class="heart" />
+      <path d="M140,58C170,-2,250,-2,270,58C300,158,160,208,140,268C120,208,-20,158,10,58C30,-2,110,-2,140,58z" class="outline">
+        <animate attributeName="stroke-dashoffset" values="0;-10" dur="0.1s" repeatCount="indefinite" />
+     </path>
+ 
+      <g style="stroke:none;"> 
+        <text x="140" y="100">Happy</text>
+        <text x="140" y="150">Valentine's</text>
+        <text x="140" y="195">Day</text> 
+      </g> 
+    </symbol>
+          
+    <g transform="translate(320,320)">
+      <path id="c1" d="M0,300A300,300,0,0,1,0,-300A300,300,0,0,1,0,300" />
+      <path id="c2" d="M0,280A280,280,0,0,1,0,-280A280,280,0,0,1,0,280" />
+      <path id="c3" d="M0,260A260,260,0,0,1,0,-260A260,260,0,0,1,0,260" />
+      <path id="c4" d="M0,240A240,240,0,0,1,0,-240A240,240,0,0,1,0,240" />
+      <path id="c5" d="M0,220A220,220,0,0,1,0,-220A220,220,0,0,1,0,220" />
+      <path id="c6" d="M0,200A200,200,0,0,1,0,-200A200,200,0,0,1,0,200" />
+      <path id="c7" d="M0,180A180,180,0,0,1,0,-180A180,180,0,0,1,0,180" />
+      <path id="c8" d="M0,160A160,160,0,0,1,0,-160A160,160,0,0,1,0,160" />
+      <path id="c9" d="M0,140A140,140,0,0,1,0,-140A140,140,0,0,1,0,140" />
+      <path id="c10" d="M0,120A120,120,0,0,1,0,-120A120,120,0,0,1,0,120" />
+      <path id="c11" d="M0,100A100,100,0,0,1,0,-100A100,100,0,0,1,0,100" />
+      <path id="c12" d="M0,80A80,80,0,0,1,0,-80A80,80,0,0,1,0,80" />
+
+      <path id="c21" d="M0,300A300,300,0,0,0,1,-300A300,300,0,0,0,1,300" />
+      <path id="c22" d="M0,280A280,280,0,0,0,1,-280A280,280,0,0,0,1,280" />
+      <path id="c23" d="M0,260A260,260,0,0,0,1,-260A260,260,0,0,0,1,260" />
+      <path id="c24" d="M0,240A240,240,0,0,0,1,-240A240,240,0,0,0,1,240" />
+      <path id="c25" d="M0,220A220,220,0,0,0,1,-220A220,220,0,0,0,1,220" />
+      <path id="c26" d="M0,200A200,200,0,0,0,1,-200A200,200,0,0,0,1,200" />
+      <path id="c27" d="M0,180A180,180,0,0,0,1,-180A180,180,0,0,0,1,180" />
+      <path id="c28" d="M0,160A160,160,0,0,0,1,-160A160,160,0,0,0,1,160" />
+      <path id="c29" d="M0,140A140,140,0,0,0,1,-140A140,140,0,0,0,1,140" />
+      <path id="c30" d="M0,120A120,120,0,0,0,1,-120A120,120,0,0,0,1,120" />
+      <path id="c31" d="M0,100A100,100,0,0,0,1,-100A100,100,0,0,0,1,100" />
+      <path id="c32" d="M0,80A80,80,0,0,0,1,-80A80,80,0,0,0,1,80" />
+    </g>
+  </defs>
+  
+  <g transform="translate(305,305)">
+    
+    <g id="hearts" style="fill:red;stroke:darkred;stroke-width:6px;">
+      <use width="25" height="25" xlink:href="#heart"><animateMotion id="a1" dur="1s" begin="0s;a1.end+0.1s;" repeatCount="12"><mpath xlink:href="#c12" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.09091s" begin="0s;a1.end+0.1s;" repeatCount="11"><mpath xlink:href="#c11" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.2s" begin="0s;a1.end+0.1s;" repeatCount="10"><mpath xlink:href="#c10" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.33333333s" begin="0s;a1.end+0.1s;" repeatCount="9"><mpath xlink:href="#c9" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.5s" begin="0s;a1.end+0.1s;" repeatCount="8"><mpath xlink:href="#c8" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.714286s" begin="0s;a1.end+0.1s;" repeatCount="7"><mpath xlink:href="#c7" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="2s" begin="0s;a1.end+0.1s;" repeatCount="6"><mpath xlink:href="#c6" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="2.4s" begin="0s;a1.end+0.1s;" repeatCount="5"><mpath xlink:href="#c5" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="3s" begin="0s;a1.end+0.1s;" repeatCount="4"><mpath xlink:href="#c4" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="4s" begin="0s;a1.end+0.1s;" repeatCount="3"><mpath xlink:href="#c3" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="6s" begin="0s;a1.end+0.1s;" repeatCount="2"><mpath xlink:href="#c2" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="12s" begin="0s;a1.end+0.1s;" repeatCount="1"><mpath xlink:href="#c1" /></animateMotion></use>
+
+      <use width="25" height="25" xlink:href="#heart"><animateMotion id="a1" dur="1s" begin="0s;a1.end+0.1s;" repeatCount="12"><mpath xlink:href="#c32" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.09091s" begin="0s;a1.end+0.1s;" repeatCount="11"><mpath xlink:href="#c31" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.2s" begin="0s;a1.end+0.1s;" repeatCount="10"><mpath xlink:href="#c30" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.33333333s" begin="0s;a1.end+0.1s;" repeatCount="9"><mpath xlink:href="#c29" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.5s" begin="0s;a1.end+0.1s;" repeatCount="8"><mpath xlink:href="#c28" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="1.714286s" begin="0s;a1.end+0.1s;" repeatCount="7"><mpath xlink:href="#c27" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="2s" begin="0s;a1.end+0.1s;" repeatCount="6"><mpath xlink:href="#c26" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="2.4s" begin="0s;a1.end+0.1s;" repeatCount="5"><mpath xlink:href="#c25" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="3s" begin="0s;a1.end+0.1s;" repeatCount="4"><mpath xlink:href="#c24" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="4s" begin="0s;a1.end+0.1s;" repeatCount="3"><mpath xlink:href="#c23" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="6s" begin="0s;a1.end+0.1s;" repeatCount="2"><mpath xlink:href="#c22" /></animateMotion></use>
+      <use width="25" height="25" xlink:href="#heart"><animateMotion dur="12s" begin="0s;a1.end+0.1s;" repeatCount="1"><mpath xlink:href="#c21" /></animateMotion></use>
+
+      <a xlink:href="https://www.openclipart.org/download/315223/1550097735.svg">
+        <use x="-45" y="-45" width="120" height="120" xlink:href="#heart2" />
+      </a>
+    </g>
+
+  </g>
+
+
+</svg>

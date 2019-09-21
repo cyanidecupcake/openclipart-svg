@@ -1,0 +1,50 @@
+<svg width="100%" height="100%" viewBox="50 0 500 400"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+  <desc><![CDATA[
+    Template for Drawing on a 600 by 600 Grid
+    
+    Jay Nick
+    steamcoded.org
+  ]]>
+  </desc>
+  
+  <defs>
+   <clipPath id="tongue">
+     <rect x="220" y="220" width="160" height="60" />
+   </clipPath>
+  </defs>
+  
+  <style type="text/css"><![CDATA[
+    @keyframes a1 {from {transform:rotate(0deg)} to {transform:rotate(360deg)}}
+    .left {animation:a1 0.5s linear infinite;transform-origin:210px 100px;}
+    @keyframes a2 {from {transform:rotate(0deg)} to {transform:rotate(-360deg)}}
+    .right {animation:a2 0.6s linear infinite;transform-origin:400px 100px;}
+    @keyframes a3 {from {transform:translateY(0px)} to {transform:translateY(-60px)}}
+    .a3 {animation:a3 1s linear infinite alternate;}
+  ]]>
+  </style>
+  
+   <circle cx="300" cy="200" r="200" style="fill:yellow;" />
+  
+   <rect x="220" y="215" width="150" height="5" />
+  
+   <g style="clip-path:url(#tongue)">
+     <ellipse cx="300" cy="220" rx="30" ry="60" style="fill:red;" class="a3" />
+   </g>
+   
+   <circle cx="210" cy="100" r="45" style="fill:white;" />
+   <circle cx="400" cy="100" r="45" style="fill:white;" />
+   <circle cx="385" cy="100" r="25" style="fill:black;" class="right" />
+   <circle cx="225" cy="100" r="25" style="fill:black;" class="left" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </svg>

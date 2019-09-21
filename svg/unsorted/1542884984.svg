@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 1000 999.9999999999995"
+   height="1000"
+   width="1000"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="spiral.svg">
+  <sodipodi:namedview
+     inkscape:snap-page="true"
+     guidehiopacity="1"
+     guidehicolor="#f000ff"
+     guideopacity="1"
+     guidecolor="#00ffe4"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:pagecheckerboard="true"
+     units="px"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="705"
+     inkscape:window-width="1366"
+     showgrid="false"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="px"
+     inkscape:cy="500"
+     inkscape:cx="500"
+     inkscape:zoom="0.53"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.7450980392"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#003af6"
+     id="base" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:date>2018</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lazur URH</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <rect
+       y="0"
+       x="0"
+       height="1000"
+       width="1000"
+       id="rect239"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <text
+       id="text1267"
+       y="633.7137451171875"
+       x="141.272216796875"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333339691px;line-height:24px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.543307066px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         y="633.7137451171875"
+         x="141.272216796875"
+         id="tspan1265"
+         sodipodi:role="line">1. select 1000px / 1000 px rectangle in background</tspan><tspan
+         id="tspan1269"
+         y="657.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">2. click Extensions/Render/Parametric Curves...</tspan><tspan
+         id="tspan1271"
+         y="681.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">3. paste these settings in the extension's spinboxes:</tspan><tspan
+         id="tspan1275"
+         y="705.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Start t-value:                                   0,0</tspan><tspan
+         id="tspan1277"
+         y="729.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    End t-value:                                     2,0</tspan><tspan
+         id="tspan1279"
+         y="753.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Multiply t-range by 2*pi                -none-</tspan><tspan
+         id="tspan1281"
+         y="777.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    X-value of rectangle's left:               0,0</tspan><tspan
+         id="tspan1283"
+         y="801.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    X-value of rectangle's right:         1000,0</tspan><tspan
+         id="tspan1273"
+         y="825.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Y-value of rectangle's bottom:         0,0</tspan><tspan
+         id="tspan1287"
+         y="849.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Y-value of rectangle's top:            1000,0</tspan><tspan
+         id="tspan1285"
+         y="873.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Samples:                                          65 </tspan><tspan
+         id="tspan1363"
+         y="897.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Isotropic scaling                          -enable-</tspan><tspan
+         id="tspan1365"
+         y="921.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    X-Function:           cos(t*2*pi)*1000*pow(((pow(5,0.5)-1)/8),t)</tspan><tspan
+         id="tspan1367"
+         y="945.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line">    Y-Function:           sin(t*2*pi)*1000*pow(((pow(5,0.5)-1)/8),t)</tspan><tspan
+         y="969.7137451171875"
+         x="141.272216796875"
+         sodipodi:role="line"
+         id="tspan1412">4. run extension and enjoy your plotted &quot;golden spiral&quot;</tspan></text>
+    <path
+       id="path1388"
+       title="cos(t*2*pi)*1000*pow(((pow(5,0.5)-1)/8),t) sin(t*2*pi)*1000*pow(((pow(5,0.5)-1)/8),t)"
+       d=" M 1000.0 1000.0 C 980.540953041 934.553972984 955.22312499 872.947070393 925.185251179 815.969211423 C 895.147377368 758.991352454 860.376696 706.66203845 822.100417855 659.474857292 C 783.82413971 612.287676134 742.024613214 570.272242525 697.928071045 533.659372124 C 653.831528876 497.046501722 607.427090076 465.866842048 559.891724221 440.108275779 C 512.356358367 414.349709509 463.685638642 394.042593708 414.966249981 378.959118967 C 366.24686132 363.875644227 317.480294731 354.044711125 269.630011144 349.055570273 C 221.779727558 344.06642942 174.852425028 343.945544815 129.663892864 348.135590704 C 84.4753606991 352.325636594 41.0366660319 360.84986443 3.83888060284e-14 373.042514297 C -41.0366660319 385.235164165 -79.6567852978 401.115711271 -115.379480498 419.948181111 C -151.102175698 438.780650952 -183.910430835 460.580389919 -213.494787291 484.577989026 C -243.079143747 508.575588134 -269.421034364 534.78211417 -292.375747534 562.428771376 C -315.330460705 590.075428582 -334.87878174 619.169038858 -351.028307683 648.971692317 C -367.177833627 678.774345775 -379.909531892 709.288817841 -389.366229291 739.833803261 C -398.82292669 770.378788681 -404.98650379 800.953352655 -408.114482994 830.953446143 C -411.242462199 860.953539631 -411.318251707 890.374963235 -408.691271071 918.706251744 C -406.064290435 947.037540252 -400.719961984 974.271755043 -393.075688879 1000.0 C -385.431415774 1025.72824496 -375.474987889 1049.94141783 -363.667829948 1072.33802899 C -351.860672007 1094.73464016 -338.193162475 1115.30402131 -323.147688076 1133.85215505 C -308.102213676 1152.40028879 -291.671836004 1168.9155343 -274.338557314 1183.30716355 C -257.005278624 1197.69879281 -238.764821875 1209.95475901 -220.079825196 1220.0798252 C -201.394828516 1230.20489138 -182.263551832 1238.18712491 -163.113144573 1244.11607213 C -143.962737313 1250.04501936 -124.793785557 1253.90932016 -105.985002373 1255.87043014 C -87.176219189 1257.83154011 -68.73023742 1257.87905691 -50.96772401 1256.23205174 C -33.2052106001 1254.58504657 -16.1305157698 1251.23437984 -4.52691191245e-14 1246.44174559 C 16.1305157698 1241.64911134 31.3111457548 1235.40685435 45.3528687792 1228.00426829 C 59.3945918037 1220.60168224 72.2907192923 1212.03273483 83.9196105864 1202.59986203 C 95.5485018804 1193.16698923 105.902858681 1182.86584095 114.925798374 1171.99861212 C 123.948738066 1161.1313833 131.632707823 1149.6953924 137.980693859 1137.98069386 C 144.328679894 1126.26599532 149.33320096 1114.27149819 153.050398805 1102.26500701 C 156.767596649 1090.25851582 159.190348964 1078.24039802 160.419881544 1066.44809061 C 161.649414125 1054.6557832 161.679205138 1043.09093684 160.646602915 1031.9545961 C 159.614000692 1020.81825535 157.513275104 1010.11314761 154.508497187 1000.0 C 151.503719271 989.88685239 147.590089521 980.369242783 142.94898278 971.565679421 C 138.307876038 962.762116058 132.935510314 954.676792393 127.0215001 947.385971946 C 121.107489886 940.095151498 114.649107864 933.603409993 107.835817402 927.946410409 C 101.02252694 922.289410826 93.8526468385 917.471888467 86.5080288971 913.491971103 C 79.1634109557 909.512053739 71.6433711939 906.374431794 64.115811668 904.04390678 C 56.5882521421 901.713381765 49.0534032255 900.194419066 41.6601278186 899.42355441 C 34.2668524116 898.652689755 27.0161854206 898.634012056 20.0341732258 899.28140975 C 13.052161031 899.928807443 6.34051359814 901.245873076 2.96569836414e-14 903.129741084 C -6.34051359814 905.013609091 -12.3076501872 907.467288559 -17.827110138 910.377065173 C -23.3465700889 913.286841786 -28.4157242854 916.655086693 -32.9867587417 920.362919667 C -37.5577931979 924.070752641 -41.6278391302 928.119883596 -45.1745373656 932.391527053 C -48.721235601 936.66317051 -51.7416173066 941.158380512 -54.2368562904 945.76314371 C -56.7320952743 950.367906908 -58.6992508398 955.082652129 -60.1603909433 959.802111923 C -61.6215310468 964.521571717 -62.5738560817 969.245601649 -63.0571554479 973.880871009 C -63.540454814 978.516140369 -63.552164937 983.062000315 -63.1462741069 987.439425126 C -62.7403832767 991.816849937 -61.9146391191 996.024767536 -60.7335339696 1000.0 C -59.55242882 1003.97523246 -58.0140761101 1007.71637342 -56.1897698806 1011.17684015 C -54.3654636512 1014.63730688 -52.2537172931 1017.81545105 -49.9290636542 1020.68129532 C -47.6044100153 1023.54713959 -45.0657770529 1026.09888536 -42.3876382111 1028.32251436 C -39.7094993694 1030.54614337 -36.8911938092 1032.43979429 -34.0042030523 1034.00420305 C -31.1172122954 1035.56861181 -28.1612674856 1036.80193472 -25.2023668394 1037.71800744 C -22.2434661932 1038.63408017 -19.2817002647 1039.23114748 -16.3755834411 1039.53415564 C -13.4694666174 1039.83716379 -10.6194056951 1039.84450554 -7.87494644186 1039.59002925 C -5.1304871886 1039.33555295 -2.49230175043 1038.81784647 -1.63204149848e-14 1038.07734376 C 2.49230175043 1037.33684104 4.8378380758 1036.37235929 7.00740359822 1035.22859685 C 9.17696912064 1034.0848344 11.1695303985 1032.76085921 12.9662929163 1031.30340021 C 14.763055434 1029.84594121 16.3628915426 1028.25432627 17.7570123948 1026.57524708 C 19.1511332469 1024.89616788 20.3383718665 1023.12921012 21.319189649 1021.31918965 C 22.3000074315 1019.50916918 23.0732484605 1017.65591746 23.6475871132 1015.80081255 C 24.221925766 1013.94570764 24.5962615851 1012.08880632 24.7862348164 1010.26679462 C 24.9762080477 1008.44478292 24.9808110124 1006.65791589 24.8212651947 1004.93725662 C 24.661719377 1003.21659735 24.3371394234 1001.56256724 23.8728757031 1000.0"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+</svg>

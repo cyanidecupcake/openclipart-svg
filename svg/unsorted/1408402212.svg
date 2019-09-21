@@ -1,0 +1,129 @@
+
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app0.us.archive.org";archive_analytics.values.server_ms=0;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+
+
+
+
+  
+    
+<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app0.us.archive.org";}; </script>
+
+<!-- Start of Record Banner output -->
+<wb_div id="__wb_record_overlay_div" class="__wb_overlay">
+</wb_div>
+
+<wb_div class="__wb_record_content" id="__wb_record_content_loader">
+<wb_h1 id="_wb_load_msg">Saving page now...</wb_h1>
+<wb_p id="_wb_curr_url">https://openclipart.org/download/people/tak/1408402212.svg</wb_p>
+<wb_p>As it appears live June 4, 2019 1:55:12 PM UTC</wb_p>
+
+
+
+<wb_div id="__wb_spinningSquaresG">
+<wb_div id="__wb_spinningSquaresG_1" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_2" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_3" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_4" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_5" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_6" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_7" class="__wb_spinningSquaresG">
+</wb_div>
+<wb_div id="__wb_spinningSquaresG_8" class="__wb_spinningSquaresG">
+</wb_div>
+</wb_div>
+
+<img id="_wb_logo" src="/static/images/logo_WM.png"/>
+</wb_div>
+
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript">
+  function doRedir()
+  {   
+    var redirUrl = "/web/20190604135512/https://openclipart.org/download/people/tak/1408402212.svg";
+    var textElem = document.getElementById("_wb_load_msg");
+    if (textElem) {
+      textElem.innerHTML = "Loading Saved Page...";
+    }
+    window.location.replace(redirUrl);  
+  }
+  
+  function redirToCapture()
+  {
+    window.setTimeout(doRedir, 1000);
+  }
+
+  
+  if ( window != window.top ) {
+    
+    var wmOverlay = document.getElementById("__wb_record_overlay");
+    
+    if (wmOverlay) {
+      wmOverlay.style.display = "none";
+    }
+    
+  } else {
+    
+    if (window.addEventListener) {
+      window.addEventListener('load', redirToCapture, false);
+    } else if (window.attachEvent) {
+      window.attachEvent('onload', redirToCapture);
+    }
+    
+    // Just in case, redir after 90 secs
+    window.setTimeout(doRedir, 90000);
+  }
+</script>
+
+<!-- End of Record Banner Output output -->
+
+  
+
+
+
+<br />
+<b>Warning</b>:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/usr/share/nginx/html/openclipart_db.php</b> on line <b>6</b><br />
+<br />
+<b>Warning</b>:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/usr/share/nginx/html/openclipart_db.php</b> on line <b>6</b><br />
+<br />
+<b>Warning</b>:  mysqli::set_charset(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/openclipart_db.php</b> on line <b>7</b><br />
+<br />
+<b>Warning</b>:  mysqli::escape_string(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>10</b><br />
+<br />
+<b>Warning</b>:  mysqli::escape_string(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  mysqli::query(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  mysqli::escape_string(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>18</b><br />
+<br />
+<b>Warning</b>:  mysqli::escape_string(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>19</b><br />
+<br />
+<b>Warning</b>:  mysqli::query(): Couldn't fetch openclipart_db in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>19</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/openclipart_db.php:6) in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>26</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /usr/share/nginx/html/openclipart_db.php:6) in <b>/usr/share/nginx/html/assets/apps/svg.php</b> on line <b>27</b><br />
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 13:55:12 Jun 4, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:55:13 Jun 4, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

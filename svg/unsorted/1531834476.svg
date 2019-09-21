@@ -1,0 +1,78 @@
+<svg width="100%" height="100%" viewBox="0 0 360 350"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc>
+    Barn Quilt
+    
+    Quilt design using OCAL favicon by rejon: https://openclipart.org/detail/304085/openclipart-scissors-favicon-blue-button
+    
+    Barn Quilts are painted quilt blocks and hung on barns. 
+    Many counties in the US have driving trails to take in the beautiful displays.
+    
+    The Barn ( based on: https://openclipart.org/detail/164713/red-barn ) has been modified to
+    display a quilt block symbol. The quilt symbol can easily be replaced with a square design of any size.
+    
+    Have a favorite quilt block design?  Add it to the collection on openclipart.org using tag quiltblock.
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <defs>
+    <clipPath id="cp1">
+	  <path d="M333.19 346.44l-307.23 0 0-167.48 51.8-93.08 101.82-68.54 101.81 68.54 51.8 93.08z"/>
+    </clipPath>
+
+	<linearGradient id="lg1" x1="50.58" x2="308.57" y1="113.06" y2="371.06" gradientUnits="userSpaceOnUse">
+	  <stop style="stop-color:#C22032" offset="0"/>
+	  <stop style="stop-color:#971A23" offset="1"/>
+	</linearGradient>
+
+	<linearGradient id="lg2" x1="187.31" x2="255.33" y1="272.68" y2="340.7" gradientUnits="userSpaceOnUse">
+	  <stop style="stop-color:#C22032" offset="0"/>
+	  <stop style="stop-color:#751114" offset=".5"/>
+	  <stop style="stop-color:#590E26" offset="1"/>
+	</linearGradient>
+	
+	<symbol id="quilt" viewBox="0 0 500 500" overflow="visible">
+      <g id="layer1" style="fill:#204a87" transform="translate(-191.44 -282.77)">
+        <g id="g5923" style="fill:#204a87" transform="matrix(2.4048,0,0,2.4048,-560.81,151.28)">
+          <rect style="opacity:0.97000002;fill:#1f4a87;fill-opacity:1;stroke:white;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="rect910" width="207.9175" height="207.9175" x="312.81189" y="54.678143" ry="27.356857"/>
+          <path style="block-progression:tb;text-indent:0;color:#000000;text-transform:none;fill:#ffffff;fill-opacity:1;" d="M351.28 94.48c-9.89-0.09-20.03 4.26-23 12.36-4.42 9.77 2.67 21.2 14.76 24.71 0.04 0.01 0.1 0 0.14 0 13.19 4.77 29.61 7.1 43.9 21.89l5.36 5.56-4.83 4.92c-14.34 14.77-30.71 17.04-43.91 21.78-0.03 0.02-0.1-0.01-0.13 0-12.07 3.49-19.06 14.85-14.77 24.62 0.01 0.02-0.02 0.07 0 0.1 3.67 9.88 18.08 14.25 29.66 11.63 0.04-0.01 0.1 0 0.13 0 11.86-2.07 21.57-11.72 18.82-21.47-1.36-4.82-3.09-7.05-4.7-8.38-0.81-0.67-1.51-1.09-1.96-1.47-0.46-0.38-2.36-1.45-2.36-1.45 1.18-0.86 1.87-1.27 2.88-1.9 1.52-0.99 4.16-2.2 7.58-3.67 6.78-2.9 16.76-7.01 28.23-13.61 20.74 11.79 47.69 27.06 62.59 35.5s30.15 4.19 36.46 0.32l-79.9-46.9 80.36-47.35c-12.46-7.68-26.67-4.43-36.14 0.19-21.04 11.94-42.16 23.82-63.24 35.72-9.62-5.26-19.94-10.08-28.88-13.93-3.43-1.47-6.07-2.67-7.58-3.67-0.76-0.49-2.68-1.57-2.68-1.57 1.75-1.02 3.61-2.91 4.96-4.34 1.35-1.44 2.94-3.57 3.86-7.28 2.41-9.81-6.97-19.49-18.82-21.58-2.3-0.51-4.77-0.58-6.8-0.73z m-1.31 8.27c4.41-0.2 8.96 1 11.89 3.35 4.39 3.53 5.22 8.38 3.53 12.36s-5.75 6.93-11.5 6.92h-0.13c-5.27 0.24-10.4-2.19-13.46-5.77-3.06-3.57-3.93-8.01-0.91-11.83v-0.11c2.08-3.17 6.17-4.71 10.58-4.92z m3.4 89.13c0.39 0 0.79-0.01 1.04 0 5.75 0 9.82 2.94 11.5 6.92 1.69 3.98 0.87 8.84-3.52 12.35-2.94 2.35-7.61 3.67-12.03 3.46-4.41-0.21-8.38-1.85-10.45-5.03l-0.13-0.1c-2.91-3.71-2.07-7.9 0.78-11.42 2.85-3.51 7.73-6.1 12.81-6.18z"/>
+        </g>
+      </g>
+	</symbol>
+  </defs>
+
+
+	<path style="fill:url(#lg1);" d="M333.19 346.44l-307.23 0 0-167.48 51.8-93.08 101.82-68.54 101.81 68.54 51.8 93.08z"/>
+    <path d="M0,175l360,0" style="fill:none;stroke:#762823;stroke-width:360;stroke-dasharray:0.763,14.237;stroke-dashoffset:0.763;clip-path:url(#cp1);" />
+
+	<path style="opacity:.7;fill:#8E191F;" d="M195 43.5l13-8-27.6-19.62-102.8 69.18-64.27 113.59 13.38-21.19-0.04 35.48 66.33-120.94 55-36z"/>
+	<path style="stroke:#929296;stroke-width:.0957;fill:#EAE7E7;" d="M179.39 3.54l110.47 74.33 65.03 116.35-10.03 5.6-63.67-113.9-101.82-68.55z"/>
+	<path style="stroke:#929296;stroke-width:.0957;fill:#EAE7E7;" d="M179.35 3.54l-110.47 74.33-65.03 116.35 10.03 5.6 63.67-113.9 101.82-68.55z"/>
+	<path style="stroke:#919195;stroke-width:.125;fill:#CAC9CA;" d="M225.2 34.19l-6.6 9.42-38.98-26.24 0.02-13.83z"/>
+	<path style="stroke:#919195;stroke-width:.125;fill:#DDDBDB;" d="M133.8 34.19l6.6 9.42 38.98-26.24-0.02-13.83z"/>
+
+	<path id="door" style="fill-rule:evenodd;stroke:#929296;clip-rule:evenodd;stroke-width:.3616;fill:url(#lg2);" d="M187.26 272.73l68.12 0 0 67.91-68.12 0z"/>
+    <use xlink:href="#door" transform="translate(0,-80.34)" />
+    <use xlink:href="#door" transform="translate(-84.1,0)" />
+    <use xlink:href="#door" transform="translate(-84.1,-80.34)" />
+
+	<g id="frame" style="fill:#EAE7E7;fill-rule:evenodd;stroke:#929296;stroke-width:.3616;clip-rule:evenodd" >
+	  <path d="M190.36 331.88l55.48-56.89 6.45 0 0 6.86-55.42 56.95-6.51 0z"/>
+	  <path d="M179.35 267.13l83.9 0 0 7.83-83.9 0z"/>
+	  <path d="M179.39 339.41l10.97-0.61 0-63.83-10.97 0z"/>
+	  <path d="M179.35 338.8l83.9 0 0 7.93-83.9 0z"/>
+	  <path d="M252.3 274.97l10.96 0 0 63.83-10.96 0z"/>
+      <path d="M252.29 331.88l-55.49-56.89-6.44 0 0 6.86 55.42 56.95 6.51 0z"/>
+	</g>
+    <use xlink:href="#frame" transform="translate(0,-79.63)" />
+    <use xlink:href="#frame" transform="translate(-84.1,0)" />
+    <use xlink:href="#frame" transform="translate(-84.1,-79.63)" />
+
+    <g style="display:initial;" transform="translate(137.5,65)">
+      <use width="84" height="84" xlink:href="#quilt" />
+    </g>
+  </svg>

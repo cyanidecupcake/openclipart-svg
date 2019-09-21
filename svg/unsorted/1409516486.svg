@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="500px"
+   height="500px"
+   viewBox="0 0 500 500"
+   enable-background="new 0 0 500 500"
+   xml:space="preserve"
+   preserveAspectRatio="none"
+   id="svg3339"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="test.svg"><svg:metadata
+     id="metadata3455"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></svg:metadata><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="886"
+     inkscape:window-height="728"
+     id="namedview3453"
+     showgrid="false"
+     inkscape:zoom="0.472"
+     inkscape:cx="250"
+     inkscape:cy="276.73614"
+     inkscape:window-x="362"
+     inkscape:window-y="5"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3339" />
+
+<svg:defs
+     id="defs3423"><svg:filter
+       xlink:actuate="onLoad"
+       xlink:type="simple"
+       id="DropShadow"
+       xlink:show="other">
+            <svg:feFlood
+   flood-opacity="0.5"
+   flood-color="rgb(0, 0, 0)"
+   result="fpr1"
+   in="SourceGraphic"
+   id="feFlood3426" />
+            <svg:feComposite
+   operator="in"
+   in2="SourceGraphic"
+   result="fpr2"
+   in="fpr1"
+   id="feComposite3428" />
+            <svg:feGaussianBlur
+   stdDeviation="2"
+   result="fpr3"
+   in="fpr2"
+   id="feGaussianBlur3430" />
+            <svg:feOffset
+   dx="4"
+   dy="4"
+   result="fpr4"
+   in="fpr3"
+   id="feOffset3432" />
+            <svg:feComposite
+   operator="over"
+   in2="fpr4"
+   result="fpr5"
+   in="SourceGraphic"
+   id="feComposite3434" />
+        </svg:filter><svg:filter
+       xlink:actuate="onLoad"
+       xlink:type="simple"
+       id="Cubes"
+       xlink:show="other">
+            <svg:feTurbulence
+   baseFrequency="0.1429951690821256"
+   type="fractalNoise"
+   result="fpr1"
+   numOctaves="1"
+   id="feTurbulence3437" />
+            <svg:feColorMatrix
+   values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5"
+   result="fpr2"
+   in="fpr1"
+   id="feColorMatrix3439" />
+            <svg:feComposite
+   operator="in"
+   in2="fpr2"
+   result="fpr3"
+   in="SourceGraphic"
+   id="feComposite3441" />
+            <svg:feMorphology
+   operator="dilate"
+   result="fpr4"
+   in="fpr3"
+   radius="5"
+   id="feMorphology3443" />
+            <svg:feDisplacementMap
+   scale="0"
+   xChannelSelector="R"
+   in2="fpr4"
+   yChannelSelector="A"
+   result="fpr5"
+   in="fpr4"
+   id="feDisplacementMap3445" />
+            <svg:feComposite
+   result="fpr6"
+   in="fpr5"
+   k1="1"
+   k2="0"
+   k3="1"
+   k4="0"
+   in2="fpr5"
+   operator="arithmetic"
+   id="feComposite3447" />
+            <svg:feBlend
+   in2="fpr6"
+   mode="darken"
+   result="fpr7"
+   in="fpr6"
+   id="feBlend3449" />
+            <svg:feConvolveMatrix
+   order="3 3"
+   result="fpr8"
+   in="fpr7"
+   edgeMode="duplicate"
+   kernelMatrix="2 0 0 0 1 0 0 0 -1"
+   divisor="2"
+   targetX="1"
+   targetY="1"
+   id="feConvolveMatrix3451" />
+        </svg:filter></svg:defs>
+<svg:symbol
+     id="squares"
+     viewBox="-240.99 -240.99 481.98 481.98"><svg:g
+       id="g3344"><svg:polygon
+         fill="#ff1258"
+         points="240.99,240.99 -240.99,240.99 -240.99,-240.99 240.99,-240.99 "
+         id="polygon3346" /><svg:polygon
+         fill="#ff8a3c"
+         points="229.33,229.33 -229.33,229.33 -229.33,-229.33 229.33,-229.33 "
+         id="polygon3348" /><svg:polygon
+         fill="#fffe2e"
+         points="217.67,217.67 -217.67,217.67 -217.67,-217.67 217.67,-217.67 "
+         id="polygon3350" /><svg:polygon
+         fill="#13cdff"
+         points="206.02,206.02 -206.02,206.02 -206.02,-206.02 206.02,-206.02 "
+         id="polygon3352" /><svg:polygon
+         fill="#bf51e8"
+         points="194.36,194.36 -194.36,194.36 -194.36,-194.36 194.36,-194.36 "
+         id="polygon3354" /><svg:polygon
+         fill="#ff1258"
+         points="182.7,182.7 -182.7,182.7 -182.7,-182.7 182.7,-182.7 "
+         id="polygon3356" /><svg:polygon
+         fill="#ff8a3c"
+         points="171.04,171.04 -171.04,171.04 -171.04,-171.04 171.04,-171.04 "
+         id="polygon3358" /><svg:polygon
+         fill="#fffe2e"
+         points="159.38,159.38 -159.38,159.38 -159.38,-159.38 159.38,-159.38 "
+         id="polygon3360" /><svg:polygon
+         fill="#13cdff"
+         points="147.72,147.72 -147.72,147.72 -147.72,-147.72 147.72,-147.72 "
+         id="polygon3362" /><svg:polygon
+         fill="#bf51e8"
+         points="136.06,136.06 -136.06,136.06 -136.06,-136.06 136.06,-136.06 "
+         id="polygon3364" /><svg:polygon
+         fill="#ff1258"
+         points="124.41,124.41 -124.41,124.41 -124.41,-124.41 124.41,-124.41 "
+         id="polygon3366" /><svg:polygon
+         fill="#ff8a3c"
+         points="112.75,112.75 -112.75,112.75 -112.75,-112.75 112.75,-112.75 "
+         id="polygon3368" /><svg:polygon
+         fill="#fffe2e"
+         points="101.09,101.09 -101.09,101.09 -101.09,-101.09 101.09,-101.09 "
+         id="polygon3370" /><svg:polygon
+         fill="#13cdff"
+         points="89.43,89.43 -89.43,89.43 -89.43,-89.43 89.43,-89.43 "
+         id="polygon3372" /><svg:polygon
+         fill="#bf51e8"
+         points="77.77,77.77 -77.77,77.77 -77.77,-77.77 77.77,-77.77 "
+         id="polygon3374" /><svg:polygon
+         fill="#ff1258"
+         points="66.11,66.11 -66.11,66.11 -66.11,-66.11 66.11,-66.11 "
+         id="polygon3376" /><svg:polygon
+         fill="#ff8a3c"
+         points="54.45,54.45 -54.45,54.45 -54.45,-54.45 54.45,-54.45 "
+         id="polygon3378" /><svg:polygon
+         fill="#fffe2e"
+         points="42.79,42.79 -42.79,42.79 -42.79,-42.79 42.79,-42.79 "
+         id="polygon3380" /><svg:polygon
+         fill="#13cdff"
+         points="31.14,31.14 -31.14,31.14 -31.14,-31.14 31.14,-31.14 "
+         id="polygon3382" /><svg:polygon
+         fill="#bf51e8"
+         points="19.48,19.48 -19.48,19.48 -19.48,-19.48 19.48,-19.48 "
+         id="polygon3384" /></svg:g></svg:symbol><svg:g
+     id="Layer_1"
+     display="inline"
+     transform="matrix(0.61578082,0,0,0.61689018,104.6501,99.447967)"
+     style="display:inline;filter:url(#Cubes)"><svg:use
+       xlink:href="#squares"
+       width="481.98001"
+       height="481.98001"
+       x="-240.99001"
+       y="-240.99001"
+       transform="matrix(1.4794,0,0,-1.4794,250,249.9287)"
+       overflow="visible"
+       id="use3387"
+       style="overflow:visible" /></svg:g> 
+
+</svg:svg>

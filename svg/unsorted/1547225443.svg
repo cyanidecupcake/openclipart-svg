@@ -1,0 +1,74 @@
+<svg width="100%" height="100%" viewBox="0 0 560 600" style="background-color:yellow;"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Animated Circle Illusion
+    
+    Center circle does not change size. 
+    File contains both SMIL and CSS animations. Default animation is SMIL.
+    Change the .css and .smil styles to change to CSS animation
+    
+    At present - 01/08/2019, CSS animation only works in Chrome and Safari because they have added an SVG 2.0 feature 
+    where SVG attributes can be animated as well as CSS attributes. Other browsers will probably implement this,
+    so it should work in those browsers at some point
+    
+    Inspired by a tweet by @clementinehazel on 11/15/18
+    
+    Jay Nick
+    steamcoded.org
+  </desc>
+
+  <style type="text/css"><![CDATA[
+    @keyframes illusion {from {r:100px;cy:100px} to {r:20px;cy:230px}}
+    .animate1 {animation:illusion 1.5s infinite linear alternate;animation-delay:0.5s;}
+    @keyframes position {from {transform:translateX(0px) translateY(0px);} to {transform:translateX(-150px) translateY(-150px);}}
+    .animate2 {animation:position 1.5s infinite linear alternate;animation-delay:0.5s;}
+
+    .css {display:none;}
+    .smil {display:initial;}
+  ]]>
+  </style>
+
+  <g class="animate2 css">
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" transform="rotate(60,280,300)" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" transform="rotate(120,280,300)" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" transform="rotate(180,280,300)" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" transform="rotate(240,280,300)" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;" class="animate1" transform="rotate(300,280,300)" />
+
+    <circle cx="280" cy="300" r="50" style="fill:red;" />
+  </g>
+
+  <g class="smil">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-150,-150;0,0" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    <circle cx="280" cy="100" r="100" style="fill:blue;">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="100" r="100" style="fill:blue;" transform="rotate(60,280,300)">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="100" r="100" style="fill:blue;" transform="rotate(120,280,300)">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="100" r="100" style="fill:blue;" transform="rotate(180,280,300)">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="100" r="100" style="fill:blue;" transform="rotate(240,280,300)">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="100" r="100" style="fill:blue;" transform="rotate(300,280,300)">
+      <animate attributeName="cy" values="100px;230px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="100px;20px;100px" begin="0.5s" dur="3s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="280" cy="300" r="50" style="fill:red;" />
+  </g>
+
+</svg>

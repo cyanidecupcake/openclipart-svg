@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%"
+	viewBox="-1220 -720 2440 1460"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css"><![CDATA[
+		.numbers {fill:#999;font-size:10px;}
+	]]>
+	</style>
+ <defs>
+  <pattern id="test" width="100" height="100"  patternUnits="userSpaceOnUse">
+    <circle r="0" />
+	<g stroke="royalblue" stroke-width="100" id="grid">
+		<path d="m0,50 l100,0" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.2,9.6,0.2,0"/>
+		<path d="m0,50 l100,0" stroke-dasharray="0.5,99,0.5,0"/>
+		<path d="m50,0 l0,100" stroke-dasharray="0.5,99,0.5,0" />
+	</g>
+  </pattern>
+  <title>Kite</title>
+ <path id="kite"
+ d="M466,0 l-233,-717.1 -987 717.1 987,717.1 z" />
+ 
+ <title>Thick Rhomb</title>
+ <path id="thick"
+ d="M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z" />
+ 
+ <title>Dart</title>
+ <path id="dart"
+ d="M0,0 l233,-717.1 -987,717.1 987,717.1 z" />
+ 
+ <title>Thin Rhomb</title>
+ <path id="thin"
+ d="M 466 0 l-233,-717.1 -233,717.1 233,717.1 z" />
+ 
+ <path id="ch" 
+  d="M466,0 l-233,-717.1 -987 717.1 987,717.1 z"
+  fill="url(#test) none" stroke-width="10"
+    stroke="#00f" >
+   <animate begin="beg.activate;beg.click" end="end.activate;end.click; indefinite"
+	attributeName="d"
+	attributeType="XML"
+	values="
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M0,0 l233,-717.1 -987,717.1 987,717.1 z;
+	M0,0 l233,-717.1 -987,717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z;
+	M 1220,0 l-987,-717.1 -987 717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+    M 466 0 l-233,-717.1 -233,717.1 233,717.1 z;
+	M 466 0 l-233,-717.1 -233,717.1 233,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	M466,0 l-233,-717.1 -987 717.1 987,717.1 z;
+	"
+	dur="15s" repeatCount ="indefinite "
+	fill="freeze" additive="replace" />
+	</path>	
+</defs>
+
+<use xlink:href="#ch" >
+	<animateTransform begin="rot.activate;rot.click" end="end.activate;end.click; indefinite"
+    attributeName="transform"
+    type="rotate"
+    from="0"
+    to="360"
+    dur="20s" additive="replace" fill="freeze" 
+    repeatCount="indefinite" />
+
+</use>
+<circle r="10" fill="blue" />
+<g stroke="none" font-family="fantasy" font-size="40">
+<text y="210" x="-650">morph</text>
+<text y="310" x="-650">stop</text>
+<text y="410" x="-650">rotate</text>
+</g>
+<circle cy="200" cx="-700" r="30" id="beg" fill="#060">
+<title>Knopf: Beginn</title>
+</circle>
+<circle cy="300"  cx="-700" r="30" id="end" fill="#f00">
+<title>Knopf: Ende</title>
+</circle>
+<circle cy="400"  cx="-700" r="30" id="rot" fill="#f0f">
+<title>Knopf: Rotate</title>
+</circle>
+
+</svg>
+

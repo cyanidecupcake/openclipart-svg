@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<defs>
+    <marker id="start"
+      viewBox="0 0 1 1"
+      overflow="visible"
+      refX="0" refY="0"
+      markerUnits="userSpaceOnUse"
+      markerWidth="1" markerHeight="1"
+      orient="0">
+      <rect width="1" height="1" />
+    </marker>
+  <pattern id="p" width="1" height="1"  patternUnits="userSpaceOnUse">
+	<rect width="1" height="1" fill="none" stroke="#aaa" stroke-width="0.01"/>
+</pattern>
+</defs>
+<rect width="5" height="7" x="7" y="11" fill="#555"/>
+<g fill="#888">
+<rect width="8" height="7" x="6" y="2" />
+<rect width="3" height="7" x="1" y="1" />
+<rect width="2" height="2" x="16" y="5" />
+<rect width="2" height="2" x="14" y="16" />
+<rect width="1" height="1" x="14" y="15" />
+<path d="M12 13h1v1h1v4h-2v-2
+         h-2v-1h1v-1h1
+     " />
+</g>
+<g fill="#555">
+<rect width="2" height="1" x="1" y="8" />
+<rect width="1" height="2" x="3" y="4" />
+<rect width="1" height="4" x="15" y="4" />
+<path d="M6 3h1v1h1v2h1v1h1v-1h3v3
+        h-7 m10 -1h2v-1h-1v-1h-1" />
+</g>
+<g fill="#333">
+<rect width="2" height="2" x="1" y="9" />
+<rect width="1" height="4" x="3" y="6" />
+<rect width="1" height="4" x="4" y="4" />
+<rect width="1" height="6" x="5" y="3" />
+<rect width="1" height="6" x="14" y="3" />
+<rect width="8" height="2" x="6" y="9" />
+<path d="M8 11h2v1h1v1h-1v1h-1v1h-2v1h2v1h1v1
+         h-6v-2h1v-1h1v-1h1v-1
+     " />
+</g>
+
+<rect width="19" height="19" fill="url(#p)"  />
+<path d="m0 0 h4 v2 h-1 v-1 h-2v10 h2 v-1 h1 v2 h-4 zM4 2 h2 v1 h-1 v1h-1 z
+         m0 6h1 v1 h1v1h-2zm2 2 h2v3h-1v-2h-1z M6 1 h8 v1h-8 M3 16 v3 h14 v-3h-1v2 h-12v-2
+		 M12 13v-3h2v1h-1v2 M15 9 h4v-3h-1v2h-3v1 
+		 " fill="#000" opacity="1"/>
+<path marker-start="url(#start)" stroke="none" stroke-width="1" fill="none" marker-mid="url(#start)"  marker-end="url(#start)" 
+d="m6 13 m-1 1 m-1 1h11m-1-1m-1-1 m1-4 m0-7m1 1m1 1m1 1" />
+</svg>

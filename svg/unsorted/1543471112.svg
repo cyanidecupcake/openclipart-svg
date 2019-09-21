@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+ version="1.1"
+  width="100%" height="100%" viewBox="-310 -5 620 310"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="http://www.w3.org/2000/svg">
+<title>Approximation of circle by Bezier</title>
+<desc>
+	This clip demonstrates the power of Bezier curves.
+
+	Inspired by Adam Stanislav's E-Book "Bézier Circles and other shapes" I tried to
+	compare different approximations of a circle by Bezier curves.
+
+	The circle is the blue line.
+
+	The green solid line is the approximation of a half circle by a single Bezier curve.
+	The approx is not exact but already very good when you consider how few parameters are used.
+
+	The dashed magenta line is the approximation with two Bezier curves as discussed by Adam in his book.
+	The two lines are almost identical, there is no visible difference.
+
+	I used an approximation of Adam's Kappa from the continued fraction to get integer numbers for the coordinates.
+	The only fraction with a denominator divisible by 3 is 169/306 (besides 5/9 which is not good enough).
+	169/306 = 0,5522875816993464...
+	  Kappa = 0.5522847498307933...
+  
+</desc>
+<defs>
+ <pattern id="mm" width="1" height="1" x="0" y="0" patternUnits="userSpaceOnUse">
+  <path d="M0,0 H1 M0,1 V0"
+  stroke="lime" stroke-width="0.1" opacity="0.6"/>
+ </pattern>
+ <pattern id="m" width="5" height="5" x="0" y="0" patternUnits="userSpaceOnUse">
+  <path d="M0,0 H5 M0,5 V0"
+  stroke="#0a0" stroke-width="0.2"/>
+ </pattern>
+ <pattern id="cm" width="10" height="10" x="0" y="0" patternUnits="userSpaceOnUse">
+  <path d="M0,0 H10 M0,10 V0"
+  stroke="#080" stroke-width="0.5"/>
+ </pattern>
+ <rect x="-310" y="-310" width="620" height="620"
+  id="paper" />
+ </defs>
+ <path id="ca" fill="none" stroke="green" stroke-width="3"
+  d="m-306 0 C-306 408 306 408 306 0
+  " />
+ <g >
+  <use xlink:href="#paper" fill="url(#mm)" opacity="0" />
+  <use xlink:href="#paper" fill="url(#m)" opacity="0" />
+  <use xlink:href="#paper" fill="url(#cm)" />
+ </g>
+ <path id="hk" fill="none" stroke="blue" stroke-width="3"
+    d="m-306 0
+	a306,306 0 0 0 612,0
+     " />
+
+  <path id="vk" fill="none" stroke="magenta" stroke-width="3" stroke-dasharray="5,3,2"
+    d="m306 0
+	C306 169 169 306 0 306
+	C-169 306 -306 169 -306 0
+	" />
+ </svg>

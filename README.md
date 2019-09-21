@@ -1,7 +1,7 @@
 # Openclipart-svg
 Collections of SVG files originally available on Openclipart.org.
 
-The prolonged downtime of Openclipart.org has been troublesome for many, including myself, who regularly used Openclipart.org for sourcing graphics for projects. Since it seems like [https://en.wikipedia.org/wiki/Openclipart](Openclipart could be down) for a long period of time and might never reopend their doors to the public I thought it was time to do something about it.
+The prolonged downtime of Openclipart.org has been troublesome for many, including myself, who regularly used Openclipart.org for sourcing graphics for projects. Since it seems like Openclipart could be down for a long period of time and might never reopend their doors to the public I thought it was time to do something about it.
 
 This is a collection of SVG files that were originally available on Openclipart.org and have been collected from various sources. I will not lie to you, they are a mess. There is some organization from some of the files but there could very well be hundreds (possibly) thousands of duplicates. The majority of files are older collections that I was able to find from across the web.
 
