@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    viewBox="0 0 280 280"
+  >
+  <desc
+    >Double Hearts Doodle
+    From the book, I Love to Doodle, with SVG illustrations by Jay Nick.
+    I Love to Doodle is available in both eBook and print editions from cattocreations.com
+    Written by Jay Nick
+    Handcoding SVG since 2001
+    Author of eBook, Learn SVG Interactively, published by Catto Creations, LLC
+    http://www.jaynick.com
+    I Love to Doodle is published by Catto Creations, LLC
+    Catto Creations mission is Family, Literacy, and Enrichment
+    Visit http://www.cattocreations.com for award winning children's eBooks
+    I Love to Doodle and other free ePub3 eBooks at http://www.cattocreations.com/ePub3.html</desc
+  >
+  <defs
+    >
+    <style
+        type="text/css"
+      >#doublehearts {stroke:black;stroke-width:1px;}
+      #heart1 {fill:#ee155c;}
+      #heart2 {fill:#f26eaa;}</style
+    >
+    <symbol
+        id="Heart"
+        viewBox="0 0 280 270"
+      >
+      <path
+          d="m140 58c30-60 110-60 130 0 30 100-110 150-130 210m0-210c-30-60-110-60-130 0-30 100 110 150 130 210"
+      />
+    </symbol
+    >
+  </defs
+  >
+  <g
+      transform="translate(0) scale(1)"
+    >
+    <g
+        id="doublehearts"
+        transform="translate(-3)"
+      >
+      <use
+          id="heart1"
+          xlink:href="#Heart"
+          height="270"
+          width="280"
+          y="0"
+          x="0"
+      />
+      <use
+          id="heart2"
+          xlink:href="#Heart"
+          transform="translate(185 165) scale(.35)"
+          height="270"
+          width="280"
+          y="0"
+          x="0"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Double Hearts Doodle</dc:title
+        >
+        <dc:date
+          >2013-10-04T19:55:46</dc:date
+        >
+        <dc:description
+          >From the book, I Love to Doodle. SVG code can be inserted into an SVG image then scaled, and positioned where desired. Handcoded SVG for simplicity.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/184568/double-hearts-doodle-by-jaynick-184568</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >JayNick</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >50k</rdf:li
+            >
+            <rdf:li
+              >cards</rdf:li
+            >
+            <rdf:li
+              >doodle</rdf:li
+            >
+            <rdf:li
+              >handcoded</rdf:li
+            >
+            <rdf:li
+              >heart</rdf:li
+            >
+            <rdf:li
+              >hearts</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >love</rdf:li
+            >
+            <rdf:li
+              >symbol</rdf:li
+            >
+            <rdf:li
+              >valentine</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

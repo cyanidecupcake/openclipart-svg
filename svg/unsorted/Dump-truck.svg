@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    viewBox="0 0 870 520"
+  >
+  <desc
+    >Dump Truck - inspired by openclipart.org "Truck 1"
+    From the book, I Love to Color, Play, &amp; Learn, by Jay Nick.
+    I Love to Color, Play, &amp; Learn is as an eBook from cattocreations.com
+    Written by Jay Nick
+    Handcoding SVG since 2001
+    Author of eBook, Learn SVG Interactively, published by Catto Creations, LLC
+    http://www.jaynick.com
+    I Love to Color, Play, &amp; Learn is published by Catto Creations, LLC
+    Catto Creations mission is Family, Literacy, and Enrichment
+    Visit http://www.cattocreations.com for award winning children's eBooks
+    I Love to Color, Play, &amp; Learn and other free ePub3 eBooks at http://www.cattocreations.com/ePub3.html</desc
+  >
+  <defs
+    >
+    <pattern
+        id="heatshield"
+        width="10"
+        patternUnits="userSpaceOnUse"
+        height="10"
+      >
+      <rect
+          width="10"
+          height="10"
+          fill="#ccc"
+      />
+      <path
+          stroke="#444"
+          d="m0 0l10 10m0-10l-10 10"
+      />
+    </pattern
+    >
+    <linearGradient
+        id="tank"
+        x2="0%"
+        y2="100%"
+      >
+      <stop
+          stop-color="#333"
+          offset="0"
+      />
+      <stop
+          stop-color="#fff"
+          stop-opacity=".6"
+          offset=".4"
+      />
+      <stop
+          stop-color="#333"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <style
+      type="text/css"
+    >#dumper {fill:#999999;stroke:black;stroke-width:5px;}
+    .tire {fill:#222222;stroke:#222222;stroke-width:4px;stroke-dasharray:10,2;}
+    .rim {fill:#999999;stroke:black;stroke-width:4px;}
+    .lugnuts {fill:#666666;;stroke:black;}
+    #exhaust {fill:#aaaaaa;stroke:#444444;stroke-width:2;}
+    #exhaustshield {fill:url(#heatshield);stroke:#444444;stroke-width:2px;}
+    #shadow {fill:#666666;stroke:none;}
+    #frame {fill:#666666;stroke:#333333;stroke-width:5px;}
+    #indents {fill:#bbbbbb;stroke:none;}
+    #cab {fill:red;stroke:black;stroke-width:5px;}
+    .window {fill:#cccccc;stroke:black;stroke-width:5px;}
+    #door {fill:red;stroke:black;stroke-width:5px;}
+    #handle {fill:#cccccc;stroke:#999999;}
+    #grill {fill:#cc
