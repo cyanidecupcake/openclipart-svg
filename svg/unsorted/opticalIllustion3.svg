@@ -1,0 +1,63 @@
+<svg viewBox="-200 -200 400 400"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Optical Illusion 3
+    
+    Remix of Optical Illusion 2 as suggested by @AdamStanislav
+    Changed viewBox so that circles were centered at (0,0)
+    Reduced file size by 1 KB.
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <g id="c1" transform="rotate(7.83)">
+    <circle r="200" style="fill:#eee;"/>
+    <circle r="100" style="fill:none;stroke:#bbb;stroke-width:200px;stroke-dasharray:13.66,13.66;" />
+    <circle r="190" style="display:none;fill:none;stroke:red;stroke-width:16;stroke-dasharray:0.01,51.9;stroke-dashoffset:12.98;stroke-linecap:round;stroke-linejoin:round;"/>
+    <circle r="190" style="display:none;fill:none;stroke:blue;stroke-width:16;stroke-dasharray:0.01,51.9;stroke-dashoffset:38.94;stroke-linecap:round;stroke-linejoin:round;"/>
+  </g>
+  
+  <use id="c2" xlink:href="#c1" transform="rotate(7.83) scale(0.9)" />
+  <use id="c3" xlink:href="#c2" transform="rotate(7.83) scale(0.9)" />
+  <use id="c4" xlink:href="#c3" transform="rotate(7.83) scale(0.9)" />
+  <use id="c5" xlink:href="#c4" transform="rotate(7.83) scale(0.9)" />
+  <use id="c6" xlink:href="#c5" transform="rotate(7.83) scale(0.9)" />
+  <use id="c7" xlink:href="#c6" transform="rotate(7.83) scale(0.9)" />
+  <use id="c8" xlink:href="#c7" transform="rotate(7.83) scale(0.9)" />
+  <use id="c9" xlink:href="#c8" transform="rotate(7.83) scale(0.9)" />
+  <use id="c10" xlink:href="#c9" transform="rotate(7.83) scale(0.9)" />
+  <use id="c11" xlink:href="#c10" transform="rotate(7.83) scale(0.9)" />
+  <use id="c12" xlink:href="#c11" transform="rotate(7.83) scale(0.9)" />
+  <use id="c13" xlink:href="#c12" transform="rotate(7.83) scale(0.9)" />
+  <use id="c14" xlink:href="#c13" transform="rotate(7.83) scale(0.9)" />
+  <use id="c15" xlink:href="#c14" transform="rotate(7.83) scale(0.9)" />
+  <use id="c16" xlink:href="#c15" transform="rotate(7.83) scale(0.9)" />
+  <use id="c17" xlink:href="#c16" transform="rotate(7.83) scale(0.9)" />
+  <use id="c18" xlink:href="#c17" transform="rotate(7.83) scale(0.9)" />
+  <use id="c19" xlink:href="#c18" transform="rotate(7.83) scale(0.9)" />
+  <use id="c20" xlink:href="#c19" transform="rotate(7.83) scale(0.9)" />
+  <use id="c21" xlink:href="#c20" transform="rotate(7.83) scale(0.9)" />
+  <use id="c22" xlink:href="#c21" transform="rotate(7.83) scale(0.9)" />
+  <use id="c23" xlink:href="#c22" transform="rotate(7.83) scale(0.9)" />
+  <use id="c24" xlink:href="#c23" transform="rotate(7.83) scale(0.9)" />
+  <use id="c25" xlink:href="#c24" transform="rotate(7.83) scale(0.9)" />
+  <use id="c26" xlink:href="#c25" transform="rotate(7.83) scale(0.9)" />
+  <use id="c27" xlink:href="#c26" transform="rotate(7.83) scale(0.9)" />
+  <use id="c28" xlink:href="#c27" transform="rotate(7.83) scale(0.9)" />
+  <use id="c29" xlink:href="#c28" transform="rotate(7.83) scale(0.9)" />
+  <use id="c30" xlink:href="#c29" transform="rotate(7.83) scale(0.9)" />
+  <use id="c31" xlink:href="#c30" transform="rotate(7.83) scale(0.9)" />
+  <use id="c32" xlink:href="#c31" transform="rotate(7.83) scale(0.9)" />
+  <use id="c33" xlink:href="#c32" transform="rotate(7.83) scale(0.9)" />
+  <use id="c34" xlink:href="#c33" transform="rotate(7.83) scale(0.9)" />
+  <use id="c35" xlink:href="#c34" transform="rotate(7.83) scale(0.9)" />
+  <use id="c36" xlink:href="#c35" transform="rotate(7.83) scale(0.9)" />
+  <use id="c37" xlink:href="#c36" transform="rotate(7.83) scale(0.9)" />
+  <use id="c38" xlink:href="#c37" transform="rotate(7.83) scale(0.9)" />
+  <use id="c39" xlink:href="#c38" transform="rotate(7.83) scale(0.9)" />
+  <use id="c40" xlink:href="#c39" transform="rotate(7.83) scale(0.9)" />
+
+</svg>

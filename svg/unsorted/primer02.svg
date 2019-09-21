@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="900">
+
+  <path id="mypeak" d="m50,100 50,-100 50,100 m-70,-60 20 20 20 -20" stroke="#00f" fill="none" stroke-width="2"/>
+
+  <use xlink:href="#mypeak" transform="translate(0, 200)"/>
+  <use xlink:href="#mypeak" transform="translate(200, 200) scale(.3)"/>
+
+  <use xlink:href="#mypeak" transform="translate(0, 400)"/>
+  <use xlink:href="#mypeak" transform="translate(100, 400)"/>
+  <use xlink:href="#mypeak" transform="translate(200, 400)"/>
+
+  <use xlink:href="#mypeak" transform="translate(100, 400) scale(.5)"/>
+  <use xlink:href="#mypeak" transform="translate(200, 400) scale(.5)"/>
+
+  <g id="myeye">
+    <circle cx="100" cy="600" r="50" fill="#fff" stroke-width="2" stroke="#000"/>
+    <circle cx="100" cy="640" r="10"/>
+  </g>
+  <use xlink:href="#myeye" transform="translate(100,0)"/>
+
+  <use xlink:href="#myeye" transform="rotate(30,0,0) translate(700,-250) scale(.8)"/>
+</svg>
