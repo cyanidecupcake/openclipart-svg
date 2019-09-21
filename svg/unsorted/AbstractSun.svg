@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<svg width="100%" height="100%" viewBox="0 0 500 500" xml:space="preserve"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+       
+  <desc>
+    Using SVG to promoting Math and Art while learning to code.
+    
+    Use SVG to create Art and improve Math skills.
+    A free and easy way to get started learning to code!
+    
+    Written by Jay Nick
+    Author and Illustrator - STEAM Coded String Art - and other free eBooks (visit http://cattocreations.com)
+    handcoding SVG since 2001
+    http://steamcoded.org
+  </desc>
+       
+  <defs>
+    <style type="text/css"><![CDATA[
+      .fb {fill:black;}
+      .fy {fill:#ffdf01;}
+      .sy {stroke:#ffdf01;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;}
+    ]]>
+    </style>
+  </defs>
+  
+  <g transform="translate(0,0) scale(1)">
+  
+    <rect width="500" height="500" class="fb" />
+    <circle cx="250" cy="250"  r="205" class="fy" />
+
+    <g transform="translate(250,250)">
+      <g id="p3" class="fb sy">
+        <path id="p1" d="M0,-240L46,0L-46,0z" />
+        <use xlink:href="#p1" transform="rotate(30)" />
+        <use xlink:href="#p1" transform="rotate(60)" />
+      </g>
+      <use xlink:href="#p3" transform="rotate(90)" />
+      <use xlink:href="#p3" transform="rotate(180)" />
+      <use xlink:href="#p3" transform="rotate(270)" />
+
+      <g id="p4" class="fb">
+        <path id="p2" d="M0,-190L54,0L-54,0z" transform="rotate(15)" />
+        <use xlink:href="#p2" transform="rotate(30)" />
+        <use xlink:href="#p2" transform="rotate(60)" />
+      </g>
+      <use xlink:href="#p4" transform="rotate(90)" />
+      <use xlink:href="#p4" transform="rotate(180)" />
+      <use xlink:href="#p4" transform="rotate(270)" />
+      
+      <circle r="125" class="fy" />
+      <circle r="95" class="fb" />
+    </g>
+    
+  </g>
+
+</svg>
