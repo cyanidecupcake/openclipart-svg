@@ -1,0 +1,10 @@
+<svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Tuschkasten, 12 Farben</title>
+
+<rect id="brush" transform="translate(50,90) rotate(-20)" x="1" y="1" width="200" height="6" rx="3" ry="3"  fill="peru" stroke="black" />	
+<path id="color" d="m25,93 q15,-2 20,-10 a9,9 0 1,1 0,15 z" fill="#e44945" />
+
+<rect id="cover" x="12" y="100" width="245" height="90" rx="8" ry="8"  stroke="black" />	
+	
+<g id="yellow" transform="translate(-30,0)">	
+	<rect x="52" y="107" width="36" heig

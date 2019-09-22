@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="toque_chef.svg"
+   inkscape:export-filename="/home/utilisateur/Images/SVG/toque/toque.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title3185">Chef's hat with a star</title>
+  <defs
+     id="defs4">
+    <filter
+       id="filter2999"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3001"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3003"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3005"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3007"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3009"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3011"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3013"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3015"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3017"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3019"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3021"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3023"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3025"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3027"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3029"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3031"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3033"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3035"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3037"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3039"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3041"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3043"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3045"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3047"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3049"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3051"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3053"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3055"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3057"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3059"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3061"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3063"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3065"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3067"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3069"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3071"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3073"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3075"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3077"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3079"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3081"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3083"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3085"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3087"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3089"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3091"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3093"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3095"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3097"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+    <filter
+       id="filter3117"
+       inkscape:menu-tooltip="Bright metallic effect for any color"
+       inkscape:menu="Bevels"
+       inkscape:label="Bright metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3119"
+         result="result6"
+         stdDeviation="8"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite3121"
+         in2="SourceGraphic"
+         in="result6"
+         operator="xor"
+         result="result10" />
+      <feGaussianBlur
+         id="feGaussianBlur3123"
+         result="result2"
+         stdDeviation="8" />
+      <feComposite
+         id="feComposite3125"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result10"
+         result="result91" />
+      <feComposite
+         id="feComposite3127"
+         in2="result91"
+         result="result4"
+         in="result2"
+         operator="xor" />
+      <feGaussianBlur
+         id="feGaussianBlur3129"
+         in="result4"
+         result="result3"
+         stdDeviation="4" />
+      <feSpecularLighting
+         id="feSpecularLighting3131"
+         result="result5"
+         specularExponent="5"
+         specularConstant="1.1"
+         surfaceScale="18">
+        <feDistantLight
+           id="feDistantLight3133"
+           azimuth="235"
+           elevation="55" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3135"
+         in2="result5"
+         in="result3"
+         k3="1.1"
+         k2="0.5"
+         operator="arithmetic"
+         result="result7"
+         k1="0.5" />
+      <feComposite
+         id="feComposite3137"
+         in2="SourceGraphic"
+         in="result7"
+         operator="atop"
+         result="result8" />
+    </filter>
+    <filter
+       id="filter3165"
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing metal"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3167"
+         stdDeviation="3"
+         result="result10" />
+      <feBlend
+         id="feBlend3169"
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10" />
+      <feComposite
+         id="feComposite3171"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over" />
+      <feGaussianBlur
+         id="feGaussianBlur3173"
+         result="result9"
+         stdDeviation="5" />
+      <feSpecularLighting
+         id="feSpecularLighting3175"
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight3177"
+           x="-5000"
+           y="-10000"
+           z="20000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3179"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite3181"
+         in2="fbSourceGraphic"
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8" />
+      <feBlend
+         id="feBlend3183"
+         in2="result4"
+         in="result4"
+         mode="multiply" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-179.28571"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1360"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Chef's hat with a star</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#44aa00;filter:url(#filter3039)"
+       id="path2987"
+       d="m 172.14502,391.53717 c -2.83214,-17.9008 -3.27906,-36.10931 -3.84741,-54.19692 -0.71266,-21.93135 -1.16591,-43.81147 0.71258,-65.68483 1.17071,-15.7847 3.51149,-31.43876 5.21786,-47.16578 1.06688,-11.85338 1.29071,-23.75566 1.40753,-35.64877 0.0159,-29.44486 -4.34736,-15.50887 38.86067,-37.65458 4.87398,6.98827 11.27932,10.60946 18.52967,14.70146 18.88238,8.09343 39.53216,10.21362 59.69496,12.95012 11.82428,1.67268 23.82018,2.27642 35.63475,3.99818 11.54293,1.68218 23.00754,4.37267 34.48556,6.45905 22.10768,3.76822 44.55038,4.63098 66.9261,5.15917 10.98061,-0.0378 22.13083,0.73256 33.05898,-0.82335 4.47257,-0.63678 8.83974,-1.87021 13.26558,-2.77643 5.88724,-1.62881 12.07775,-2.00482 18.00138,-3.42174 4.62762,-1.10692 9.18605,-2.95792 13.73201,-4.37224 8.61822,-3.52263 17.81558,-4.592 27.00322,-5.40587 6.9537,-0.62514 15.14189,-1.17327 19.89049,5.08908 1.01773,1.34216 1.63282,2.94663 2.44923,4.41995 0.36439,2.14475 0.95733,4.26301 1.09315,6.43424 0.5153,8.23803 -1.12044,16.81223 -1.96672,24.96822 -1.24673,12.01521 -1.0169,10.18261 -1.91346,22.46934 -0.25112,4.29821 -0.53983,8.59439 -0.75337,12.89464 -0.36213,7.29274 -0.803,21.61169 -1.30914,28.79162 -1.16633,16.54543 -3.21319,33.04876 -4.65492,49.57348 -3.46923,32.96847 -4.61479,66.13231 -8.13315,99.08976 -3.00087,22.98693 -5.33709,46.04302 -6.32109,69.20593 -0.82199,20.50896 -0.70126,41.0372 -0.89769,61.55732 -0.0471,21.41702 0.0907,42.83331 0.21452,64.24984 -0.77846,17.85035 1.45054,35.3965 4.68058,52.88575 1.92992,10.52647 4.07112,21.0172 6.15837,31.51526 2.60906,17.74185 -25.34954,19.81841 -39.0571,26.52452 -1.06053,0.51884 -16.65258,-4.97567 -17.37745,-5.20149 -34.55151,-9.82699 -69.4252,-18.51299 -104.50979,-26.22176 -32.26692,-7.41014 -64.11753,-16.54272 -96.49441,-23.47263 -10.76371,-2.38764 -21.69465,-3.49314 -32.698,-3.62249 -7.52346,0.008 -15.04631,0.11272 -22.56958,0.14477 -7.8456,0.0205 -15.69131,0.0831 -23.53697,0.0719 -7.27204,0.0259 -14.54403,0.005 -21.81607,0.0162 -6.70471,-0.0695 -13.40993,-0.0325 -20.11479,-0.009 0,0 34.0832,-24.76275 34.0832,-24.76275 l 0,0 c 6.71204,0.0245 13.42443,0.0614 20.13633,-0.007 7.25773,0.012 14.51541,-0.007 21.77315,0.01 7.83179,-0.026 15.66377,0.0115 23.49536,-0.075 7.56415,-0.0792 15.13288,-0.22506 22.69574,-0.0395 10.87394,0.53474 21.5953,2.2287 32.12881,5.03738 31.57183,8.03688 62.73049,17.68236 94.55637,24.74252 35.73678,7.72852 71.26014,16.41004 106.81709,24.9201 2.32005,0.58782 10.6944,2.91858 14.00336,3.15477 1.04567,0.0746 4.00351,-0.94352 3.12253,-0.37529 -11.12688,7.17677 -22.99656,13.1579 -34.10699,20.3601 -0.57597,0.37336 1.43454,0.82002 2.01024,0.44624 0.52817,-0.34293 0.13095,-1.25264 0.19643,-1.87897 -1.42518,-10.69229 -3.787,-21.20356 -5.42138,-31.86047 -2.96162,-17.77758 -5.43825,-35.60286 -4.66627,-53.69637 0.0905,-21.47207 0.16979,-42.9439 0.10093,-64.41616 -0.17979,-20.53992 -0.16173,-41.09118 0.58717,-61.62051 1.28473,-23.38512 3.42749,-46.65969 6.96006,-69.82769 4.14308,-32.96159 5.42008,-66.1977 8.72786,-99.24831 2.49952,-30.19846 5.50145,-60.34383 5.70801,-90.67476 0.24206,-3.97176 1.09095,-18.20314 1.4159,-22.37802 0.61116,-7.85207 2.06929,-15.85323 1.85256,-23.75319 -0.0456,-1.66272 -0.39837,-3.30276 -0.59756,-4.95414 -0.60199,-1.03807 -1.02417,-2.20384 -1.80597,-3.1142 -4.16184,-4.84616 -12.48081,-2.4512 -17.83898,-2.36236 -9.08045,1.00414 -17.94889,2.84043 -26.51863,6.093 -10.36754,3.17211 -20.89836,5.28425 -31.57907,7.14582 -4.72431,0.93285 -8.79815,1.86122 -13.59069,2.33021 -10.90241,1.06689 -21.88805,0.26483 -32.80669,0.15705 -22.44149,-0.78791 -44.94526,-1.97377 -67.10712,-5.80067 -23.19024,-4.38552 -46.36574,-8.48325 -69.93325,-10.34569 -20.76079,-2.79644 -41.99103,-5.24036 -61.40296,-13.59189 -7.20172,-3.76275 -13.58337,-7.99011 -19.16541,-13.90847 11.98124,-6.96653 24.01413,-13.845 35.94374,-20.89959 0.39155,-0.23155 -1.04244,0.0387 -1.30058,0.4133 -0.44911,0.65161 -0.48831,1.51723 -0.57235,2.30414 -0.47104,4.41058 0.22089,8.91723 -0.1514,13.33445 -0.16051,12.06673 -0.55329,24.13289 -1.63366,36.15723 -1.34526,15.86008 -4.4586,31.512 -5.71037,47.39213 -0.56239,5.67409 -1.54938,14.71187 -1.7373,20.38084 -0.49633,14.9724 0.52115,29.99162 0.55744,44.96246 0.65479,17.5234 0.97992,35.32622 4.92831,52.47966 0,0 -37.20004,20.27752 -37.20004,20.27752 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#44aa00;filter:url(#filter3059)"
+       id="path2989"
+       d="m 196.02619,419.4187 c -0.27031,9.48608 0.10661,18.91104 -1.23014,28.32666 -1.84582,9.40925 -3.29078,18.88323 -4.06449,28.4407 -0.49972,7.32782 -0.55137,14.67393 -0.54879,22.01539 0.0486,6.39193 0.0373,12.78362 0.0314,19.17557 0.0237,7.46965 -0.0283,14.93919 -0.064,22.40875 0.0338,7.78655 0.0214,15.57306 0.049,23.35961 -0.0126,7.41802 -0.003,14.83601 -8e-4,22.25404 0.0121,4.72502 0.005,2.38597 0.0214,7.01712 0,0 -37.58226,19.14912 -37.58226,19.14912 l 0,0 c 0.0164,-4.64671 0.009,-2.3004 0.0214,-7.03892 0.002,-7.41781 0.0119,-14.8356 -5.1e-4,-22.25342 0.0278,-7.80295 0.0159,-15.60586 0.0486,-23.40882 -0.0373,-7.4423 -0.0899,-14.88448 -0.0847,-22.3269 -0.0237,-6.39871 -0.0737,-12.79732 -0.0263,-19.19619 0.0386,-7.4592 0.019,-14.92705 0.54216,-22.37207 0.74614,-9.69291 2.18769,-19.28154 4.04097,-28.82633 1.72536,-9.07813 1.43327,-18.27417 1.08045,-27.48123 0,0 37.76666,-19.24308 37.76666,-19.24308 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#aad400;filter:url(#filter3079)"
+       id="path2991"
+       d="m 189.03338,727.67641 c -10.21619,-0.25141 -20.4376,-0.20009 -30.65606,-0.16412 -8.34255,0.78961 -17.33766,-1.47176 -25.39249,1.11682 -14.27871,9.11447 5.27086,-3.42986 31.28683,-17.51985 0.79666,-0.43146 -1.41808,1.15846 -1.95513,1.88812 -1.77298,2.40884 -1.38241,4.99041 -1.10252,7.75182 0.60276,7.27703 3.56913,13.89684 5.56266,20.81688 2.42794,10.31585 6.85208,20.00348 9.86399,30.18162 2.85507,10.34676 6.36,20.51932 8.61175,31.0214 2.58901,8.79526 5.20829,17.56494 6.62245,26.63592 1.29705,10.83108 9.92818,11.14381 19.02948,12.56193 13.31327,1.42384 26.73481,1.26467 40.10582,1.24467 14.9707,-0.11148 29.94161,-0.0731 44.91244,-0.0878 21.06628,0.0911 42.13275,0.12303 63.19903,0.21145 28.30857,0.25013 56.62069,0.20472 84.92952,-0.004 16.41982,-0.11933 32.83934,-0.2801 49.25949,-0.34886 11.7676,0.0223 23.53561,-0.001 35.30312,-0.0662 6.38925,-0.0125 12.7785,-0.0134 19.16775,-0.0218 1.49284,-0.002 3.03048,0.35068 4.4785,-0.0124 1.27519,-0.31973 2.27878,-1.31171 3.41817,-1.96756 -57.86726,32.28552 -33.5209,25.63249 -28.5587,10.1096 1.68207,-5.26186 2.07584,-10.78934 2.54332,-16.25072 1.24209,-11.8384 3.03502,-23.69365 6.52109,-35.09211 2.97789,-7.76584 5.73727,-15.55427 7.05195,-23.78291 0.61352,-7.02967 1.82709,-14.30886 -0.25728,-21.164 -3.39957,-6.14527 -8.88432,-5.79202 -15.10712,-4.58748 -15.23976,6.48886 -45.21305,24.59337 18.13598,-11.70005 0,0 -39.38084,15.13122 -39.38084,15.13122 l 0,0 c 8.23231,-4.72713 37.78171,-25.12249 55.1588,-28.55212 7.8121,-0.0288 14.52147,1.79875 18.10795,9.41681 2.55605,7.51612 1.87632,15.06165 1.1478,22.86463 -1.09149,8.57364 -3.50397,16.71596 -7.03876,24.62461 -4.03937,10.95395 -5.71869,22.59912 -6.95001,34.17219 -0.577,7.42797 -0.93579,15.18968 -3.46334,22.27421 -0.55862,1.56575 -0.64657,3.61682 -2.01371,4.56265 -12.54408,8.6784 -26.03607,15.89959 -39.0541,23.84939 -9.13222,1.65755 -18.53122,0.33241 -27.7756,0.73243 -11.70675,-0.0656 -23.414,-0.0883 -35.12085,-0.0662 -16.09962,-0.0684 -32.19858,-0.22957 -48.29786,-0.34987 -28.3046,-0.21408 -56.61253,-0.25243 -84.91691,-0.004 -21.2849,0.0918 -42.57011,0.12255 -63.85473,0.2745 -15.02113,0.0438 -30.04191,0.19736 -45.06328,0.18677 -13.59124,-0.0239 -27.27054,0.2578 -40.75846,-1.67911 -10.71546,-2.13741 -20.28873,-4.45424 -22.03922,-16.84691 -1.24003,-9.03353 -3.53176,-17.82787 -6.42867,-26.4732 -2.02829,-10.45401 -5.3045,-20.59573 -8.21552,-30.82719 -1.57526,-5.32965 -3.3135,-10.56499 -5.32593,-15.74841 -0.77157,-1.98736 -3.33109,-7.97113 -3.94057,-9.97313 -0.42765,-1.40472 -0.60838,-2.87304 -0.91258,-4.30956 -2.08217,-7.08557 -5.2449,-13.8329 -6.01811,-21.27148 -0.34267,-2.03008 -0.94492,-4.97623 -0.85673,-7.0423 0.7348,-17.21483 29.44985,-26.13714 43.61005,-30.21543 8.50528,-0.78734 17.07956,-0.01 25.61071,-0.25024 10.36911,0.0369 20.74086,0.0818 31.10784,-0.16412 0,0 -34.29141,24.91417 -34.29141,24.91417 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#44aa00;filter:url(#filter2999)"
+       id="path2995"
+       d="m 290.28195,276.91859 c -1.46737,29.10878 -1.49375,58.25523 -1.48149,87.39313 -0.4201,19.24305 1.86337,38.65026 -1.02485,57.78551 -1.03334,6.84622 -2.50355,11.99594 -4.18971,18.60484 -2.21289,6.61134 -3.10954,13.63015 -5.33096,20.23628 -1.82224,5.41906 -4.77375,10.44276 -7.23454,15.58194 -0.65428,1.68069 -1.30856,3.36138 -1.96283,5.04207 0,0 -37.8702,17.62693 -37.8702,17.62693 l 0,0 c 0.62818,-1.7676 1.25635,-3.5352 1.88453,-5.3028 0.74508,-1.78486 1.37852,-3.62054 2.23523,-5.35458 1.92494,-3.8962 3.72976,-5.60638 5.3631,-9.7167 2.60706,-6.56072 3.25344,-13.8423 5.76873,-20.43718 1.93336,-6.42661 3.66696,-11.66731 4.96493,-18.33335 3.72198,-19.1151 1.89845,-38.70027 2.65279,-58.03012 0.012,-28.63451 0.0149,-57.27952 -1.48149,-85.88342 0,0 37.70676,-19.21255 37.70676,-19.21255 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#44aa00;filter:url(#filter3019)"
+       id="path2997"
+       d="m 387.42481,279.77573 c -0.69383,18.73048 -0.75699,37.47833 -0.87603,56.21925 -0.33418,25.46616 2.47897,50.84532 4.17762,76.23272 1.12272,15.83343 1.71885,31.69161 2.13061,47.55662 0.34983,9.97814 -1.12167,19.89131 -1.8572,29.82295 -0.58762,7.69007 -0.72177,15.40618 -0.80598,23.11529 0,0 -37.44848,19.01744 -37.44848,19.01744 l 0,0 c 0.12473,-7.79633 0.29987,-15.59107 0.73313,-23.37776 0.79315,-9.85843 2.17638,-19.69644 2.2155,-29.58864 0.0455,-15.97684 -0.23766,-31.95597 -0.99551,-47.91616 -1.35291,-25.5153 -4.168,-50.97546 -4.10439,-76.54263 -0.11792,-18.44328 -0.17336,-36.89412 -0.87603,-55.32653 0,0 37.70676,-19.21255 37.70676,-19.21255 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

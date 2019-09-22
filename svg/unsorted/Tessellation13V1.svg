@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="293.29mm" width="451.56mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1039.23" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<pattern id="a" xlink:href="#b" patternTransform="translate(-1286.5 6145.5)"/>
+<filter id="e" style="color-interpolation-filters:sRGB">
+<feGaussianBlur stdDeviation="6" result="result0" in="SourceGraphic"/>
+<feDiffuseLighting lighting-color="rgb(255,255,255)" result="result5" diffuseConstant="1" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k1="1.4" result="fbSourceGraphic" in="result5" operator="arithmetic"/>
+<feGaussianBlur stdDeviation="6" result="result0" in="fbSourceGraphic"/>
+<feSpecularLighting lighting-color="rgb(255,255,255)" specularConstant="1" result="result1" specularExponent="25" in="result0" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feSpecularLighting>
+<feComposite in2="result1" k3="1" k2="1" result="result4" in="fbSourceGraphic" operator="arithmetic"/>
+<feComposite operator="in" result="result2" in2="SourceGraphic" in="result4"/>
+</filter>
+<filter id="d" style="color-interpolation-filters:sRGB">
+<feGaussianBlur stdDeviation="6" result="result0" in="SourceGraphic"/>
+<feDiffuseLighting lighting-color="rgb(255,255,255)" result="result5" diffuseConstant="1" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k1="1.4" result="fbSourceGraphic" in="result5" operator="arithmetic"/>
+<feGaussianBlur stdDeviation="6" result="result0" in="fbSourceGraphic"/>
+<feSpecularLighting lighting-color="rgb(255,255,255)" specularConstant="1" result="result1" specularExponent="25" in="result0" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feSpecularLighting>
+<feComposite in2="result1" k3="1" k2="1" result="result4" in="fbSourceGraphic" operator="arithmetic"/>
+<feComposite operator="in" result="result2" in2="SourceGraphic" in="result4"/>
+</filter>
+<filter id="c" style="color-interpolation-filters:sRGB">
+<feGaussianBlur stdDeviation="6" result="result0" in="SourceGraphic"/>
+<feDiffuseLighting lighting-color="rgb(255,255,255)" result="result5" diffuseConstant="1" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k1="1.4" result="fbSourceGraphic" in="result5" operator="arithmetic"/>
+<feGaussianBlur stdDeviation="6" result="result0" in="fbSourceGraphic"/>
+<feSpecularLighting lighting-color="rgb(255,255,255)" specularConstant="1" result="result1" specularExponent="25" in="result0" surfaceScale="4">
+<feDistantLight elevation="45" azimuth="235"/>
+</feSpecularLighting>
+<feComposite in2="result1" k3="1" k2="1" result="result4" in="fbSourceGraphic" operator="arithmetic"/>
+<feComposite operator="in" result="result2" in2="SourceGraphic" in="result4"/>
+</filter>
+<clipPath id="f" clipPathUnits="userSpaceOnUse">
+<rect opacity="0.217" height="346.41" width="200" y="6480.7" x="-658.93" fill="#f00"/>
+</clipPath>
+<pattern id="b" width="200" patternUnits="userSpaceOnUse" patternTransform="translate(-658.93 6480.7)" height="346.40982">
+<g transform="translate(658.93 -6480.7)" clip-path="url(#f)">
+<path d="m-608.93 6451.8-50 28.867v57.735l50-28.867 50 28.867v-41.497-16.238l-50-28.867zm50 86.603v57.735l50 28.867 50-28.867v-57.735l-50 28.867-50-28.867zm50 86.602-50 28.867v57.735l50-28.867 50 28.867v-41.497-16.238l-50-28.867zm-50 86.603-50 28.867-50-28.867v57.735l50 28.867 50-28.867v-57.735zm-50 86.602-50 28.867v57.735l50-28.867 50 28.867v-41.497-16.238l-50-28.867z" fill-rule="evenodd" filter="url(#c)" fill="#ff7c00"/>
+<path d="m-558.93 6422.9-50 28.867 50 28.867v57.735l35.937-20.748c1.5625-0.9021 7.8126-4.5106 14.063-8.119v-57.735l-50-28.867zm0 115.47-35.937 20.748c-1.5625 0.9021-7.8126 4.5106-14.063 8.1191v57.735l50 28.867 50-28.867-50-28.867v-57.735zm50 86.602 50 28.867v57.735l35.937-20.748c1.5625-0.9021 7.8126-4.5106 14.063-8.1191v-57.735l-50-28.867-50 28.867zm50 86.603-35.937 20.748c-1.5625 0.9021-7.8126 4.5106-14.063 8.119v57.735l50 28.867 50-28.867-50-28.867v-57.735zm-50 86.602-50-28.867-50 28.867 50 28.867v57.735l35.937-20.748c1.5625-0.9021 7.8126-4.5106 14.063-8.1191v-57.735zm-100 0-50-28.867v-57.735l-35.937 20.748c-1.5625 0.9021-7.8126 4.5106-14.063 8.119v57.735l50 28.867 50-28.867zm-50-86.602 35.937-20.748c1.5625-0.9021 7.8126-4.5106 14.063-8.1191v-57.735l-50-28.867-50 28.867 50 28.867v57.735z" fill-rule="evenodd" filter="url(#d)" fill="#ff0"/>
+<path d="m-508.93 6451.8v57.735l-50 28.867 35.937 20.748c1.5625 0.9021 7.8126 4.5106 14.063 8.1191l50-28.867v-57.735l-50-28.867zm-50 86.603-35.937-20.748c-1.5625-0.9021-7.8126-4.5106-14.063-8.119l-50 28.867v57.735l50 28.867v-57.735l50-28.867zm-50 86.602v57.735l-50 28.867 35.937 20.748c1.5625 0.9021 7.8126 4.5106 14.063 8.119l50-28.867v-57.735l-50-28.867zm50 86.603v57.735l50 28.867v-57.735l50-28.867-35.937-20.748c-1.5625-0.9021-7.8126-4.5106-14.063-8.1191l-50 28.867zm50 86.602v57.735l-50 28.867 35.937 20.748c1.5625 0.9021 7.8126 4.5106 14.063 8.119l50-28.867v-57.735l-50-28.867z" fill-rule="evenodd" filter="url(#e)" fill="#2b0000"/>
+</g>
+</pattern>
+</defs>
+<g transform="translate(1288.2 -6147.3)">
+<rect height="1039.2" width="1600" y="6147.3" x="-1288.2" fill="url(#a)"/>
+</g>
+</svg>
