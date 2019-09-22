@@ -1,0 +1,3467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="sketch 16 filter.svg"
+   inkscape:version="0.92pre3 15195"
+   version="1.1"
+   id="svg3583"
+   height="1800"
+   width="1800"
+   viewBox="0 0 1800 1800">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#003af6"
+     bordercolor="#ffffff"
+     borderopacity="0.337254902"
+     inkscape:pageopacity="0.7450980392"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.2944444444444445"
+     inkscape:cx="900.0000000000001"
+     inkscape:cy="900"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg3583"
+     showgrid="false"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     guidecolor="#ffffff"
+     guideopacity="1"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     guidehicolor="#8dfeff"
+     guidehiopacity="1"
+     inkscape:pagecheckerboard="true" />
+  <defs
+     id="defs3585">
+    <linearGradient
+       id="linearGradient3024"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.9949495196"
+         offset="0"
+         id="stop3022" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop3020" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2458"
+       inkscape:collect="always">
+      <stop
+         id="stop2454"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         style="stop-color:#b7b7b7;stop-opacity:1"
+         offset="0.25"
+         id="stop2462" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.5"
+         id="stop2460" />
+      <stop
+         id="stop2464"
+         offset="0.75"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         id="stop2456"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4587">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop4583" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop4585" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4587"
+       id="radialGradient6433"
+       cx="-1377.551025390625"
+       cy="8183.44091796875"
+       fx="-1377.551025390625"
+       fy="8183.44091796875"
+       r="150"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       gradientTransform="matrix(0.0180781055756268,-0.0313121973388815,0.0229432817689805,0.0132463099054141,181.0362220755754,163.1284686744139)" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4610"
+       inkscape:label="bw tone fade"
+       x="0"
+       y="0"
+       height="1"
+       width="1">
+      <feColorMatrix
+         id="feColorMatrix4612"
+         type="luminanceToAlpha"
+         result="result4" />
+      <feFlood
+         id="feFlood4614"
+         result="result3" />
+      <feFlood
+         id="feFlood4616"
+         flood-color="rgb(255,255,255)"
+         result="result1" />
+      <feComposite
+         in2="result4"
+         id="feComposite4618"
+         result="result2"
+         in="result3"
+         operator="in" />
+      <feComposite
+         in2="result1"
+         id="feComposite4620" />
+      <feColorMatrix
+         id="feColorMatrix4622"
+         type="luminanceToAlpha"
+         result="result5" />
+      <feComposite
+         in2="SourceGraphic"
+         id="feComposite1639"
+         operator="in" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4587"
+       id="linearGradient2486"
+       gradientUnits="userSpaceOnUse"
+       x1="75"
+       y1="375"
+       x2="225"
+       y2="525" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2458"
+       id="radialGradient2488"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-5.684341886080802e-14,-300.0000000000001)"
+       cx="450"
+       cy="750"
+       fx="330"
+       fy="767"
+       r="150" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter2956"
+       inkscape:label="sketch 16 I"
+       x="0"
+       y="0"
+       height="1"
+       width="1">
+      <feImage
+         id="feImage2498"
+         xlink:href="#g6438" />
+      <feColorMatrix
+         id="feColorMatrix2500"
+         type="luminanceToAlpha"
+         result="result62" />
+      <feFlood
+         id="feFlood2502"
+         result="result61" />
+      <feFlood
+         id="feFlood2504"
+         result="result59"
+         flood-color="rgb(255,255,255)" />
+      <feComposite
+         id="feComposite2506"
+         in2="result62"
+         operator="in"
+         in="result61" />
+      <feComposite
+         in2="result59"
+         id="feComposite2508"
+         result="result60" />
+      <feColorMatrix
+         id="feColorMatrix2510"
+         type="luminanceToAlpha" />
+      <feComponentTransfer
+         id="feComponentTransfer2520"
+         result="result63">
+        <feFuncR
+           id="feFuncR2512"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2514"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2516"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2518"
+           type="linear" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result80"
+         id="feComponentTransfer2530">
+        <feFuncR
+           type="identity"
+           id="feFuncR2522" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2524" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2526" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA2528" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result63"
+         id="feComponentTransfer2540"
+         result="result64">
+        <feFuncR
+           id="feFuncR2532"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2534"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2536"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2538"
+           type="discrete"
+           tableValues="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2550"
+         in="result63"
+         result="result79">
+        <feFuncR
+           id="feFuncR2542"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2544"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2546"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2548"
+           type="discrete"
+           tableValues="1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2560"
+         in="result63"
+         result="result78">
+        <feFuncR
+           id="feFuncR2552"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2554"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2556"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2558"
+           type="discrete"
+           tableValues="1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2570"
+         in="result63"
+         result="result77">
+        <feFuncR
+           id="feFuncR2562"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2564"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2566"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2568"
+           type="discrete"
+           tableValues="1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2580"
+         in="result63"
+         result="result76">
+        <feFuncR
+           id="feFuncR2572"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2574"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2576"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2578"
+           type="discrete"
+           tableValues="1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2590"
+         in="result63"
+         result="result75">
+        <feFuncR
+           id="feFuncR2582"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2584"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2586"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2588"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2600"
+         in="result63"
+         result="result74">
+        <feFuncR
+           id="feFuncR2592"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2594"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2596"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2598"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2610"
+         in="result63"
+         result="result73">
+        <feFuncR
+           id="feFuncR2602"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2604"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2606"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2608"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2620"
+         in="result63"
+         result="result72">
+        <feFuncR
+           id="feFuncR2612"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2614"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2616"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2618"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2630"
+         in="result63"
+         result="result71">
+        <feFuncR
+           id="feFuncR2622"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2624"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2626"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2628"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2640"
+         in="result63"
+         result="result70">
+        <feFuncR
+           id="feFuncR2632"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2634"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2636"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2638"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2650"
+         in="result63"
+         result="result69">
+        <feFuncR
+           id="feFuncR2642"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2644"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2646"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2648"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2660"
+         in="result63"
+         result="result68">
+        <feFuncR
+           id="feFuncR2652"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2654"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2656"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2658"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2670"
+         in="result63"
+         result="result67">
+        <feFuncR
+           id="feFuncR2662"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2664"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2666"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2668"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2680"
+         in="result63"
+         result="result66">
+        <feFuncR
+           id="feFuncR2672"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2674"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2676"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2678"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2690"
+         in="result63"
+         result="result65">
+        <feFuncR
+           id="feFuncR2682"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2684"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2686"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2688"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feColorMatrix
+         id="feColorMatrix2692"
+         in="SourceGraphic"
+         type="luminanceToAlpha"
+         result="result1" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         result="result85"
+         id="feFlood2694" />
+      <feFlood
+         result="result83"
+         flood-color="rgb(255,255,255)"
+         id="feFlood2696" />
+      <feComposite
+         operator="in"
+         in="result85"
+         result="result84"
+         id="feComposite2698"
+         in2="result1" />
+      <feComposite
+         id="feComposite2700"
+         in2="result83" />
+      <feColorMatrix
+         result="result88"
+         type="luminanceToAlpha"
+         id="feColorMatrix2702" />
+      <feComponentTransfer
+         id="feComponentTransfer2712"
+         result="result58">
+        <feFuncR
+           id="feFuncR2704"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2706"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2708"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2710"
+           type="linear" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result82"
+         id="feComponentTransfer2722">
+        <feFuncR
+           type="identity"
+           id="feFuncR2714" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2716" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2718" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="table"
+           id="feFuncA2720" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer2732"
+         result="result55">
+        <feFuncR
+           id="feFuncR2724"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2726"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2728"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2730"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result52"
+         id="feComponentTransfer2742"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR2734" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2736" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2738" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1"
+           type="table"
+           id="feFuncA2740" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer2752"
+         result="result49">
+        <feFuncR
+           id="feFuncR2744"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2746"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2748"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2750"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result46"
+         id="feComponentTransfer2762"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR2754" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2756" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2758" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1"
+           type="table"
+           id="feFuncA2760" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer2772"
+         result="result44">
+        <feFuncR
+           id="feFuncR2764"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2766"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2768"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2770"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result40"
+         id="feComponentTransfer2782"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR2774" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2776" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2778" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2780" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer2792"
+         result="result9">
+        <feFuncR
+           id="feFuncR2784"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2786"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2788"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2790"
+           type="table"
+           intercept="-0.66000000000000003"
+           slope="1"
+           tableValues="0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2802"
+         result="result2"
+         in="result58">
+        <feFuncR
+           id="feFuncR2794"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2796"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2798"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2800"
+           type="table"
+           intercept="0.33000000000000002"
+           tableValues="0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         result="result17"
+         id="feComponentTransfer2812">
+        <feFuncR
+           type="identity"
+           id="feFuncR2804" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2806" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2808" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2810" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2822"
+         in="result58"
+         result="result22">
+        <feFuncR
+           id="feFuncR2814"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2816"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2818"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2820"
+           type="table"
+           tableValues="0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result25"
+         in="result58"
+         id="feComponentTransfer2832">
+        <feFuncR
+           type="identity"
+           id="feFuncR2824" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2826" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2828" />
+        <feFuncA
+           tableValues="0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2830" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2842"
+         in="result58"
+         result="result28">
+        <feFuncR
+           id="feFuncR2834"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2836"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2838"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2840"
+           type="table"
+           tableValues="0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result31"
+         in="result58"
+         id="feComponentTransfer2852">
+        <feFuncR
+           type="identity"
+           id="feFuncR2844" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2846" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2848" />
+        <feFuncA
+           tableValues="0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2850" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2862"
+         result="result34"
+         in="result58">
+        <feFuncR
+           id="feFuncR2854"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2856"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2858"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2860"
+           type="table"
+           tableValues="0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result37"
+         in="result58"
+         id="feComponentTransfer2872">
+        <feFuncR
+           type="identity"
+           id="feFuncR2864" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2866" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2868" />
+        <feFuncA
+           tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2870" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result81"
+         in="result58"
+         id="feComponentTransfer2882">
+        <feFuncR
+           type="identity"
+           id="feFuncR2874" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2876" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2878" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA2880" />
+      </feComponentTransfer>
+      <feComposite
+         result="result87"
+         in2="result81"
+         in="result80"
+         operator="in"
+         id="feComposite2884" />
+      <feComposite
+         result="result39"
+         in2="result37"
+         in="result64"
+         operator="in"
+         id="feComposite2886" />
+      <feComposite
+         id="feComposite2888"
+         in2="result34"
+         operator="in"
+         in="result79"
+         result="result36" />
+      <feComposite
+         result="result33"
+         operator="in"
+         in="result78"
+         in2="result31"
+         id="feComposite2890" />
+      <feComposite
+         id="feComposite2892"
+         in2="result28"
+         operator="in"
+         in="result77"
+         result="result30" />
+      <feComposite
+         result="result27"
+         in="result76"
+         operator="in"
+         in2="result25"
+         id="feComposite2894" />
+      <feComposite
+         id="feComposite2896"
+         in2="result22"
+         in="result75"
+         result="result24"
+         operator="in" />
+      <feComposite
+         operator="in"
+         result="result19"
+         in="result74"
+         in2="result17"
+         id="feComposite2898" />
+      <feComposite
+         id="feComposite2900"
+         result="result4"
+         in2="result2"
+         in="result73"
+         operator="in" />
+      <feComposite
+         in2="result9"
+         id="feComposite2902"
+         result="result3"
+         operator="in"
+         in="result72" />
+      <feComposite
+         result="result42"
+         in2="result40"
+         operator="in"
+         in="result71"
+         id="feComposite2904" />
+      <feComposite
+         id="feComposite2906"
+         in="result70"
+         operator="in"
+         in2="result44"
+         result="result45" />
+      <feComposite
+         result="result48"
+         in2="result46"
+         operator="in"
+         in="result69"
+         id="feComposite2908" />
+      <feComposite
+         id="feComposite2910"
+         in2="result49"
+         operator="in"
+         in="result68"
+         result="result51" />
+      <feComposite
+         result="result54"
+         in="result67"
+         operator="in"
+         in2="result52"
+         id="feComposite2912" />
+      <feComposite
+         id="feComposite2914"
+         in2="result55"
+         in="result66"
+         result="result57"
+         operator="in" />
+      <feComposite
+         result="result86"
+         operator="in"
+         in2="result82"
+         in="result65"
+         id="feComposite2916" />
+      <feMerge
+         result="result20"
+         id="feMerge2952">
+        <feMergeNode
+           in="result87"
+           id="feMergeNode2918"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result39"
+           id="feMergeNode2920"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result36"
+           id="feMergeNode2922"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result33"
+           id="feMergeNode2924"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result30"
+           id="feMergeNode2926"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result27"
+           id="feMergeNode2928"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result24"
+           id="feMergeNode2930"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result19"
+           id="feMergeNode2932"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode2934"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode2936"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result42"
+           id="feMergeNode2938"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result45"
+           id="feMergeNode2940"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result48"
+           id="feMergeNode2942"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result51"
+           id="feMergeNode2944"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result54"
+           id="feMergeNode2946"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result57"
+           id="feMergeNode2948"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result86"
+           id="feMergeNode2950"
+           inkscape:collect="always" />
+      </feMerge>
+      <feComposite
+         operator="in"
+         id="feComposite2954"
+         in2="SourceGraphic"
+         result="result21" />
+    </filter>
+    <filter
+       width="1"
+       height="1"
+       y="0"
+       x="0"
+       inkscape:label="sketch 16 II"
+       id="filter3416"
+       style="color-interpolation-filters:sRGB">
+      <feImage
+         xlink:href="#g6438"
+         id="feImage2958" />
+      <feColorMatrix
+         result="result62"
+         type="luminanceToAlpha"
+         id="feColorMatrix2960" />
+      <feFlood
+         result="result61"
+         id="feFlood2962" />
+      <feFlood
+         flood-color="rgb(255,255,255)"
+         result="result59"
+         id="feFlood2964" />
+      <feComposite
+         in="result61"
+         operator="in"
+         in2="result62"
+         id="feComposite2966" />
+      <feComposite
+         result="result60"
+         id="feComposite2968"
+         in2="result59" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix2970" />
+      <feComponentTransfer
+         result="result63"
+         id="feComponentTransfer2980">
+        <feFuncR
+           type="identity"
+           id="feFuncR2972" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2974" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2976" />
+        <feFuncA
+           type="linear"
+           id="feFuncA2978" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer2990"
+         result="result80">
+        <feFuncR
+           id="feFuncR2982"
+           type="identity" />
+        <feFuncG
+           id="feFuncG2984"
+           type="identity" />
+        <feFuncB
+           id="feFuncB2986"
+           type="identity" />
+        <feFuncA
+           id="feFuncA2988"
+           type="discrete"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result64"
+         id="feComponentTransfer3000"
+         in="result63">
+        <feFuncR
+           type="identity"
+           id="feFuncR2992" />
+        <feFuncG
+           type="identity"
+           id="feFuncG2994" />
+        <feFuncB
+           type="identity"
+           id="feFuncB2996" />
+        <feFuncA
+           tableValues="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA2998" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result79"
+         in="result63"
+         id="feComponentTransfer3010">
+        <feFuncR
+           type="identity"
+           id="feFuncR3002" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3004" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3006" />
+        <feFuncA
+           tableValues="1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3008" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result78"
+         in="result63"
+         id="feComponentTransfer3020">
+        <feFuncR
+           type="identity"
+           id="feFuncR3012" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3014" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3016" />
+        <feFuncA
+           tableValues="1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3018" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result77"
+         in="result63"
+         id="feComponentTransfer3030">
+        <feFuncR
+           type="identity"
+           id="feFuncR3022" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3024" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3026" />
+        <feFuncA
+           tableValues="1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3028" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result76"
+         in="result63"
+         id="feComponentTransfer3040">
+        <feFuncR
+           type="identity"
+           id="feFuncR3032" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3034" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3036" />
+        <feFuncA
+           tableValues="1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3038" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result75"
+         in="result63"
+         id="feComponentTransfer3050">
+        <feFuncR
+           type="identity"
+           id="feFuncR3042" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3044" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3046" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3048" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result74"
+         in="result63"
+         id="feComponentTransfer3060">
+        <feFuncR
+           type="identity"
+           id="feFuncR3052" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3054" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3056" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3058" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result73"
+         in="result63"
+         id="feComponentTransfer3070">
+        <feFuncR
+           type="identity"
+           id="feFuncR3062" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3064" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3066" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3068" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result72"
+         in="result63"
+         id="feComponentTransfer3080">
+        <feFuncR
+           type="identity"
+           id="feFuncR3072" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3074" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3076" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3078" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result71"
+         in="result63"
+         id="feComponentTransfer3090">
+        <feFuncR
+           type="identity"
+           id="feFuncR3082" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3084" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3086" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3088" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result70"
+         in="result63"
+         id="feComponentTransfer3100">
+        <feFuncR
+           type="identity"
+           id="feFuncR3092" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3094" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3096" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3098" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result69"
+         in="result63"
+         id="feComponentTransfer3110">
+        <feFuncR
+           type="identity"
+           id="feFuncR3102" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3104" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3106" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0"
+           type="discrete"
+           id="feFuncA3108" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result68"
+         in="result63"
+         id="feComponentTransfer3120">
+        <feFuncR
+           type="identity"
+           id="feFuncR3112" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3114" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3116" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0"
+           type="discrete"
+           id="feFuncA3118" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result67"
+         in="result63"
+         id="feComponentTransfer3130">
+        <feFuncR
+           type="identity"
+           id="feFuncR3122" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3124" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3126" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0"
+           type="discrete"
+           id="feFuncA3128" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result66"
+         in="result63"
+         id="feComponentTransfer3140">
+        <feFuncR
+           type="identity"
+           id="feFuncR3132" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3134" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3136" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+           type="discrete"
+           id="feFuncA3138" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result65"
+         in="result63"
+         id="feComponentTransfer3150">
+        <feFuncR
+           type="identity"
+           id="feFuncR3142" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3144" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3146" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="discrete"
+           id="feFuncA3148" />
+      </feComponentTransfer>
+      <feColorMatrix
+         result="result1"
+         type="luminanceToAlpha"
+         in="SourceGraphic"
+         id="feColorMatrix3152" />
+      <feFlood
+         id="feFlood3154"
+         result="result85"
+         flood-color="rgb(0,0,0)" />
+      <feFlood
+         id="feFlood3156"
+         flood-color="rgb(255,255,255)"
+         result="result83" />
+      <feComposite
+         in2="result1"
+         id="feComposite3158"
+         result="result84"
+         in="result85"
+         operator="in" />
+      <feComposite
+         in2="result83"
+         id="feComposite3160" />
+      <feColorMatrix
+         id="feColorMatrix3162"
+         type="luminanceToAlpha"
+         result="result88" />
+      <feComponentTransfer
+         result="result58"
+         id="feComponentTransfer3172">
+        <feFuncR
+           type="identity"
+           id="feFuncR3164" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3166" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3168" />
+        <feFuncA
+           type="linear"
+           id="feFuncA3170" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3182"
+         result="result82">
+        <feFuncR
+           id="feFuncR3174"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3176"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3178"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3180"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result55"
+         id="feComponentTransfer3192"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3184" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3186" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3188" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1"
+           type="table"
+           id="feFuncA3190" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3202"
+         result="result52">
+        <feFuncR
+           id="feFuncR3194"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3196"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3198"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3200"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result49"
+         id="feComponentTransfer3212"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3204" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3206" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3208" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1"
+           type="table"
+           id="feFuncA3210" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3222"
+         result="result46">
+        <feFuncR
+           id="feFuncR3214"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3216"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3218"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3220"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result44"
+         id="feComponentTransfer3232"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3224" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3226" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3228" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1"
+           type="table"
+           id="feFuncA3230" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3242"
+         result="result40">
+        <feFuncR
+           id="feFuncR3234"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3236"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3238"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3240"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result9"
+         id="feComponentTransfer3252"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3244" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3246" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3248" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1"
+           slope="1"
+           intercept="-0.66000000000000003"
+           type="table"
+           id="feFuncA3250" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         result="result2"
+         id="feComponentTransfer3262">
+        <feFuncR
+           type="identity"
+           id="feFuncR3254" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3256" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3258" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1"
+           intercept="0.33000000000000002"
+           type="table"
+           id="feFuncA3260" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3272"
+         result="result17"
+         in="result58">
+        <feFuncR
+           id="feFuncR3264"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3266"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3268"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3270"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result22"
+         in="result58"
+         id="feComponentTransfer3282">
+        <feFuncR
+           type="identity"
+           id="feFuncR3274" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3276" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3278" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3280" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3292"
+         in="result58"
+         result="result25">
+        <feFuncR
+           id="feFuncR3284"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3286"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3288"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3290"
+           type="table"
+           tableValues="0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result28"
+         in="result58"
+         id="feComponentTransfer3302">
+        <feFuncR
+           type="identity"
+           id="feFuncR3294" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3296" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3298" />
+        <feFuncA
+           tableValues="0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3300" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3312"
+         in="result58"
+         result="result31">
+        <feFuncR
+           id="feFuncR3304"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3306"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3308"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3310"
+           type="table"
+           tableValues="0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         result="result34"
+         id="feComponentTransfer3322">
+        <feFuncR
+           type="identity"
+           id="feFuncR3314" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3316" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3318" />
+        <feFuncA
+           tableValues="0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3320" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3332"
+         in="result58"
+         result="result37">
+        <feFuncR
+           id="feFuncR3324"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3326"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3328"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3330"
+           type="table"
+           tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3342"
+         in="result58"
+         result="result81">
+        <feFuncR
+           id="feFuncR3334"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3336"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3338"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3340"
+           type="table"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComposite
+         in2="result81"
+         id="feComposite3344"
+         operator="in"
+         in="result80"
+         result="result87" />
+      <feComposite
+         id="feComposite3346"
+         operator="in"
+         in="result64"
+         in2="result81"
+         result="result39" />
+      <feComposite
+         result="result36"
+         in="result79"
+         operator="in"
+         in2="result37"
+         id="feComposite3348" />
+      <feComposite
+         id="feComposite3350"
+         in2="result34"
+         in="result78"
+         operator="in"
+         result="result33" />
+      <feComposite
+         result="result30"
+         in="result77"
+         operator="in"
+         in2="result31"
+         id="feComposite3352" />
+      <feComposite
+         id="feComposite3354"
+         in2="result28"
+         operator="in"
+         in="result76"
+         result="result27" />
+      <feComposite
+         operator="in"
+         result="result24"
+         in="result75"
+         in2="result25"
+         id="feComposite3356" />
+      <feComposite
+         id="feComposite3358"
+         in2="result22"
+         in="result74"
+         result="result19"
+         operator="in" />
+      <feComposite
+         operator="in"
+         in="result73"
+         in2="result17"
+         result="result4"
+         id="feComposite3360" />
+      <feComposite
+         in="result72"
+         operator="in"
+         result="result3"
+         id="feComposite3362"
+         in2="result2" />
+      <feComposite
+         id="feComposite3364"
+         in="result71"
+         operator="in"
+         in2="result9"
+         result="result42" />
+      <feComposite
+         result="result45"
+         in2="result40"
+         operator="in"
+         in="result70"
+         id="feComposite3366" />
+      <feComposite
+         id="feComposite3368"
+         in="result69"
+         operator="in"
+         in2="result44"
+         result="result48" />
+      <feComposite
+         result="result51"
+         in="result68"
+         operator="in"
+         in2="result46"
+         id="feComposite3370" />
+      <feComposite
+         id="feComposite3372"
+         in2="result49"
+         operator="in"
+         in="result67"
+         result="result54" />
+      <feComposite
+         operator="in"
+         result="result57"
+         in="result66"
+         in2="result52"
+         id="feComposite3374" />
+      <feComposite
+         id="feComposite3376"
+         in="result65"
+         in2="result55"
+         operator="in"
+         result="result86" />
+      <feMerge
+         id="feMerge3412"
+         result="result20">
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3378"
+           in="result87" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3380"
+           in="result39" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3382"
+           in="result36" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3384"
+           in="result33" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3386"
+           in="result30" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3388"
+           in="result27" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3390"
+           in="result24" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3392"
+           in="result19" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3394"
+           in="result4" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3396"
+           in="result3" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3398"
+           in="result42" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3400"
+           in="result45" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3402"
+           in="result48" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3404"
+           in="result51" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3406"
+           in="result54" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3408"
+           in="result57" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode3410"
+           in="result86" />
+      </feMerge>
+      <feComposite
+         result="result21"
+         in2="SourceGraphic"
+         id="feComposite3414"
+         operator="in" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3878"
+       inkscape:label="sketch 16 III"
+       x="0"
+       y="0"
+       height="1"
+       width="1">
+      <feImage
+         id="feImage3434"
+         xlink:href="#g6438" />
+      <feColorMatrix
+         id="feColorMatrix3436"
+         type="luminanceToAlpha"
+         result="result62" />
+      <feFlood
+         id="feFlood3438"
+         result="result61" />
+      <feFlood
+         id="feFlood3440"
+         result="result59"
+         flood-color="rgb(255,255,255)" />
+      <feComposite
+         id="feComposite3442"
+         in2="result62"
+         operator="in"
+         in="result61" />
+      <feComposite
+         in2="result59"
+         id="feComposite3444"
+         result="result60" />
+      <feColorMatrix
+         id="feColorMatrix3446"
+         type="luminanceToAlpha" />
+      <feComponentTransfer
+         id="feComponentTransfer3456"
+         result="result63">
+        <feFuncR
+           id="feFuncR3448"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3450"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3452"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3454"
+           type="linear" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result80"
+         id="feComponentTransfer3466">
+        <feFuncR
+           type="identity"
+           id="feFuncR3458" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3460" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3462" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="discrete"
+           id="feFuncA3464" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result63"
+         id="feComponentTransfer3476"
+         result="result64">
+        <feFuncR
+           id="feFuncR3468"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3470"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3472"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3474"
+           type="discrete"
+           tableValues="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3486"
+         in="result63"
+         result="result79">
+        <feFuncR
+           id="feFuncR3478"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3480"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3482"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3484"
+           type="discrete"
+           tableValues="1 1 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3496"
+         in="result63"
+         result="result78">
+        <feFuncR
+           id="feFuncR3488"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3490"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3492"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3494"
+           type="discrete"
+           tableValues="1 1 1 0 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3506"
+         in="result63"
+         result="result77">
+        <feFuncR
+           id="feFuncR3498"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3500"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3502"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3504"
+           type="discrete"
+           tableValues="1 1 1 1 0 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3516"
+         in="result63"
+         result="result76">
+        <feFuncR
+           id="feFuncR3508"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3510"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3512"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3514"
+           type="discrete"
+           tableValues="1 1 1 1 1 0 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3526"
+         in="result63"
+         result="result75">
+        <feFuncR
+           id="feFuncR3518"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3520"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3522"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3524"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 0 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3536"
+         in="result63"
+         result="result74">
+        <feFuncR
+           id="feFuncR3528"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3530"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3532"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3534"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 0 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3546"
+         in="result63"
+         result="result73">
+        <feFuncR
+           id="feFuncR3538"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3540"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3542"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3544"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 0 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3556"
+         in="result63"
+         result="result72">
+        <feFuncR
+           id="feFuncR3548"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3550"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3552"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3554"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 0 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3566"
+         in="result63"
+         result="result71">
+        <feFuncR
+           id="feFuncR3558"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3560"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3562"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3564"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 0 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3576"
+         in="result63"
+         result="result70">
+        <feFuncR
+           id="feFuncR3568"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3570"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3572"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3574"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 0 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3586"
+         in="result63"
+         result="result69">
+        <feFuncR
+           id="feFuncR3578"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3580"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3582"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3584"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 0 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3596"
+         in="result63"
+         result="result68">
+        <feFuncR
+           id="feFuncR3588"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3590"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3592"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3594"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 0 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3606"
+         in="result63"
+         result="result67">
+        <feFuncR
+           id="feFuncR3598"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3600"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3602"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3604"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 0" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3616"
+         in="result63"
+         result="result66">
+        <feFuncR
+           id="feFuncR3608"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3610"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3612"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3614"
+           type="discrete"
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feColorMatrix
+         id="feColorMatrix3618"
+         in="SourceGraphic"
+         type="luminanceToAlpha"
+         result="result1" />
+      <feFlood
+         flood-color="rgb(0,0,0)"
+         result="result85"
+         id="feFlood3620" />
+      <feFlood
+         result="result83"
+         flood-color="rgb(255,255,255)"
+         id="feFlood3622" />
+      <feComposite
+         operator="in"
+         in="result85"
+         result="result84"
+         id="feComposite3624"
+         in2="result1" />
+      <feComposite
+         id="feComposite3626"
+         in2="result83" />
+      <feColorMatrix
+         result="result88"
+         type="luminanceToAlpha"
+         id="feColorMatrix3628" />
+      <feComponentTransfer
+         id="feComponentTransfer3638"
+         result="result58">
+        <feFuncR
+           id="feFuncR3630"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3632"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3634"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3636"
+           type="linear" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result82"
+         id="feComponentTransfer3648">
+        <feFuncR
+           type="identity"
+           id="feFuncR3640" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3642" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3644" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           type="table"
+           id="feFuncA3646" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3658"
+         result="result55">
+        <feFuncR
+           id="feFuncR3650"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3652"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3654"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3656"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result52"
+         id="feComponentTransfer3668"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3660" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3662" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3664" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1"
+           type="table"
+           id="feFuncA3666" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3678"
+         result="result49">
+        <feFuncR
+           id="feFuncR3670"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3672"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3674"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3676"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result46"
+         id="feComponentTransfer3688"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3680" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3682" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3684" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1"
+           type="table"
+           id="feFuncA3686" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3698"
+         result="result44">
+        <feFuncR
+           id="feFuncR3690"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3692"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3694"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3696"
+           type="table"
+           tableValues="0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result40"
+         id="feComponentTransfer3708"
+         in="result58">
+        <feFuncR
+           type="identity"
+           id="feFuncR3700" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3702" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3704" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3706" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         id="feComponentTransfer3718"
+         result="result9">
+        <feFuncR
+           id="feFuncR3710"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3712"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3714"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3716"
+           type="table"
+           intercept="-0.66000000000000003"
+           slope="1"
+           tableValues="0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3728"
+         result="result2"
+         in="result58">
+        <feFuncR
+           id="feFuncR3720"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3722"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3724"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3726"
+           type="table"
+           intercept="0.33000000000000002"
+           tableValues="0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         in="result58"
+         result="result17"
+         id="feComponentTransfer3738">
+        <feFuncR
+           type="identity"
+           id="feFuncR3730" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3732" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3734" />
+        <feFuncA
+           tableValues="0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3736" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3748"
+         in="result58"
+         result="result22">
+        <feFuncR
+           id="feFuncR3740"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3742"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3744"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3746"
+           type="table"
+           tableValues="0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result25"
+         in="result58"
+         id="feComponentTransfer3758">
+        <feFuncR
+           type="identity"
+           id="feFuncR3750" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3752" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3754" />
+        <feFuncA
+           tableValues="0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3756" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3768"
+         in="result58"
+         result="result28">
+        <feFuncR
+           id="feFuncR3760"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3762"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3764"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3766"
+           type="table"
+           tableValues="0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result31"
+         in="result58"
+         id="feComponentTransfer3778">
+        <feFuncR
+           type="identity"
+           id="feFuncR3770" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3772" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3774" />
+        <feFuncA
+           tableValues="0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3776" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         id="feComponentTransfer3788"
+         result="result34"
+         in="result58">
+        <feFuncR
+           id="feFuncR3780"
+           type="identity" />
+        <feFuncG
+           id="feFuncG3782"
+           type="identity" />
+        <feFuncB
+           id="feFuncB3784"
+           type="identity" />
+        <feFuncA
+           id="feFuncA3786"
+           type="table"
+           tableValues="0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result37"
+         in="result58"
+         id="feComponentTransfer3798">
+        <feFuncR
+           type="identity"
+           id="feFuncR3790" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3792" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3794" />
+        <feFuncA
+           tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3796" />
+      </feComponentTransfer>
+      <feComponentTransfer
+         result="result81"
+         in="result58"
+         id="feComponentTransfer3808">
+        <feFuncR
+           type="identity"
+           id="feFuncR3800" />
+        <feFuncG
+           type="identity"
+           id="feFuncG3802" />
+        <feFuncB
+           type="identity"
+           id="feFuncB3804" />
+        <feFuncA
+           tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+           type="table"
+           id="feFuncA3806" />
+      </feComponentTransfer>
+      <feComposite
+         result="result39"
+         in2="result81"
+         in="result80"
+         operator="in"
+         id="feComposite3810" />
+      <feComposite
+         id="feComposite3812"
+         in2="result37"
+         operator="in"
+         in="result64"
+         result="result36" />
+      <feComposite
+         result="result33"
+         operator="in"
+         in="result79"
+         in2="result34"
+         id="feComposite3814" />
+      <feComposite
+         id="feComposite3816"
+         in2="result31"
+         operator="in"
+         in="result78"
+         result="result30" />
+      <feComposite
+         result="result27"
+         in="result77"
+         operator="in"
+         in2="result28"
+         id="feComposite3818" />
+      <feComposite
+         id="feComposite3820"
+         in2="result25"
+         in="result76"
+         result="result24"
+         operator="in" />
+      <feComposite
+         operator="in"
+         result="result19"
+         in="result75"
+         in2="result22"
+         id="feComposite3822" />
+      <feComposite
+         id="feComposite3824"
+         result="result4"
+         in2="result17"
+         in="result74"
+         operator="in" />
+      <feComposite
+         in2="result2"
+         id="feComposite3826"
+         result="result3"
+         operator="in"
+         in="result73" />
+      <feComposite
+         result="result42"
+         in2="result9"
+         operator="in"
+         in="result72"
+         id="feComposite3828" />
+      <feComposite
+         id="feComposite3830"
+         in="result71"
+         operator="in"
+         in2="result40"
+         result="result45" />
+      <feComposite
+         result="result48"
+         in2="result44"
+         operator="in"
+         in="result70"
+         id="feComposite3832" />
+      <feComposite
+         id="feComposite3834"
+         in2="result46"
+         operator="in"
+         in="result69"
+         result="result51" />
+      <feComposite
+         result="result54"
+         in="result68"
+         operator="in"
+         in2="result49"
+         id="feComposite3836" />
+      <feComposite
+         id="feComposite3838"
+         in2="result52"
+         in="result67"
+         result="result57"
+         operator="in" />
+      <feComposite
+         result="result86"
+         operator="in"
+         in2="result55"
+         in="result66"
+         id="feComposite3840" />
+      <feMerge
+         result="result20"
+         id="feMerge3874">
+        <feMergeNode
+           in="result39"
+           id="feMergeNode3842"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result36"
+           id="feMergeNode3844"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result33"
+           id="feMergeNode3846"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result30"
+           id="feMergeNode3848"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result27"
+           id="feMergeNode3850"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result24"
+           id="feMergeNode3852"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result19"
+           id="feMergeNode3854"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode3856"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode3858"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result42"
+           id="feMergeNode3860"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result45"
+           id="feMergeNode3862"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result48"
+           id="feMergeNode3864"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result51"
+           id="feMergeNode3866"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result54"
+           id="feMergeNode3868"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result57"
+           id="feMergeNode3870"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="result86"
+           id="feMergeNode3872"
+           inkscape:collect="always" />
+      </feMerge>
+      <feComposite
+         operator="in"
+         id="feComposite3876"
+         in2="SourceGraphic"
+         result="result21" />
+    </filter>
+    <linearGradient
+       id="linearGradient7744">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7746" />
+      <stop
+         id="stop7748"
+         offset="0.8333349228"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop7750" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7676">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7678" />
+      <stop
+         id="stop7680"
+         offset="0.8000003099"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop7682" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7566">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7568" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop7570" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4698-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4700-6" />
+      <stop
+         id="stop4702-0"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.6999999881"
+         id="stop4704-1" />
+      <stop
+         id="stop4706-2"
+         offset="0.75"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.8000000119"
+         id="stop4708-6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop4710-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4609-5">
+      <stop
+         id="stop4611-4"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.200000003"
+         id="stop4613-6" />
+      <stop
+         id="stop4615-7"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8140">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop8142" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.9949495196"
+         offset="1"
+         id="stop8144" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7744"
+       id="radialGradient3284"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7499999999999974,0,0,0.7499999999999974,-2397.416558068493,-443.258656384163)"
+       cx="4596.55517578125"
+       cy="1191.011596679688"
+       fx="4596.55517578125"
+       fy="1191.011596679688"
+       r="150" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7676"
+       id="radialGradient3286"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.6250009790698056,-2.284755464643226e-7,2.28475188555253e-7,0.6249999999999555,-1822.851904188741,-294.3811634529618)"
+       cx="4596.55517578125"
+       cy="1191.011596679688"
+       fx="4596.55517578125"
+       fy="1191.011596679688"
+       r="150" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7566"
+       id="linearGradient3288"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7499999999999974,0,0,0.7499999999999974,-2397.416558068493,-443.258656384163)"
+       x1="4596.55517578125"
+       y1="1191.011596679688"
+       x2="4621.55517578125"
+       y2="1191.011596679688" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7566"
+       id="linearGradient3290"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7499999999999974,0,0,0.7499999999999974,-2397.416558068493,-443.258656384163)"
+       x1="4596.55517578125"
+       y1="1191.011596679688"
+       x2="4571.55517578125"
+       y2="1191.011596679688" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7566"
+       id="linearGradient3292"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.592273826833898e-17,-0.7499999999999972,0.7499999999999972,4.592273826833898e-17,156.741343615844,3897.416558068492)"
+       x1="4596.55517578125"
+       y1="1191.011596679688"
+       x2="4621.55517578125"
+       y2="1191.011596679688" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7566"
+       id="linearGradient3294"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.592273826833898e-17,-0.7499999999999972,0.7499999999999972,4.592273826833898e-17,156.741343615844,3897.416558068492)"
+       x1="4596.55517578125"
+       y1="1191.011596679688"
+       x2="4570.14111328125"
+       y2="1191.011596679688" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4698-8"
+       id="radialGradient3296"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2770448459580602,2.090802227796036e-16,-2.093084418411396e-16,0.2770448548725226,1190.025641528585,464.8608147810228)"
+       cx="-1588.283081054688"
+       cy="-53.64046478271484"
+       fx="-1588.283081054688"
+       fy="-459.7118835449219"
+       r="406.0714416503906" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4609-5"
+       id="radialGradient3298"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2812499856948852,-2.970915458822265e-17,-5.943513387966146e-17,0.281249985694884,1196.704593826054,451.023882813829)"
+       cx="-1588.283081054688"
+       cy="196.3595275878906"
+       fx="-1588.283081054688"
+       fy="196.3595275878906"
+       r="200" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4698-8"
+       id="radialGradient3300"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.3186646512694956,1.223525714117255e-15,-1.14121793444578e-15,0.3186646512694952,1256.129674141527,467.0933200039187)"
+       cx="-1588.283081054688"
+       cy="-53.64046478271484"
+       fx="-1588.283081054688"
+       fy="299.3952331542969"
+       r="353.0357055664062" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4609-5"
+       id="radialGradient3302"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.3749999999999982,1.907348689798136e-8,-1.907348689609523e-8,0.3749999999999987,1345.606148650345,526.3652045876142)"
+       cx="-1588.283081054688"
+       cy="-353.6404724121094"
+       fx="-1588.283081054688"
+       fy="-353.6404724121094"
+       r="150" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8140"
+       id="radialGradient3304"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2480549921941832,-1.375610215552671e-15,1.375610215552671e-15,0.2480549921941832,-351.3048807608084,312.8223095200769)"
+       cx="6858.57958984375"
+       cy="553.0133056640625"
+       fx="6858.57958984375"
+       fy="553.0133056640625"
+       r="150"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3024"
+       id="linearGradient3306"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-180,1649.999999999999,450.000000000001)"
+       x1="1800"
+       y1="600"
+       x2="1706.552001953125"
+       y2="600" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3024"
+       id="linearGradient3308"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-180,1649.999999999999,450.000000000001)"
+       x1="1616.288330078125"
+       y1="575.8139038085938"
+       x2="1706.552001953125"
+       y2="600" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3024"
+       id="linearGradient3310"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-180,1649.999999999999,450.000000000001)"
+       x1="1737.867919921875"
+       y1="300"
+       x2="1737.867919921875"
+       y2="393.4479370117188" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8140"
+       id="linearGradient3312"
+       gradientUnits="userSpaceOnUse"
+       x1="1800"
+       y1="600"
+       x2="1706.552001953125"
+       y2="600" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8140"
+       id="linearGradient3314"
+       gradientUnits="userSpaceOnUse"
+       x1="1616.288330078125"
+       y1="575.8139038085938"
+       x2="1706.552001953125"
+       y2="600" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8140"
+       id="linearGradient3316"
+       gradientUnits="userSpaceOnUse"
+       x1="1737.867919921875"
+       y1="300"
+       x2="1737.867919921875"
+       y2="393.4479370117188" />
+  </defs>
+  <metadata
+     id="metadata3588">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:date>2016</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lazur URH</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#8b8b67;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m 0,0 1799.999999999999,9.094947017729282e-13 v 1800 l -1799.9999999999984083842718973755,-9e-13 z"
+     id="rect10308"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,1200)"
+     id="use3276"
+     xlink:href="#g3035"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,1199.999999999999)"
+     id="use3278"
+     xlink:href="#g2361"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,1199.999999999999)"
+     id="use3280"
+     xlink:href="#g2357"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(4.774847184307875e-12,1199.999999999999)"
+     id="use3282"
+     xlink:href="#g2348"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(1.591615728102624e-12,1200)"
+     id="use4501"
+     xlink:href="#path2484"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(1.591615728102624e-12,1200)"
+     id="use4499"
+     xlink:href="#path2482"
+     y="0"
+     x="0"
+     style="filter:url(#filter3878)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g3035"
+     id="use3268"
+     transform="translate(0,899.9999999999995)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2361"
+     id="use3270"
+     transform="translate(0,899.9999999999993)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2357"
+     id="use3272"
+     transform="translate(0,899.9999999999993)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2348"
+     id="use3274"
+     transform="translate(4.774847184307875e-12,899.9999999999993)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#path2484"
+     id="use4497"
+     transform="translate(0,900.0000000000004)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#path2482"
+     id="use4495"
+     transform="translate(0,900.0000000000004)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter3416)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,600)"
+     id="use3260"
+     xlink:href="#g3035"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,599.9999999999995)"
+     id="use3262"
+     xlink:href="#g2361"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,599.9999999999995)"
+     id="use3264"
+     xlink:href="#g2357"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(4.774847184307875e-12,599.9999999999995)"
+     id="use3266"
+     xlink:href="#g2348"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,600.0000000000004)"
+     id="use4493"
+     xlink:href="#path2484"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     height="100%"
+     width="100%"
+     transform="translate(0,600.0000000000006)"
+     id="use4491"
+     xlink:href="#path2482"
+     y="0"
+     x="0"
+     style="filter:url(#filter2956)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g3035"
+     id="use3252"
+     transform="translate(0,300.0000000000002)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2361"
+     id="use3254"
+     transform="translate(0,299.9999999999998)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2357"
+     id="use3256"
+     transform="translate(0,299.9999999999998)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#g2348"
+     id="use3258"
+     transform="translate(4.774847184307874e-12,299.9999999999998)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#path2484"
+     id="use4489"
+     transform="translate(0,300)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#path2482"
+     id="use4487"
+     transform="translate(0,300.0000000000002)"
+     width="100%"
+     height="100%"
+     style="filter:url(#filter4610)" />
+  <g
+     id="g3035">
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 1499.999999999999,300.0000000000008 h 300 v 300.0000000000001 h -300 z"
+       id="path2363"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3306);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 1587.340025888578,570.7196597430227 -87.340025888579,29.2803402569784 v -300.0000000000001 l 141.189514304132,1.1e-12 z"
+       id="path3000"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3308);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 1690.192378864639,300.0000000000011 -7.957044694821,182.2353341697879 -72.427713034474,117.7646658302122 -53.364245574891,-18.9223809146779 5.688658795523,-43.2096534412998 31.31591177313,-237.8679656440224 z"
+       id="path3002"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3310);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 1609.807621135345,600.000000000002 -47.67558676395,-62.1320344730932 -62.132034371396,62.1320344730923 z"
+       id="path3004"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path2385"
+       d="m 1712.65997411142,329.2803402569794 87.340025888579,-29.2803402569785 v 300 l -141.189514304132,-9e-13 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3312);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path2383"
+       d="m 1609.807621135359,600.0000000000009 80.384757729295,-300 53.364245574891,18.9223809146779 -5.688658795523,43.2096534412995 -31.31591177313,237.8679656440226 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3314);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path2391"
+       d="m 1690.192378864653,300 47.67558676395,62.132034473093 62.132034371396,-62.1320344730921 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient3316);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+  <g
+     id="g2361">
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate"
+       d="m 1200.000000000001,300.0000000000007 h 299.999999999998 v 299.9999999999998 h -299.999999999998 z"
+       id="path8256" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3304);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate"
+       d="m 1406.249999999995,547.4278579257495 c 16.810790103153,-9.7057141913444 31.472143734403,-24.3670678225983 41.177857925747,-41.1778579257493 9.705714191349,-16.8107901031497 15.072142074253,-36.8385716173102 15.072142074253,-56.2499999999997 0,-19.4114283826891 -5.366427882903,-39.4392098968486 -15.072142074253,-56.2499999999994 -9.705714191343,-16.8107901031505 -24.367067822594,-31.4721437344048 -41.177857925747,-41.1778579257491 -16.81079010315,-9.7057141913451 -36.838571617312,-15.0721420742506 -56.25,-15.0721420742506 -19.411428382686,0 -39.439209896847,5.366427882906 -56.249999999999,15.0721420742506 -16.81079010315,9.7057141913444 -31.4721437344,24.3670678225986 -41.177857925751,41.1778579257491 -9.705714191344,16.8107901031508 -15.072142074249,36.8385716173104 -15.072142074249,56.2499999999995 0,19.4114283826895 5.366427882905,39.4392098968499 15.072142074249,56.2499999999997 9.705714191343,16.8107901031504 24.367067822601,31.4721437344049 41.177857925751,41.1778579257493 16.810790103152,9.7057141913441 36.838571617313,15.0721420742507 56.249999999999,15.0721420742507 19.411428382688,0 39.43920989685,-5.3664278829065 56.25,-15.0721420742507 z"
+       id="path8268"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="g2357">
+    <path
+       inkscape:connector-curvature="0"
+       id="path8250"
+       d="m 900.0000000000018,300.0000000000007 h 299.9999999999991 v 299.9999999999998 h -299.9999999999991 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ssssssssssssssssssssssssss"
+       inkscape:connector-curvature="0"
+       d="m 1049.999999999997,365.6250000000014 c -14.558571287016,0 -29.579407422631,4.0248209121787 -42.1875,11.3041065556874 -12.6080925773656,7.2792856435087 -23.6041078008002,18.2753008669486 -30.8833934443153,30.8833934443123 -7.2792856435019,12.6080925773618 -11.3041065556847,27.6289287129833 -11.3041065556847,42.1875 0,14.5585712870159 4.0248209121828,29.5794074226358 11.3041065556847,42.1874999999998 7.2792856435143,12.6080925773617 18.2753008669497,23.6041078008022 30.8833934443153,30.8833934443115 12.608092577369,7.2792856435082 27.628928712984,11.304106555688 42.1875,11.304106555688 14.55857128702,0 29.579407422634,-4.0248209121798 42.187499999999,-11.304106555688 12.608092577369,-7.2792856435085 23.604107800801,-18.2753008669499 30.883393444316,-30.8833934443114 7.279285643513,-12.608092577364 11.304106555684,-27.6289287129839 11.304106555684,-42.1874999999999 0,-14.5585712870167 -4.024820912169,-29.5794074226382 -11.304106555684,-42.1875 -7.279285643513,-12.6080925773637 -18.275300866947,-23.6041078008041 -30.883393444316,-30.8833934443122 -12.608092577365,-7.2792856435087 -27.628928712979,-11.3041065556874 -42.187499999999,-11.3041065556875 z m 0,196.8749999999992 c -19.411428382687,0 -39.439209896849,-5.366427882906 -56.25,-15.0721420742502 -16.8107901031508,-9.7057141913447 -31.472143734405,-24.367067822599 -41.1778579257524,-41.1778579257493 -9.7057141913436,-16.8107901031509 -15.0721420742476,-36.8385716173107 -15.0721420742476,-56.2499999999997 0,-19.4114283826892 5.366427882904,-39.4392098968492 15.0721420742514,-56.25 9.7057141913454,-16.8107901031506 24.3670678225978,-31.4721437344049 41.1778579257486,-41.1778579257491 16.8107901031509,-9.7057141913444 36.8385716173129,-15.0721420742506 56.25,-15.0721420742506 19.411428382688,0 39.439209896849,5.3664278829061 56.249999999999,15.0721420742506 16.810790103151,9.7057141913444 31.472143734406,24.3670678225985 41.177857925749,41.1778579257491 9.705714191345,16.8107901031508 15.072142074251,36.8385716173108 15.072142074251,56.25 0,19.4114283826889 -5.366427882903,39.439209896849 -15.072142074251,56.2499999999997 -9.705714191344,16.8107901031503 -24.367067822596,31.4721437344046 -41.177857925749,41.1778579257493 -16.81079010315,9.7057141913441 -36.838571617311,15.0721420742502 -56.249999999999,15.0721420742502 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3284);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate"
+       id="path8075" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1049.999999999997,543.7500000000004 c -16.176190318903,0 -32.866008247372,-4.4720232357547 -46.875,-12.5601183952085 -14.0089917526236,-8.0880951594539 -26.2267864453371,-20.305889852165 -34.3148816047933,-34.314881604791 -8.0880951594528,-14.0089917526252 -12.5601183952067,-30.698809681092 -12.5601183952067,-46.8749999999999 0,-16.1761903189074 4.4720232357539,-32.8660082473741 12.5601183952115,-46.875 8.0880951594514,-14.0089917526252 20.3058898521667,-26.2267864453372 34.3148816047885,-34.314881604791 14.008991752628,-8.0880951594533 30.698809681097,-12.5601183952087 46.875,-12.5601183952087 16.176190318909,0 32.866008247376,4.4720232357556 46.874999999999,12.5601183952087 14.008991752628,8.0880951594538 26.226786445336,20.3058898521658 34.314881604791,34.314881604791 8.088095159452,14.0089917526259 12.560118395209,30.6988096810926 12.560118395209,46.875 0,16.1761903189079 -4.472023235749,32.8660082473747 -12.560118395209,46.8749999999998 -8.088095159456,14.0089917526259 -20.305889852167,26.2267864453372 -34.314881604791,34.3148816047911 -14.008991752623,8.0880951594538 -30.69880968109,12.5601183952085 -46.874999999999,12.5601183952085 z m 37.499999999999,-28.7980947161668 c 11.207193402104,-6.4704761275626 20.981429156268,-16.2447118817315 27.451905283835,-27.4519052838327 6.470476127568,-11.2071934020997 10.048094716165,-24.5590477448737 10.048094716165,-37.4999999999999 0,-12.9409522551261 -3.577618588597,-26.2928065978986 -10.048094716165,-37.5 -6.470476127567,-11.2071934020996 -16.244711881731,-20.9814291562693 -27.451905283835,-27.4519052838329 -11.207193402102,-6.4704761275625 -24.559047744871,-10.0480947161668 -37.499999999999,-10.0480947161668 -12.940952255127,0 -26.292806597897,3.5776185886043 -37.5,10.0480947161668 -11.207193402103,6.4704761275636 -20.9814291562677,16.2447118817333 -27.4519052838349,27.4519052838329 -6.47047612756,11.2071934021014 -10.0480947161651,24.5590477448739 -10.0480947161651,37.5 0,12.9409522551261 3.5776185886051,26.2928065979002 10.0480947161651,37.4999999999998 6.4704761275672,11.2071934021003 16.2447118817319,20.98142915627 27.4519052838349,27.4519052838328 11.207193402103,6.4704761275634 24.559047744873,10.0480947161668 37.5,10.0480947161668 12.940952255128,0 26.292806597897,-3.5776185886034 37.499999999999,-10.0480947161668 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3286);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate"
+       id="path8077" />
+    <path
+       id="path8079"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3288);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.797244072;marker:none;enable-background:accumulate"
+       d="m 1051.339285714281,542.4003837359016 c 0.44819244928,-0.4551849581825 0.894675679821,-0.9120603139329 1.339285714284,-1.3707451022153 0.448254095565,-0.4624442072466 0.894741965199,-0.9266082056287 1.339285714291,-1.3926202592875 0.448320663356,-0.4699713660552 0.894813732905,-0.9416942581017 1.339285714283,-1.4153071378671 0.448392743493,-0.4777906986459 0.894891664311,-0.9573672288329 1.339285714283,-1.4388793600183 0.448471021548,-0.4859296324422 0.894976553988,-0.9736822333831 1.339285714284,-1.4634201581266 0.448556297126,-0.4944193136564 0.895069333556,-0.9907018615065 1.339285714291,-1.4890240629909 0.448649507812,-0.5032952860849 0.895171101601,-1.008497541113 1.339285714284,-1.5157989669533 0.448751759418,-0.5125983268748 0.895283161773,-1.027151217521 1.339285714284,-1.5438686641628 0.448864364275,-0.5223754838505 0.895407071352,-1.0467574375366 1.339285714284,-1.5733760034717 0.44898889026,-0.5326813742289 0.89554470411,-1.0674259583587 1.339285714287,-1.6044868356488 0.449127224197,-0.5435798258776 0.895698332468,-1.0892850442267 1.339285714283,-1.6373950015536 0.449281654662,-0.5551459727271 0.895870735965,-1.1124856747306 1.339285714283,-1.6723287002774 0.449454981342,-0.5674689600173 0.89285714286,-1.1397058066859 1.339285714284,-1.7095587100291 v -145.1471495465967 c -0.446428571429,-0.5698529033423 -0.889830732945,-1.1420897500109 -1.33928571429,-1.7095587100282 -0.443414978319,-0.559843025547 -0.890004059623,-1.1171827275503 -1.339285714285,-1.6723287002774 -0.443587381807,-0.5481099573271 -0.890158490078,-1.0938151756764 -1.339285714283,-1.6373950015536 -0.443741010175,-0.537060877291 -0.890296824028,-1.0718054614208 -1.339285714285,-1.6044868356489 -0.443878642938,-0.5266185659355 -0.890421350015,-1.0510005196222 -1.339285714284,-1.5733760034728 -0.44400255251,-0.5167174466414 -0.890533954868,-1.0312703372878 -1.339285714283,-1.5438686641632 -0.444114612687,-0.5073014258394 -0.890636206472,-1.0125036808672 -1.339285714284,-1.5157989669533 -0.444216380736,-0.4983222014837 -0.890729417164,-0.9946047493343 -1.339285714291,-1.4890240629902 -0.4443091603,-0.4897379247427 -0.890814692737,-0.9774905256854 -1.339285714284,-1.4634201581264 -0.444394049972,-0.4815121311856 -0.89089297079,-0.9610886613727 -1.339285714283,-1.4388793600185 -0.444471981378,-0.4736128797647 -0.890965050927,-0.9453357718119 -1.339285714284,-1.415307137868 -0.444543749091,-0.4660120536578 -0.891031618725,-0.9301760520399 -1.339285714291,-1.3926202592866 -0.444610034463,-0.4586847882825 -0.891093265004,-0.915560144034 -1.339285714283,-1.3707451022154 -0.444671424757,-0.4516090001173 -0.892857142861,-0.8997441760663 -1.339285714284,-1.3496162640988 l -9.375,21.1764252267013 v 145.1471495465967 l 9.375,21.1764252267012 c 0.446428571423,-0.4498720880332 0.894614289527,-0.8980072639813 1.339285714289,-1.3496162640988 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssssssssccsssssssssssssccccs" />
+    <path
+       sodipodi:nodetypes="csssssssssssssccssssssssssssscc"
+       inkscape:connector-curvature="0"
+       d="m 1049.999999999997,543.7500000000004 c -0.446428571425,-0.4498720880333 -0.894614289529,-0.8980072639814 -1.339285714284,-1.3496162640988 -0.448192449279,-0.455184958182 -0.89467567982,-0.9120603139329 -1.339285714283,-1.3707451022152 -0.448254095566,-0.4624442072468 -0.8947419652,-0.9266082056289 -1.339285714286,-1.3926202592876 -0.448320663362,-0.4699713660551 -0.894813732905,-0.9416942581016 -1.339285714284,-1.4153071378671 -0.448392743493,-0.4777906986459 -0.894891664311,-0.9573672288328 -1.339285714284,-1.4388793600184 -0.448471021546,-0.4859296324416 -0.894976553983,-0.9736822333831 -1.339285714283,-1.4634201581265 -0.448556297127,-0.4944193136564 -0.895069333551,-0.9907018615064 -1.33928571429,-1.4890240629909 -0.448649507814,-0.5032952860854 -0.895171101601,-1.0084975411131 -1.339285714285,-1.5157989669533 -0.448751759418,-0.5125983268748 -0.895283161772,-1.0271512175211 -1.339285714283,-1.5438686641628 -0.448864364276,-0.5223754838505 -0.895407071354,-1.0467574375366 -1.339285714285,-1.5733760034718 -0.44898889026,-0.5326813742288 -0.895544704106,-1.0674259583585 -1.339285714286,-1.6044868356487 -0.4491272242,-0.5435798258776 -0.895698332471,-1.0892850442267 -1.339285714284,-1.6373950015536 -0.449281654661,-0.5551459727276 -0.895870735965,-1.1124856747306 -1.339285714284,-1.6723287002775 -0.44945498134,-0.5674689600172 -0.892857142858,-1.1397058066859 -1.339285714291,-1.709558710029 l -9e-13,-145.1471495465967 c 0.446428571432,-0.5698529033422 0.889830732947,-1.1420897500108 1.33928571429,-1.7095587100282 0.44341497832,-0.559843025547 0.890004059622,-1.1171827275502 1.339285714285,-1.6723287002773 0.443587381808,-0.5481099573271 0.890158490079,-1.0938151756763 1.339285714283,-1.6373950015538 0.443741010177,-0.5370608772908 0.890296824024,-1.0718054614206 1.339285714285,-1.6044868356487 0.443878642937,-0.5266185659354 0.890421350014,-1.0510005196222 1.339285714286,-1.5733760034727 0.444002552508,-0.5167174466415 0.890533954867,-1.0312703372879 1.339285714284,-1.5438686641635 0.444114612683,-0.5073014258392 0.890636206474,-1.0125036808664 1.339285714286,-1.5157989669533 0.444216380736,-0.4983222014835 0.890729417164,-0.9946047493343 1.339285714289,-1.4890240629899 0.444309160297,-0.4897379247428 0.890814692733,-0.9774905256855 1.339285714285,-1.4634201581264 0.444394049971,-0.4815121311856 0.890892970789,-0.9610886613727 1.339285714282,-1.4388793600185 0.444471981378,-0.4736128797647 0.890965050925,-0.945335771812 1.339285714285,-1.4153071378682 0.44454374909,-0.4660120536578 0.891031618724,-0.9301760520399 1.339285714289,-1.3926202592864 0.444610034463,-0.4586847882824 0.891093265004,-0.9155601440337 1.339285714284,-1.3707451022153 0.444671424754,-0.4516090001176 0.892857142856,-0.8997441760665 1.339285714286,-1.3496162640989 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3290);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.797244072;marker:none;enable-background:accumulate"
+       id="path8081" />
+    <path
+       id="path8083"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3292);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.797244072;marker:none;enable-background:accumulate"
+       d="m 1142.4003837359,448.6607142857179 c -0.45518495818,-0.4481924492798 -0.912060313932,-0.8946756798203 -1.370745102214,-1.3392857142833 -0.462444207249,-0.4482540955658 -0.926608205631,-0.8947419651997 -1.392620259284,-1.3392857142915 -0.469971366058,-0.4483206633563 -0.941694258102,-0.8948137329053 -1.41530713787,-1.3392857142833 -0.477790698644,-0.4483927434936 -0.957367228833,-0.8948916643108 -1.438879360017,-1.3392857142832 -0.485929632442,-0.4484710215473 -0.973682233383,-0.8949765539851 -1.46342015813,-1.339285714284 -0.494419313657,-0.4485562971263 -0.990701861505,-0.8950693335548 -1.489024062992,-1.3392857142908 -0.50329528608,-0.4486495078117 -1.008497541109,-0.8951711016 -1.515798966952,-1.3392857142839 -0.512598326873,-0.4487517594173 -1.027151217517,-0.8952831617731 -1.543868664163,-1.3392857142833 -0.522375483849,-0.4488643642756 -1.046757437536,-0.8954070713526 -1.573376003469,-1.3392857142849 -0.532681374226,-0.4489888902599 -1.067425958357,-0.8955447041092 -1.60448683565,-1.3392857142855 -0.543579825879,-0.4491272242013 -1.089285044223,-0.8956983324727 -1.637395001554,-1.339285714284 -0.555145972724,-0.4492816546619 -1.112485674727,-0.895870735965 -1.672328700274,-1.339285714284 -0.567468960021,-0.4494549813412 -1.13970580669,-0.8928571428584 -1.709558710031,-1.339285714286 l -53.823574773295,-7.5e-12 -18.75,18.7499999999991 -18.75,-18.7499999999991 -53.8235747733011,4.4e-12 c -0.5698529033434,0.4464285714314 -1.1420897500085,0.8898307329486 -1.7095587100275,1.3392857142914 -0.5598430255477,0.4434149783181 -1.1171827275505,0.890004059622 -1.6723287002782,1.3392857142832 -0.5481099573268,0.4435873818099 -1.0938151756778,0.8901584900808 -1.6373950015546,1.3392857142841 -0.5370608772919,0.4437410101784 -1.071805461419,0.8902968240245 -1.6044868356503,1.3392857142861 -0.5266185659366,0.4438786429347 -1.0510005196203,0.8904213500123 -1.573376003474,1.3392857142833 -0.5167174466385,0.4440025525102 -1.0312703372881,0.8905339548666 -1.5438686641616,1.3392857142844 -0.507301425839,0.4441146126833 -1.0125036808668,0.8906362064716 -1.5157989669545,1.3392857142833 -0.4983222014813,0.4442163807382 -0.9946047493338,0.8907294171645 -1.4890240629844,1.3392857142915 -0.4897379247434,0.4443091602991 -0.9774905256885,0.8908146927354 -1.4634201581306,1.3392857142833 -0.4815121311836,0.444394049973 -0.9610886613724,0.8908929707902 -1.4388793600179,1.3392857142832 -0.4736128797622,0.444471981378 -0.9453357718094,0.8909650509263 -1.4153071378699,1.3392857142841 -0.4660120536572,0.4445437490916 -0.9301760520392,0.8910316187249 -1.3926202592828,1.3392857142901 -0.458684788283,0.4446100344644 -0.915560144035,0.8910932650048 -1.3707451022193,1.3392857142845 -0.4516090001207,0.4446714247537 -0.8997441760647,0.8928571428572 -1.3496162641003,1.3392857142832 l 21.1764252267011,9.375 h 53.8235747733019 l 18.749999999997,-9.3750000000014 18.75,9.3750000000014 53.823574773302,-6e-13 21.176425226701,-9.3749999999994 c -0.449872088033,-0.4464285714254 -0.898007263983,-0.8946142895295 -1.349616264101,-1.3392857142849 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssssssssscccccssssssssssssscccccccs" />
+    <path
+       sodipodi:nodetypes="cssssssssssssscccccssssssssssssscc"
+       inkscape:connector-curvature="0"
+       d="m 1143.749999999996,450.0000000000018 c -0.449872088032,0.4464285714255 -0.898007263981,0.8946142895295 -1.349616264098,1.339285714284 -0.455184958182,0.4481924492797 -0.912060313938,0.8946756798202 -1.37074510222,1.3392857142833 -0.462444207249,0.4482540955657 -0.926608205631,0.8947419651997 -1.392620259282,1.3392857142898 -0.469971366055,0.4483206633578 -0.941694258102,0.8948137329068 -1.415307137872,1.3392857142847 -0.477790698644,0.4483927434937 -0.957367228833,0.894891664311 -1.438879360017,1.3392857142833 -0.485929632439,0.4484710215472 -0.973682233384,0.8949765539835 -1.46342015813,1.3392857142839 -0.494419313655,0.4485562971263 -0.990701861505,0.8950693335526 -1.489024062988,1.3392857142908 -0.503295286084,0.4486495078117 -1.008497541112,0.8951711016 -1.515798966955,1.339285714284 -0.512598326876,0.4487517594173 -1.02715121752,0.895283161773 -1.54386866416,1.3392857142832 -0.522375483856,0.4488643642727 -1.046757437539,0.89540707135 -1.573376003471,1.3392857142841 -0.532681374228,0.4489888902608 -1.067425958358,0.8955447041087 -1.60448683565,1.3392857142849 -0.543579825874,0.4491272242042 -1.089285044225,0.895698332475 -1.637395001548,1.3392857142862 -0.555145972732,0.4492816546618 -1.11248567473,0.8958707359649 -1.672328700282,1.339285714284 -0.56746896002,0.4494549813411 -1.139705806684,0.8928571428578 -1.709558710028,1.3392857142898 l -53.823574773292,3.2e-12 -18.750000000002,-18.7500000000007 -18.749999999998,18.7500000000007 h -53.8235747733031 c -0.5698529033416,-0.4464285714323 -1.1420897500067,-0.8898307329495 -1.7095587100276,-1.3392857142908 -0.5598430255458,-0.4434149783189 -1.1171827275501,-0.890004059622 -1.6723287002804,-1.3392857142839 -0.5481099573235,-0.44358738181 -1.0938151756756,-0.8901584900808 -1.6373950015542,-1.339285714284 -0.5370608772936,-0.4437410101786 -1.0718054614234,-0.890296824024 -1.6044868356503,-1.3392857142861 -0.5266185659337,-0.4438786429351 -1.051000519621,-0.8904213500123 -1.5733760034681,-1.3392857142863 -0.516717446646,-0.4440025525086 -1.0312703372928,-0.8905339548659 -1.5438686641647,-1.3392857142833 -0.5073014258368,-0.4441146126832 -1.0125036808631,-0.8906362064722 -1.5157989669523,-1.339285714284 -0.4983222014835,-0.4442163807383 -0.9946047493358,-0.8907294171645 -1.4890240629884,-1.3392857142908 -0.4897379247406,-0.444309160298 -0.9774905256846,-0.8908146927344 -1.4634201581295,-1.3392857142839 -0.4815121311839,-0.4443940499723 -0.9610886613725,-0.8908929707896 -1.4388793600174,-1.3392857142832 -0.4736128797641,-0.444471981378 -0.9453357718093,-0.8909650509254 -1.4153071378687,-1.3392857142841 -0.4660120536599,-0.444543749091 -0.9301760520419,-0.8910316187249 -1.3926202592846,-1.3392857142907 -0.458684788282,-0.444610034463 -0.9155601440343,-0.8910932650036 -1.3707451022176,-1.3392857142833 -0.4516090001224,-0.4446714247537 -0.8997441760664,-0.8928571428578 -1.3496162641012,-1.339285714284 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3294);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.797244072;marker:none;enable-background:accumulate"
+       id="path8085" />
+  </g>
+  <g
+     id="g2348">
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.75;marker:none;enable-background:accumulate"
+       d="m 599.9999999999954,300.0000000000007 h 300.0000000000016 v 299.9999999999998 h -299.9999999999961 z"
+       id="path8258"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="csssssccc"
+       inkscape:connector-curvature="0"
+       id="path10128"
+       d="m 749.9999999999979,337.5000000000005 c 19.4114283826882,0 39.4392098968491,5.3664278829053 56.25,15.0721420742506 16.8107901031517,9.7057141913445 31.472143734405,24.3670678225979 41.177857925749,41.1778579257494 9.7057141913456,16.8107901031505 15.0721420742501,36.8385716173099 15.0721420742501,56.2499999999997 0,19.4114283826889 -5.3664278829045,39.439209896849 -15.0721420742501,56.2499999999998 -9.7057141913448,16.8107901031512 -24.3670678225991,31.4721437344047 -41.177857925749,41.1778579257493 -16.8107901031509,9.7057141913443 -36.8385716173118,15.0721420742502 -56.25,15.0721420742502 l -39.7767857190903,-112.4763245496678 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3296);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.7312498093;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3298);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.7312498093;marker:none;enable-background:accumulate"
+       d="m 749.9999999999979,562.4999999999995 c -12.9409522551267,0 -26.2928065978984,-3.5776185886043 -37.5,-10.0480947161668 -11.2071934021004,-6.4704761275626 -20.98142915627,-16.2447118817323 -27.4519052838333,-27.4519052838332 -6.4704761275595,-11.2071934021003 -10.0480947161651,-24.559047744874 -10.0480947161651,-37.4999999999997 0,-12.9409522551261 3.5776185886056,-26.2928065978992 10.0480947161651,-37.4999999999998 6.4704761275633,-11.2071934021012 16.2447118817329,-20.9814291562702 27.4519052838333,-27.4519052838329 11.2071934021016,-6.4704761275642 24.5590477448733,-10.0480947161671 37.5,-10.0480947161671 z"
+       id="path10130"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssscc" />
+    <path
+       sodipodi:nodetypes="ssssscccssssscs"
+       inkscape:connector-curvature="0"
+       d="m 721.8749999999979,554.9639289628744 c -8.4053950515755,-4.8528570956721 -15.7360718672015,-12.1835339112988 -20.588928962875,-20.5889289628744 -4.8528570956722,-8.4053950515759 -7.536071037125,-18.4192858086556 -7.536071037125,-28.125 0,-9.7057141913444 2.6832139414528,-19.7196049484241 7.536071037125,-28.125 4.8528570956735,-8.4053950515756 12.1835339112995,-15.7360718672023 20.588928962875,-20.5889289628747 8.4053950515762,-4.8528570956721 18.4192858086564,-7.5360710371251 28.125,-7.5360710371251 l 19.888392859546,-56.261837725166 -19.888392859546,-56.2381622748337 c -19.4114283826892,0 -39.4392098968483,5.3664278829053 -56.25,15.0721420742506 -16.8107901031492,9.7057141913445 -31.4721437344051,24.3670678225979 -41.1778579257478,41.1778579257494 -9.7057141913447,16.8107901031505 -15.0721420742506,36.8385716173099 -15.0721420742506,56.2499999999997 0,19.4114283826889 5.3664278829059,39.4392098968483 15.0721420742506,56.2499999999998 9.7057141913436,16.8107901031505 24.3670678225986,31.4721437344047 41.1778579257478,41.1778579257493 16.8107901031508,9.7057141913443 36.8385716173108,15.0721420742502 56.25,15.0721420742502 -9.7057141913436,0 -19.7196049484246,-2.6832139414529 -28.125,-7.5360710371251 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3300);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.7312498093;marker:none;enable-background:accumulate"
+       id="path10132" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient3302);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.7312498093;marker:none;enable-background:accumulate"
+       d="m 749.9999999999979,337.5000000000005 c 9.7057141913448,0 19.7196049484245,2.6832139414532 28.125,7.5360710371253 8.4053950515762,4.8528570956723 15.7360718672018,12.183533911299 20.5889289628749,20.5889289628747 4.852857095673,8.4053950515756 7.5360710371251,18.4192858086555 7.5360710371251,28.125 0,9.7057141913437 -2.6832139414521,19.7196049484241 -7.5360710371251,28.1249999999997 -4.8528570956731,8.4053950515759 -12.1835339112995,15.7360718672026 -20.5889289628749,20.588928962874 -8.4053950515755,4.8528570956723 -18.4192858086552,7.536071037126 -28.125,7.536071037126 z"
+       id="path10134"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssscc" />
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path2484"
+     d="m 299.9999999999997,300.0000000000001 h 299.9999999999989 v 300 h -299.9999999999989 z"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient2488);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient2486);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m -5.115907697472724e-13,300.0000000000001 h 300.000000000000227373675443232 v 300.0000000000001 h -299.9999999999998863131622783839 z"
+     id="path2482"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g6438">
+    <path
+       inkscape:connector-curvature="0"
+       id="path6425"
+       d="m 0,-1.06581410364015e-14 h 299.9999999999997 v 300.00000000000011368683772161602 h -299.9999999999997 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient6433);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+</svg>

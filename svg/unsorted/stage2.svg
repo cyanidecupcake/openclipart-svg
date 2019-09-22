@@ -1,0 +1,83 @@
+<svg width="100%" height="100%" viewBox="0 0 600 600"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc>
+    And the Winner is ...
+    
+    Stage with animated lighting.
+    Presenters from openclipart image: https://openclipart.org/detail/270261/beauty-pageant
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+     
+  <defs>
+    <clipPath id="cp1">
+      <rect width="100%" height="500" />
+    </clipPath>
+
+    <mask id="m1">
+      <rect width="100%" height="500" style="fill:white;" />
+      <path d="M0,250Q50,400,50,500l-50,0z" style="fill:black;" />
+    </mask>
+
+    <mask id="m2">
+      <rect width="100%" height="500" style="fill:white;" />
+      <path d="M600,250Q550,400,550,500l50,0z" style="fill:black;" />
+    </mask>
+    
+    <radialGradient id="rg1" cx="50%" cy="50%" r="50%">
+      <stop offset="50%" style="stop-color:white;stop-opacity:1;" />
+      <stop offset="60%" style="stop-color:white;stop-opacity:0.9;" />
+      <stop offset="70%" style="stop-color:white;stop-opacity:0.8;" />
+      <stop offset="75%" style="stop-color:white;stop-opacity:0.5;" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0;" />
+    </radialGradient>
+  </defs>
+
+  <g style="clip-path:url(#cp1);display:none;">   
+    <circle cx="200" cy="500" r="500" style="fill:none;stroke:red;stroke-width:1000px;stroke-dasharray:31.4159,31.4159;">
+      <animateTransform attributeName="transform" type="rotate" values="0,200,500;-360,200,500" dur="10s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="400" cy="500" r="500" style="fill:none;stroke:blue;stroke-width:1000px;stroke-dasharray:31.4159,31.4159;">
+      <animateTransform attributeName="transform" type="rotate" values="0,400,500;360,400,500" dur="10s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <g style="clip-path:url(#cp1);display:none;">   
+    <circle cx="300" cy="500" r="500" style="fill:none;stroke:blue;opacity:0.7;stroke-width:1000px;stroke-dasharray:31.4159,31.4159;">
+      <animateTransform attributeName="transform" type="rotate" values="0,300,500;360,300,500" dur="10s" repeatCount="indefinite" />
+    </circle>
+  </g>  
+  <g style="clip-path:url(#cp1);display:initial;">   
+    <circle cx="300" cy="500" r="500" style="fill:none;stroke:blue;opacity:0.7;stroke-width:1000px;stroke-dasharray:31.4159,31.4159;"/>
+  </g>  
+
+  <g style="clip-path:url(#cp1);">   
+    <circle cx="300" cy="500" r="300" style="fill:url(#rg1);" />
+  
+
+  <path d="M0,250Q50,400,50,500l-50,0z" style="fill:navy;" />
+  <path d="M0,250Q50,400,50,500" style="fill:none;stroke:#333;stroke-width:4px;" />
+  <path d="M50,0Q100,170,0,300l0-300z" style="fill:navy;" />
+  <path d="M50,0Q100,170,0,300" style="fill:none;stroke:#333;stroke-width:4px;mask:url(#m1);" />
+
+
+  <path d="M600,250Q550,400,550,500l50,0z" style="fill:navy;" />
+  <path d="M600,250Q550,400,550,500" style="fill:none;stroke:#333;stroke-width:4px;" />
+  <path d="M550,0Q500,170,600,300l0-300z" style="fill:navy;" />
+  <path d="M550,0Q500,170,600,300" style="fill:none;stroke:#333;stroke-width:4px;mask:url(#m2);" />
+
+  <path d="M0,30Q300,100,600,30l0-30l-600,0z" style="fill:navy;" />
+  <path d="M0,30Q300,100,600,30" style="fill:none;stroke:#333;stroke-width:4px;" />
+
+  </g>
+  
+  <image x="217" y="295" width="165" height="208" xlink:href="https://openclipart.org/download/270261/beautypageant.svg" />
+
+  <rect x="20" y="495" width="560" height="105" style="fill:#333;" />
+  <rect x="0" y="495" width="600" height="15" style="fill:brown;" />
+
+  <path d="M30,555l550,0" style="fill:none;stroke:brown;stroke-width:70px;stroke-dasharray:15,10;" />
+</svg>

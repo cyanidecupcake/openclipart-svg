@@ -1,0 +1,64 @@
+<svg width="100%" height="100%" viewBox="0 0 400 400"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+  <desc>
+    String Art Animated
+    
+    CSS animations are argued to be less CPU intensive than SMIL animations, but
+    implementation is also an issue. This clip art is buttery smooth when the clipPath
+    does not clip anything, but change the radius of the clipPath to 90 or less and
+    Chrome and Safari browsers have very jerky animation. Firefox provides a smooth animation.
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <style type="text/css"><![CDATA[
+    @keyframes cw {from {transform:rotate(0deg)} to {transform:rotate(360deg)} }
+    @keyframes ccw {from {transform:rotate(0deg)} to {transform:rotate(-360deg)} }
+    .animate1 {animation:cw 5s linear infinite;transform-origin:100px 100px;}
+    .animate2 {animation:ccw 5s linear infinite;transform-origin:300px 100px;}
+    .animate3 {animation:ccw 5s linear infinite;transform-origin:100px 300px;}
+    .animate4 {animation:cw 5s linear infinite;transform-origin:300px 300px;}
+  ]]>
+  </style>
+  
+  <defs>
+    <clipPath id="cp1">
+      <circle cx="100" cy="100" r="100" />
+    </clipPath>
+  </defs>
+  
+  <g style="stroke:blue;" class="animate1">
+    <g id="stringart" style="stroke-width:0.5;clip-path:url(#cp1);">
+      <g id="star">
+        <g id="s90">
+          <path d="M5,100L100,100" />
+          <path d="M10,100L100,90" />
+          <path d="M20,100L100,80" />
+          <path d="M30,100L100,70" />
+          <path d="M40,100L100,60" />
+          <path d="M50,100L100,50" />
+          <path d="M60,100L100,40" />
+          <path d="M70,100L100,30" />
+          <path d="M80,100L100,20" />
+          <path d="M90,100L100,10" />
+          <path d="M100,100L100,5" />
+        </g> 
+        <use xlink:href="#s90" transform="rotate(90,100,100)" />
+        <use xlink:href="#s90" transform="rotate(180,100,100)" />
+        <use xlink:href="#s90" transform="rotate(270,100,100)" />
+      </g>
+      <use xlink:href="#star" transform="rotate(15,100,100)" />
+      <use xlink:href="#star" transform="rotate(30,100,100)" />
+      <use xlink:href="#star" transform="rotate(45,100,100)" />
+      <use xlink:href="#star" transform="rotate(60,100,100)" />
+      <use xlink:href="#star" transform="rotate(75,100,100)" />
+    </g> 
+  </g> 
+  <use x="200" xlink:href="#stringart" style="stroke:red;" class="animate2" />
+  <use y="200" xlink:href="#stringart" style="stroke:green;" class="animate3" />
+  <use x="200" y="200" xlink:href="#stringart" style="stroke:purple;" class="animate4" />
+
+</svg>

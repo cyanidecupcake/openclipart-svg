@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xml:space="preserve"
+    width="100%"
+    height="100%"
+    viewBox="0 0 500 500"
+  >
+       
+  <desc
+    >
+    String Art Symbol 60 Degrees
+    
+    Image that did not make my eBook, STEAM Coded String Art
+    Step-by-step instructions on creating string art symbols in my eBook, STEAM Coded String Art
+    Image can be inserted into an SVG image then scaled and positioned where desired.
+    
+    STEAM Coded String Art is written and illustrated by Jay Nick.
+    and available as an eBook from the Apple iBookstore
+    http://www.steamcoded.com
+    
+    Image written by Jay Nick
+    Handcoding SVG since 2001
+    http://www.jaynick.com
+    Author of Free eBooks using SVG, published by Catto Creations, LLC
+    
+    STEAM Coded String Art is published by Catto Creations, LLC
+    Catto Creations mission is Family, Literacy, and Enrichment
+    Visit http://www.cattocreations.com for award winning children's eBooks
+    
+    Free ePub3 eBooks at http://www.cattocreations.com/ePub3.html
+  </desc
+  >
+       
+  <defs
+    >
+    <style
+        type="text/css"
+      ><![CDATA[
+      .c1 {stroke:red;fill:none;stroke-width:0.8px;}
+    ]]>
+    </style
+    >
+    
+    <symbol
+        id="pat60"
+        viewBox="0 0 200 200"
+      >
+      <path
+          d="M0,173.2L100,0L200,173.2"
+      />
+      <path
+          d="M5,164.54L105,8.66"
+      />
+      <path
+          d="M10,155.88L110,17.32"
+      />
+      <path
+          d="M15,147.22L115,25.98"
+      />
+      <path
+          d="M20,138.56L120,34.64"
+      />
+      <path
+          d="M25,129.90L125,43.30"
+      />
+      <path
+          d="M30,121.24L130,51.96"
+      />
+      <path
+          d="M35,112.58L135,60.62"
+      />
+      <path
+          d="M40,103.92L140,69.28"
+      />
+      <path
+          d="M45,95.26L145,77.94"
+      />
+      <path
+          d="M50,86.60L150,86.60"
+      />
+      <path
+          d="M55,77.94L155,95.26"
+      />
+      <path
+          d="M60,69.28L160,103.92"
+      />
+      <path
+          d="M65,60.62L165,112.58"
+      />
+      <path
+          d="M70,51.96L170,121.24"
+      />
+      <path
+          d="M75,43.30L175,129.90"
+      />
+      <path
+          d="M80,34.64L180,138.56"
+      />
+      <path
+          d="M85,25.98L185,147.22"
+      />
+      <path
+          d="M90,17.32L190,155.88"
+      />
+      <path
+          d="M95,8.66L195,164.54"
+      />
+    </symbol
+    >
+  </defs
+  >
+  
+  <rect
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%"
+      style="fill:black;display:none;"
+  />
+    
+  <g
+      transform="translate(0,0) scale(1)"
+    >
+    <g
+        class="c1"
+      >
+    <g
+          id="i1"
+        >
+      <g
+            transform="translate(125,250)"
+            class="c3"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+      <g
+            transform="rotate(60,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+      <g
+            transform="rotate(120,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+      <g
+            transform="rotate(180,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+      <g
+            transform="rotate(240,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+      <g
+            transform="rotate(300,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              height="250"
+              xlink:href="#pat60"
+          />
+      </g
+        >
+    </g
+      >
+    </g
+    >
+
+    <use
+        width="250"
+        height="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(15,250,250)"
+    />
+    <use
+        width="250"
+        height="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(30,250,250)"
+    />
+    <use
+        width="250"
+        height="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(45,250,250)"
+    />
+  </g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >String Art Symbol 60 Degrees</dc:title
+        ><dc:date
+          >2014-07-02T11:47:50</dc:date
+        ><dc:description
+          >String Art Symbol reused and rotated. Step-by-step instructions on creating string art symbols in eBook, STEAM Coded String Art. More at http://steamcoded.org</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/194595/string-art-symbol-60-degrees-by-jaynick-194595</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >JayNick</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >lineart</rdf:li
+            ><rdf:li
+              >stringart</rdf:li
+            ><rdf:li
+              >string</rdf:li
+            ><rdf:li
+              >art</rdf:li
+            ><rdf:li
+              >symbol</rdf:li
+            ><rdf:li
+              >reuse</rdf:li
+            ><rdf:li
+              >rotate</rdf:li
+            ><rdf:li
+              >draw</rdf:li
+            ><rdf:li
+              >STEM</rdf:li
+            ><rdf:li
+              >STEAM</rdf:li
+            ><rdf:li
+              >STEAMcoded.org</rdf:li
+            ><rdf:li
+              >coding</rdf:li
+            ><rdf:li
+              >learn</rdf:li
+            ><rdf:li
+              >math</rdf:li
+            ><rdf:li
+              >art</rdf:li
+            ><rdf:li
+              >science</rdf:li
+            ><rdf:li
+              >technology</rdf:li
+            ><rdf:li
+              >engineering</rdf:li
+            ><rdf:li
+              >handcoded</rdf:li
+            ><rdf:li
+              >svg</rdf:li
+            ><rdf:li
+              >icon</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>
