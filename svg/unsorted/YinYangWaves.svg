@@ -1,0 +1,64 @@
+<svg width="100%" height="100%" viewBox="0 0 600 600"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Yin Yang Waves
+    
+    inspired by @beesandbombs https://beesandbombs.tumblr.com/image/171290758269
+    
+    As of 2/27/18 animation works correctly in Chrome browser, partially in Safari, and
+    not at all in Firefox
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+     
+  <style type="text/css"><![CDATA[
+    @keyframes a1
+    {
+      from {transform:translate(0px,0px);}
+      to {transform:translate(40px,0px);}
+    }
+    .animate {animation: a1 1s linear infinite;transform-origin:0px 10px;}
+    
+    @keyframes a2
+    {
+      from {transform:rotate(0deg));}
+      to {transform:rotate(360deg);}
+    }
+    .animate2 {animation: a2 4s linear infinite;transform-origin:300px 300px;}
+  ]]>
+  </style>
+  
+  <defs>
+    <symbol id="wave" viewBox="0 0 40 20">
+      <path class="animate" d="M-40,10q10,-10,20,0t20,0t20,0t20,0" />
+    </symbol>
+    
+    <pattern id="p1" x="0" y="0" width="40" height="20" viewBox="0 0 40 20" patternUnits="userSpaceOnUse">
+      <rect width="40" height="20" style="fill:white;" />
+      <use width="40" height="20" xlink:href="#wave" style="fill:none;stroke:black;stroke-width:2px;" />
+    </pattern>
+
+    <pattern id="p2" x="0" y="0" width="40" height="20" viewBox="0 0 40 20" patternUnits="userSpaceOnUse">
+      <rect width="40" height="20" style="fill:black;" />
+      <path d="M0,10l40,0" style="stroke:white;stroke-width:2px;" />
+    </pattern>
+    
+    <clipPath id="cp1">
+      <circle cx="300" cy="300" r="300" />
+    </clipPath>
+    <clipPath id="cp2">
+      <path d="M300,0A150,150,0,0,1,300,300A150,150,0,0,0,300,600A300,300,0,0,0,300,0M300,120A30,30,0,0,0,300,180A30,30,0,0,0,300,120" class="animate2" />
+    </clipPath>
+    
+    <mask id="m1">
+      <circle cx="300" cy="300" r="300" style="fill:white" />
+      <circle cx="300" cy="450" r="30" style="fill:black" class="animate2" />
+    </mask>
+  </defs>
+  
+  <rect width="100%" height="100%" style="fill:url(#p1);clip-path:url(#cp1);" />
+  <rect width="100%" height="100%" style="fill:url(#p2);clip-path:url(#cp2);mask:url(#m1);" />
+</svg>

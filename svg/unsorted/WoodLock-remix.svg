@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4292"
+   viewBox="0 0 305 430.00004"
+   height="430.00003"
+   width="305">
+  <title
+     id="title4928">Wood Lock remix</title>
+  <defs
+     id="defs4294">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter5036"
+       x="0"
+       width="1"
+       y="0"
+       height="1">
+      <feTurbulence
+         id="feTurbulence5038"
+         result="result1"
+         radius="0.7"
+         type="turbulence"
+         numOctaves="1"
+         baseFrequency="0.002 0.182"
+         seed="25" />
+      <feComposite
+         id="feComposite5040"
+         in2="result1"
+         operator="in"
+         in="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5042"
+         result="result5"
+         values="1 0 0 0 0.1 0 1 0 0 0.1 0 0 1 0 0.1 0 0 0 0.5 0 " />
+      <feColorMatrix
+         id="feColorMatrix5044"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 1 0 "
+         result="result8" />
+      <feMerge
+         id="feMerge5046"
+         result="result6">
+        <feMergeNode
+           id="feMergeNode5048"
+           in="result8" />
+      </feMerge>
+      <feTurbulence
+         id="feTurbulence5050"
+         result="result9"
+         seed="0"
+         baseFrequency="0.002 0.182"
+         numOctaves="1"
+         type="turbulence"
+         radius="0.7" />
+      <feComposite
+         id="feComposite5052"
+         in2="result9"
+         in="SourceGraphic"
+         operator="in" />
+      <feColorMatrix
+         id="feColorMatrix5054"
+         values="0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.5 0 "
+         result="result5" />
+      <feMerge
+         id="feMerge5056"
+         result="result9">
+        <feMergeNode
+           id="feMergeNode5058"
+           in="result5" />
+        <feMergeNode
+           id="feMergeNode5060"
+           in="result6" />
+      </feMerge>
+      <feTurbulence
+         id="feTurbulence5062"
+         result="result11"
+         numOctaves="10"
+         type="fractalNoise"
+         baseFrequency="0.0032520325203252037 0.034146341463414637" />
+      <feDisplacementMap
+         id="feDisplacementMap5064"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in2="result11"
+         scale="20.588235"
+         result="result10"
+         in="result9" />
+      <feMerge
+         id="feMerge5066"
+         result="result7">
+        <feMergeNode
+           id="feMergeNode5068"
+           in="SourceGraphic" />
+        <feMergeNode
+           id="feMergeNode5070"
+           in="result10" />
+      </feMerge>
+      <feComposite
+         id="feComposite5072"
+         k4="0"
+         k1="0"
+         k2="0.53857351"
+         k3="1"
+         operator="arithmetic"
+         in="result10"
+         in2="SourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4998"
+       x="0"
+       width="1"
+       y="0"
+       height="1">
+      <feTurbulence
+         id="feTurbulence5000"
+         result="result1"
+         radius="0.7"
+         type="turbulence"
+         numOctaves="1"
+         baseFrequency="0.002 0.182"
+         seed="25" />
+      <feComposite
+         id="feComposite5002"
+         in2="result1"
+         operator="in"
+         in="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5004"
+         result="result5"
+         values="1 0 0 0 0.1 0 1 0 0 0.1 0 0 1 0 0.1 0 0 0 0.5 0 " />
+      <feColorMatrix
+         id="feColorMatrix5006"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 1 0 "
+         result="result8" />
+      <feMerge
+         id="feMerge5008"
+         result="result6">
+        <feMergeNode
+           id="feMergeNode5010"
+           in="result8" />
+      </feMerge>
+      <feTurbulence
+         id="feTurbulence5012"
+         result="result9"
+         seed="0"
+         baseFrequency="0.002 0.182"
+         numOctaves="1"
+         type="turbulence"
+         radius="0.7" />
+      <feComposite
+         id="feComposite5014"
+         in2="result9"
+         in="SourceGraphic"
+         operator="in" />
+      <feColorMatrix
+         id="feColorMatrix5016"
+         values="0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.4 0 0 0 0 0 0.5 0 "
+         result="result5" />
+      <feMerge
+         id="feMerge5018"
+         result="result9">
+        <feMergeNode
+           id="feMergeNode5020"
+           in="result5" />
+        <feMergeNode
+           id="feMergeNode5022"
+           in="result6" />
+      </feMerge>
+      <feTurbulence
+         id="feTurbulence5024"
+         result="result11"
+         numOctaves="10"
+         type="fractalNoise"
+         baseFrequency="0.0032520325203252037 0.034146341463414637" />
+      <feDisplacementMap
+         id="feDisplacementMap5026"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in2="result11"
+         scale="20.588235"
+         result="result10"
+         in="result9" />
+      <feMerge
+         id="feMerge5028"
+         result="result7">
+        <feMergeNode
+           id="feMergeNode5030"
+           in="SourceGraphic" />
+        <feMergeNode
+           id="feMergeNode5032"
+           in="result10" />
+      </feMerge>
+      <feComposite
+         id="feComposite5034"
+         k4="0"
+         k1="0"
+         k2="0.53857351"
+         k3="1"
+         operator="arithmetic"
+         in="result10"
+         in2="SourceGraphic" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4297">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Wood Lock remix</dc:title>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>akramly
+https://openclipart.org/detail/261119/wood-lock
+https://openclipart.org/user-detail/akramly</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Padlock with wood pattern</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>lock</rdf:li>
+            <rdf:li>padlock</rdf:li>
+            <rdf:li>key</rdf:li>
+            <rdf:li>wood</rdf:li>
+            <rdf:li>pattern</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Arvin61r58</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Openclipart.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://openclipart.org/</dc:identifier>
+        <dc:source>https://openclipart.org/user-detail/Arvin61r58</dc:source>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-219.54724,-311.18109)"
+     id="layer1">
+    <g
+       id="g4199"
+       transform="matrix(0.07653061,0,0,0.07653062,219.54724,509.727)">
+      <path
+         style="opacity:1;fill:#392116;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5036)"
+         d="m 520,-72 0,275 c 0,22.16 -17.84,40 -40,40 l -245,0 c -22.16,0 -40,-17.84 -40,-40 l 0,-275 c 0,-22.16 17.84,-40 40,-40 l 245,0 c 22.16,0 40,17.84 40,40 z"
+         id="rect4334"
+         transform="matrix(0,-9.8237671,10.122066,0,1329.6714,4743.9682)" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         d="m 1992.6667,972.82854 a 349.21125,334.08608 0 0 0 -349.2113,334.08606 349.21125,360.81297 0 0 0 180.7169,315.5548 l 0,293.0043 c 0,103.6465 75.1582,187.0881 168.4944,187.0881 93.3361,0 168.4944,-83.4416 168.4944,-187.0881 l 0,-292.5866 A 349.21125,360.81297 0 0 0 2341.878,1306.9146 349.21125,334.08608 0 0 0 1992.6667,972.82854 Z"
+         id="path4194" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#392116;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:31.99999809;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4998);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 452.04546,-209.4971 c 0,-72.31097 -63.07049,-129.76014 -138.91446,-129.99446 l 0,-0.006 -0.46459,0 -49.71187,0 0,30.25455 49.71187,0 c 61.48079,0 109.64485,45.31947 109.64485,99.74545 0,54.42598 -48.16406,99.74545 -109.64485,99.74545 l -49.71187,0 0,30.25455 49.71187,0 0.46459,0 0,-0.006 c 75.84397,-0.23432 138.91446,-57.68349 138.91446,-129.99446 z"
+         id="path4336"
+         transform="matrix(0,-9.8237671,10.122066,0,4113.2148,2042.4563)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,200 @@
+<svg width="100%" height="100%" viewBox="500 0 500 700"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc><![CDATA[
+    Valentine's Day Card
+    
+    Generic card that can be customized by appending parameters to the URL,
+    For Example:
+    ValentineCard.svg?to=Sweetheart&from=Your Man
+    ValentineCard.svg?from=Your BFF
+    
+    Uses openclipart images:
+    https://openclipart.org/detail/244277/cupid-silhouette-2-variation-2
+    https://openclipart.org/detail/271606/valentines-day 
+    https://openclipart.org/detail/216288/coracao-e-rosas-hearth-and-red-roses
+         
+    written by Jay Nick
+    STEAMcoded.org
+  ]]>
+  </desc>
+
+  <script type="application/x-javascript"><![CDATA[
+    var Valentine = function()
+    {
+      var To="";
+      var From="";
+      
+      var qs = location.search;
+      
+      if(qs.length!=0)
+      {
+        qs = qs.replace("?","");
+        var params = qs.split("&");
+        for(var i=0;i<params.length;i++)
+        {
+          var values = params[i].split("=");
+          if(values[0].toLowerCase()=="to")
+          {
+            if(values[1].length>0 && values[1].length<14) To = values[1].replace("%20"," ");
+          }
+          if(values[0].toLowerCase()=="from")
+          {
+            if(values[1].length>0 && values[1].length<20) From = values[1].replace("%20"," ");
+          }
+        }
+        window.addEventListener("load",init);
+      }
+      
+      function init()
+      {
+        var node;
+        
+        if(To.length>0)
+        {
+          node = document.getElementById("to");
+          node.firstChild.nodeValue = To;
+        }
+        if(From.length>0)
+        {
+          node = document.getElementById("from");
+          node.firstChild.nodeValue = From;
+        }
+      }
+    }();
+  ]]>
+  </script>
+  
+  <style type="text/css"><![CDATA[
+     @import 'https://fonts.googleapis.com/css?family=Kalam|Roboto+Mono:700';
+    .t1 {font-family:'Kalam',cursive;font-size:50px;text-anchor:middle;fill:red;stroke:none;}
+    .t2 {font-family:'Kalam',cursive;font-size:40px;text-anchor:middle;fill:red;stroke:none;}
+    
+    .c1 {fill:#fffff8;stroke:black;}
+    .c2 {fill:#fffff8;stroke:black;}
+    
+    .message {text-anchor:middle;font-family:'Roboto Mono',Arial,sans-serif;font-size:50px;font-weight:700;}
+    .message {fill:#fcc;stroke:none;stroke-width:3px;}
+
+    .show {visibility:visible;}
+    .hide {visibility:hidden;}
+
+    .m1 {visibility:visible;}
+    .m2 {visibility:hidden;}
+    .m3 {visibility:hidden;}
+
+    .heart1 {fill:red;}
+    .heart2 {fill:#fffff8;}
+    .sb {stroke:black;stroke-width:2px;}
+
+  ]]>
+  </style>
+
+  <defs>
+    <symbol id="Heart" viewBox="0 0 280 270">
+      <path d="M140,58C170,-2,250,-2,270,58C300,158,160,208,140,268C120,208,-20,158,10,58C30,-2,110,-2,140,58" />
+    </symbol>      
+  </defs>
+     
+  <animate attributeName="viewBox" values="500 0 500 700;0 0 1000 700;" begin="3s" dur="1s" fill="freeze" />
+
+  <g id="insideRight">     
+    <rect x="500" y="0" width="500" height="700" class="c2" />
+    <g transform="translate(750,0)" class="t2">
+      <text x="0" y="60">For You</text>
+      <text x="0" y="100">and</text>
+      <text x="0" y="140">Only You</text>
+      <text x="0" y="600" style="text-anchor:middle;">I Love You</text>
+      <text x="200" y="650" style="text-anchor:end;fill:black;">- <tspan id="from">Guess Who</tspan></text>
+    </g>
+
+    <g transform="translate(500,0)">
+      <g transform="translate(51,150) scale(1.429)">
+        <use x="0" y="0" width="280" height="270" xlink:href="#Heart" class="heart1 sb" />
+        <g transform="scale(1)">
+          <g transform="translate(0,0)">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="14 14" dur="0.8s" repeatCount="indefinite" />
+            <use x="0" y="0" width="280" height="270" xlink:href="#Heart" class="heart2" transform="translate(14,14) scale(0.9)" />
+            <use x="0" y="0" width="280" height="270" xlink:href="#Heart" class="heart1" transform="translate(28,28) scale(0.8)" />
+          </g>
+          <animateTransform attributeName="transform" type="scale" from="1" to="0.9" dur="0.8s" repeatCount="indefinite" />
+        </g>
+      </g>
+
+      <g transform="translate(245,315)" class="message">
+        <g class="m1">
+          <animate attributeName="class" values="show;hide;hide;" dur="2.4s" repeatCount="indefinite" />
+          <g transform="translate(2,2)" style="fill:darkred;">
+            <text>I'M</text>
+            <text y="50">YOURS</text>
+          </g>
+          <text>I'M</text>
+          <text y="50">YOURS</text>
+        </g>
+        <g class="m2">
+          <animate attributeName="class" values="hide;show;hide;" dur="2.4s" repeatCount="indefinite" />
+          <g transform="translate(2,2)" style="fill:darkred;">
+            <text>BE</text>
+            <text y="50">MINE</text>
+          </g>
+          <text>BE</text>
+          <text y="50">MINE</text>
+        </g>
+        <g class="m3">
+          <animate attributeName="class" values="hide;hide;show;" dur="2.4s" repeatCount="indefinite" />
+          <g transform="translate(2,2)" style="fill:darkred;">
+            <text>LOVE</text>
+            <text y="50">YOU</text>
+          </g>
+          <text>LOVE</text>
+          <text y="50">YOU</text>
+        </g>
+      </g>
+      <g transform="translate(0,0)">
+        <image id="cupid" x="0" y="0" width="150" height="150" transform="translate(-20,17) rotate(30,75,75)" xlink:href="https://openclipart.org/download/244277/Cupid-Silhouette-2-Variation-2.svg" />
+        <use xlink:href="#cupid" x="0" y="0" width="150" height="150" transform="translate(500,0) scale(-1,1)" />
+      </g>
+    </g>
+  </g>
+      
+  <g id="coverPage" transform="translate(500,0)" class="c1">
+    <animate attributeName="class" values="c1;c2;" begin="3s" dur="1s" calcMode="discrete" fill="freeze" />
+    <g id="openCardAnimation">
+      <animateTransform attributeType="XML" attributeName="transform" type="scale" values="1,1;-1,1;" dur="1s" begin="3s" fill="freeze" />
+      <rect x="0" y="0" width="500" height="700" />
+      <g id="coverFront" class="show">
+        <animate attributeName="class" values="show;hide;" begin="3s" dur="1s" calcMode="discrete" fill="freeze" />
+        
+        <g class="heart1 sb">
+          <g transform="translate(0,0)" class="h1">
+            <use x="0" y="0" width="280" height="270" xlink:href="#Heart" transform="translate(50,150) scale(1.429)" />
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="20 20" dur="0.8s" repeatCount="indefinite" />
+          </g>
+          <animateTransform attributeName="transform" type="scale" from="1" to="0.9" dur="0.8s" repeatCount="indefinite" />
+        </g>
+
+        <text id="to" x="250" y="130" class="t1">Valentine</text>
+        <g transform="translate(0,-20)">
+          <text x="250" y="300" class="t1" style="fill:white;">Every Beat</text>
+          <text x="250" y="360" class="t1" style="fill:white;">of my</text>
+          <text x="250" y="420" class="t1" style="fill:white;">Heart</text>
+        </g>
+        <text x="250" y="600" class="t1">Sends a Message</text>
+        <use xlink:href="#cupid" x="0" y="0" width="150" height="150" />
+        <use xlink:href="#cupid" x="0" y="0" width="150" height="150" transform="translate(500,0) scale(-1,1)" />
+      </g>
+
+      <g id="coverBack" transform="translate(500,0) scale(-1,1)" class="hide" style="fill:red;">
+        <animate attributeName="class" values="hide;show;" begin="3s" dur="1s" fill="freeze" />
+        <use x="200" y="20" width="100" height="97" xlink:href="#Heart" class="heart1 sb" />
+        <use x="210" y="30" width="80" height="77" xlink:href="#Heart" class="heart2" />
+        <image id="birds" x="30" y="10" width="130" height="130" xlink:href="https://openclipart.org/download/271606/valentinestwittbis.svg" />
+        <use x="0" y="0" width="130" height="130" xlink:href="#birds" transform="translate(500,0) scale(-1,1)" />
+        <image x="50" y="140" width="400" height="400" xlink:href="https://openclipart.org/image/800px/svg_to_png/216288/coracao_rosas.png" />
+        <text x="250" y="600" class="t2">Happy Valentine's day!</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
