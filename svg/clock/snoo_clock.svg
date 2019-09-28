@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by David Eccles (gringer) <upvotes@gringene.org> -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    id="svg3002"
+    onload="startup(evt)"
+    version="1.1"
+    viewBox="-5 -5 410 410"
+  >
+  <script
+    >var svgDocument=null;
+             var T,ASG;
+             var numCopies = 12;
+             var updateTimeMillis = 100;
+             var shapeArray = new Array(numCopies);
+             var sInHD = 60*60*12;
+             var SVGns = "http://www.w3.org/2000/svg";
+             var SVGxmlns = 'http://www.w3.org/2000/xmlns/';
+             var SVGxlink = 'http://www.w3.org/1999/xlink';
+             function pad2(number) {
+               var str = "" + ~~number;
+               while(str.length &lt; 2){
+                 str = "0" + str;
+               }
+               return(str);
+             }
+             function startup(evt){
+               svgDocument=evt.target.ownerDocument;
+               T = svgDocument.getElementById("tTime");
+               for(i = 0; i &lt; numCopies; i++){
+                 ASG = svgDocument.getElementById("gAllShapes");
+                 var shapeGroup = svgDocument.createElementNS(SVGns,"g");
+                 var shape = svgDocument.createElementNS(SVGns,"use");
+                 shape.setAttribute("x", 150);
+                 shape.setAttribute("y", 275);
+                 shape.setAttributeNS(SVGxlink, "href","#gTemplate");
+                 shapeGroup.setAttribute("transform",
+                   "rotate(" + (i/numCopies * 360) + " 200 200)");
+                 shapeGroup.appendChild(shape);
+                 ASG.appendChild(shapeGroup);
+                 shapeArray[i] = shapeGroup;
+               }
+               window.setInterval("changeTime()",updateTimeMillis);
+             }
+             function changeTime(){
+               var currentTime = (new Date()).getTime();
+               var dateSeconds = (currentTime / 1000) % (sInHD);
+               var secInt = ~~dateSeconds;
+               var secFrac =
+                  (1 - Math.sin((0.5 - (dateSeconds - secInt)) * Math.PI))/2;
+               &lt;!-- var secFrac = (dateSeconds - secInt); --&gt;
+               var hAng = ((dateSeconds / sInHD) * 360);
+               var mAng = (~~((dateSeconds % 3600) / 60) * 6);
+               var sAng = (((secInt + secFrac) % 60) / 60) * 360;
+               T.firstChild.nodeValue = pad2(hAng/360 * 12) + ":" +
+                 pad2(mAng/360 * 60);
+               for(i = 0; i &lt; numCopies; i++){
+                 shapeGroup = shapeArray[i];
+                 shapeGroup.setAttribute("transform",
+                   "rotate(" + (sAng * i) + " 200 200)");
+               }
+             }
+             //</script
+  >
+  <defs
+    >
+    <g
+        id="gTemplate"
+      >
+      <g
+          opacity=".75"
+          transform="scale(.15)"
+        >
+        <g
+            id="Layer_2"
+            transform="matrix(12.585 0 0 12.585 -584.34 -1.3718)"
+          >
+          <g
+              id="g21780"
+          />
+          <g
+              id="g21790"
+          />
+          <g
+              id="g21810"
+          />
+        </g
+        >
+      </g
+      >
+    </g
+    >
+  </defs
+  >
+  <text
+      id="tTime"
+      y="200"
+      x="200"
+      text-anchor="middle"
+      dominant-baseline="middle"
+    >00:00</text
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

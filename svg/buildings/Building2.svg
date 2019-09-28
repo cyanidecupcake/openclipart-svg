@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg3981"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 5">
+  <defs
+     id="defs3983">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 32 : 1"
+       inkscape:persp3d-origin="32 : 21.333333 : 1"
+       id="perspective3989" />
+    <inkscape:perspective
+       id="perspective3966"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       id="filter4530"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur4532"
+         in="SourceAlpha"
+         stdDeviation="3.300000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4534"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.130000 0 " />
+      <feOffset
+         id="feOffset4536"
+         in="bluralpha"
+         dx="2.700000"
+         dy="0.400000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge4538">
+        <feMergeNode
+           id="feMergeNode4540"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode4542"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter4544"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur4546"
+         in="SourceAlpha"
+         stdDeviation="3.300000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4548"
+         result="bluralpha"
+         type="ma
