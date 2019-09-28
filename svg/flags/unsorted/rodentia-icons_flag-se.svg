@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--part of the rodentia icon theme by sixsixfive released under CC0 (https://creativecommons.org/publicdomain/zero/1.0/) on openclipart-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+ <defs id="0">
+  <linearGradient id="8">
+   <stop id="G" stop-color="#2e3436"/>
+   <stop id="H" offset="1" stop-color="#2e3436" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="9">
+   <stop id="I" stop-color="#fff" stop-opacity="0.8"/>
+   <stop id="J" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <g id="A">
+   <path d="M -55,74 A 55,55 0 0 1 55,74 V -74 a 55,55 0 0 1 -110,0 z" clip-path="url(#F)" id="K"/>
+   <use transform="matrix(0,1,-1,0,0,0)" id="L" width="1" height="1" xlink:href="#K"/>
+  </g>
+  <linearGradient xlink:href="#9" id="B" gradientUnits="userSpaceOnUse" y1="10.03" x2="0" y2="37.969"/>
+  <radialGradient xlink:href="#8" id="C" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.0834897,0,0,0.05972973,-3.5109498,36.219154)" cx="25.391" cy="42.806" r="22.753"/>
+  <linearGradient id="D">
+   <stop id="M" stop-color="#fff"/>
+   <stop id="N" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient y2="27.16" x2="15.851" y1="-16.178" x1="2.531" gradientUnits="userSpaceOnUse" id="E" xlink:href="#D"/>
+  <clipPath id="F">
+   <path d="m -109,104 a 104,104 0 0 0 0,-208 h 218 a 104,104 0 0 0 0,208 z" id="O"/>
+  </clipPath>
+ </defs>
+ <path id="1" d="m 48.65267,38.775968 a 24.65267,1.3590327 0 0 1 -49.30534038,0 24.65267,1.3590327 0 1 1 49.30534038,0 z" opacity="0.8" fill="url(#C)"/>
+ <rect id="2" y="9" x="1.5" height="30" width="45" fill="#3465a4"/>
+ <path d="M 13.90625 9 L 13.90625 39 L 21.3125 39 L 21.3125 9 L 13.90625 9 z " id="3" fill="#edd400"/>
+ <path id="4" d="m 1.5,20.296703 0,7.406593 45,0 0,-7.406593 -45,0 z" fill="#edd400"/>
+ <path id="5" d="m 2.03125,9.53125 0,28.9375 43.9375,0 0,-28.9375 -43.9375,0 z" opacity="0.6" fill="none" stroke="#000"/>
+ <path id="6" d="m 3.03125,10.53125 0,26.9375 41.9375,0 0,-26.9375 -41.9375,0 z" opacity="0.8" fill="none" stroke="url(#B)"/>
+ <path id="7" d="m 2.53125,10.03125 0,14.65625 c 11.943413,-3.638693 26.281715,-6.287584 42.9375,-8.375 l 0,-6.28125 -42.9375,0 z" opacity="0.6" fill="url(#E)"/>
+</svg>

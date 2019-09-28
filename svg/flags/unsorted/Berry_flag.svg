@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="450">
+	<rect width="700" height="450" fill="#f00"/>
+	<rect x="50" y="50" width="600" height="350" fill="#009"/>
+	<g id="v">
+		<circle id="c" cx="50" cy="50" r="25" fill="#009"/>
+		<use xlink:href="#c" y="50"/>
+		<use xlink:href="#c" y="100"/>
+		<use xlink:href="#c" y="150"/>
+		<use xlink:href="#c" y="200"/>
+		<use xlink:href="#c" y="250"/>
+		<use xlink:href="#c" y="300"/>
+		<use xlink:href="#c" y="350"/>
+	</g>
+	<use xlink:href="#v" x="600"/>
+	<g id="h">
+		<use xlink:href="#c" x="50"/>
+		<use xlink:href="#c" x="100"/>
+		<use xlink:href="#c" x="150"/>
+		<use xlink:href="#c" x="200"/>
+		<use xlink:href="#c" x="250"/>
+		<use xlink:href="#c" x="300"/>
+		<use xlink:href="#c" x="350"/>
+		<use xlink:href="#c" x="400"/>
+		<use xlink:href="#c" x="450"/>
+		<use xlink:href="#c" x="500"/>
+		<use xlink:href="#c" x="550"/>
+	</g>
+	<use xlink:href="#h" y="350"/>
+	<path id="f" d="M 182.193,275.713 C 184.946,272.735 189.795,266.876 19

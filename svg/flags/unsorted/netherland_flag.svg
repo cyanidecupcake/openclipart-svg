@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg3087" viewBox="0 0 124.28 107.5" version="1.1">
+  <defs id="defs3089">
+    <filter id="filter3787" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3789" stdDeviation="3.1730605"/>
+    </filter>
+    <radialGradient id="radialGradient3033" gradientUnits="userSpaceOnUse" cy="-160.86" cx="-103.67" gradientTransform="matrix(.22650 .66587 -1.1573 .39365 240 603.44)" r="46.614">
+      <stop id="stop3024" stop-color="#fff" stop-opacity=".82883" offset="0"/>
+      <stop id="stop3026" stop-color="#fff" stop-opacity=".65766" offset=".45289"/>
+      <stop id="stop3028" stop-color="#fff" stop-opacity=".40541" offset=".73005"/>
+      <stop id="stop3030" stop-color="#fff" stop-opacity=".036036" offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(-343.72 -420.26)">
+    <path id="drop_shadow" opacity=".6" filter="url(#filter3787)" d="m356.33 453.28c42.41 0 60.37-20.41 99.05-20.41v61.86c-38.68 0-56.64 20.41-99.05 20.41z" fill="#010101"/>
+    <g id="flag" onmousedown="setAttribute('transform','translate(3,3)'), getElementById('feGaussianBlur3789').setAttribute('stdDeviation','1.5'), getElementById('flash').setAttribute('fill-opacity','1')" onmouseout="setAttribute('transform','translate(0,0)'), getElementById('feGaussianBlur3789').setAttribute('stdDeviation','3.1730605'), getElementById('colour_one').setAttribute('style','fill:#8A1721'),    getElementById('colour_two').setAttribute('style','fill:#E3E3E3'),    getElementById('colour_three').setAttribute('style','fill:#172F5C'), getElementById('flash').setAttribute('fill-opacity','0')" onmouseup="setAttribute('transform','translate(0,0)'), getElementById('feGaussianBlur3789').setAttribute('stdDeviation','3.1730605'), getElementById('flash').setAttribute('fill-opacity','0')" onmouseover="getElementById('colour_one').setAttribute('style','fill:#AE1C28'),    getElementById('colour_two').setAttribute('style','fill:#FFFFFF'),    getElementById('colour_three').setAttribute('style','fill:#21468B')">
+      <path id="colour_three" d="m353.33 490.02c42.41 0 60.37-20.41 99.05-20.41v20.62c-38.68 0-56.64 20.41-99.05 20.41z" fill="#172F5C"/>
+      <path id="colour_one" d="m353.33 448.78c42.41 0 60.37-20.41 99.05-20.41v20.62c-38.68 0-56.64 20.41-99.05 20.41z" fill="#8A1721" fill-opacity=".94118"/>
+      <path id="colour_two" d="m353.33 469.4c42.41 0 60.37-20.41 99.05-20.41v20.61c-38.68 0-56.64 20.41-99.05 20.41z" fill="#E3E3E3"/>
+      <path id="flash" d="m423.65 432.07c-18.14 4.89-33.45 12.93-55.37 15.59-6.22 4.37-11.3 9.34-14.94 14.57v33.84c5.76 6.18 15.01 10.17 26.06 11.53 22.13-4.79 38.17-14.34 61.1-16.94 4.78-3.64 8.79-7.68 11.87-11.87v-35.6c-6.4-6.36-16.64-10.25-28.72-11.12z" fill="url(#radialGradient3033)" stroke-opacity="0" fill-opacity="0"/>
+      <path id="rim" d="m353.33 448.78c42.41 0 60.37-20.41 99.05-20.41v61.86c-38.68 0-56.64 20.41-99.05 20.41z" stroke="#010101" stroke-width=".94695" fill="none"/>
+    </g>
+    <path id="path3057" d="m423.65 432.07c-18.14 4.89-33.45 12.93-55.37 15.59-6.22 4.37-11.3 9.34-14.94 14.57v33.84c5.76 6.18 15.01 10.17 26.06 11.53 22.13-4.79 38.17-14.34 61.1-16.94 4.78-3.64 8.79-7.68 11.87-11.87v-35.6c-6.4-6.36-16.64-10.25-28.72-11.12z" stroke-opacity="0" visibility="hidden" fill="url(#radialGradient3033)"/>
+    <g id="light_a">
+      <path id="path3002" d="m512.64 490.02c42.41 0 60.37-20.41 99.05-20.41v20.62c-38.68 0-56.64 20.41-99.05 20.41z" fill="#172F5C"/>
+      <path id="path3004" d="m512.64 448.78c42.41 0 60.37-20.41 99.05-20.41v20.62c-38.68 0-56.64 20.41-99.05 20.41z" fill="#8A1721" fill-opacity=".94118"/>
+      <path id="path3006" d="m512.64 469.4c42.41 0 60.37-20.41 99.05-20.41v20.61c-38.68 0-56.64 20.41-99.05 20.41z" fill="#E3E3E3"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>clickable Netherlands flag</dc:title>
+        <dc:date>2012-07-27T22:26:22</dc:date>
+        <dc:description>interactive flag of the Netherlands - good for a 'change language' button maybe</dc:description>
+        <dc:source>http://openclipart.org/detail/171325/clickable-netherlands-flag-by-gmcglinn-171325</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>GMcGlinn</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Dutch</rdf:li>
+            <rdf:li>Holland</rdf:li>
+            <rdf:li>Netherlands</rdf:li>
+            <rdf:li>button</rdf:li>
+            <rdf:li>clickable</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>interactive</rdf:li>
+            <rdf:li>onmouse</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

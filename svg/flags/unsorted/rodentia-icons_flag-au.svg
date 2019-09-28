@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--part of the rodentia icon theme by sixsixfive released under CC0 (https://creativecommons.org/publicdomain/zero/1.0/) on openclipart-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+ <defs id="0">
+  <linearGradient id="2">
+   <stop id="M" stop-color="#fff"/>
+   <stop id="N" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="3">
+   <stop id="O" stop-color="#2e3436"/>
+   <stop id="P" offset="1" stop-color="#2e3436" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="4">
+   <stop id="Q" stop-color="#fff" stop-opacity="0.8"/>
+   <stop id="R" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient y1="10.03" x2="0" y2="37.969" id="5" xlink:href="#4" gradientUnits="userSpaceOnUse"/>
+  <radialGradient cx="25.391" cy="42.806" r="22.753" id="6" xlink:href="#3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,0.1123188,0,37.998412)"/>
+  <linearGradient x1="2.531" y1="-16.178" x2="15.851" y2="27.16" id="7" xlink:href="#2" gradientUnits="userSpaceOnUse"/>
+  <polygon points="2.351141,-3.236068 8.5595086,-2.7811529 3.8042261,1.236068 5.2900673,7.2811529 0,4 -5.2900673,7.2811529 -3.8042261,1.236068 -8.5595086,-2.7811529 -2.351141,-3.236068 0,-9 0,-9 " id="8"/>
+  <polygon points="1.735535,-3.6038755 7.0364833,-5.6114082 3.8997116,-0.89008374 8.7743512,2.0026884 3.1273259,2.4939592 3.9049537,8.1087198 0,4 -3.9049537,8.1087198 -3.1273259,2.4939592 -8.7743512,2.0026884 -3.8997116,-0.89008374 -7.0364833,-5.6114082 -1.735535,-3.6038755 0,-9 0,-9 " id="9"/>
+ </defs>
+ <g id="1">
+  <path d="m 48.144085,42.806374 a 22.753027,2.5555935 0 1 1 -45.506054,0 22.753027,2.5555935 0 1 1 45.506054,0 z" transform="matrix(1.0834897,0,0,0.5317875,-3.5109498,16.012073)" id="A" opacity="0.8" fill="url(#6)"/>
+  <rect width="45" height="30" x="1.5" y="9" id="B" fill="#3465a4"/>
+  <g transform="matrix(0.5,0,0,0.502092,-25.544309,4.9956171)" id="C">
+   <path d="m 54.088619,7.9753968 0,3.5000002 40.125,26.375 4.875,0 0,-3.5 -40.125,-26.3750002 -4.875,0 z" id="S" fill="#d3d7cf"/>
+   <path d="m 94.213619,7.9753968 -40.125,26.3750002 0,3.5 4.875,0 40.125,-26.375 0,-3.5000002 -4.875,0 z" id="T" fill="#d3d7cf"/>
+   <path d="m 95.901119,7.9753968 -15.125,9.9687502 3.375,0 14.9375,-9.8125002 0,-0.15625 -3.1875,0 z m -41.8125,0.15625 0,2.2187502 11.53125,7.59375 3.40625,0 -14.9375,-9.8125002 z" id="U" fill="#c00"/>
+   <path d="m 72.807369,7.9753968 0,9.9687502 -18.71875,0 0,9.9375 18.71875,0 0,9.96875 7.5625,0 0,-9.96875 18.71875,0 0,-9.9375 -18.71875,0 0,-9.9687502 -7.5625,0 z" id="V" fill="#d3d7cf"/>
+   <path d="m 69.026119,27.881647 -14.9375,9.8125 0,0.15625 3.1875,0 15.125,-9.96875 -3.375,0 z m 15.125,0 14.9375,9.8125 0,-2.21875 -11.53125,-7.59375 -3.40625,0 z" id="W" fill="#c00"/>
+   <path d="m 74.307369,7.9753968 0,11.9375002 -20.21875,0 0,6 20.21875,0 0,11.9375 4.5625,0 0,-11.9375 20.21875,0 0,-6 -20.21875,0 0,-11.9375002 -4.5625,0 z" id="X" fill="#c00"/>
+  </g>
+  <path d="m 2.03125,9.53125 0,28.9375 43.9375,0 0,-28.9375 -43.9375,0 z" id="D" opacity="0.6" fill="none" stroke="#000"/>
+  <path d="m 3.03125,10.53125 0,26.9375 41.9375,0 0,-26.9375 -41.9375,0 z" id="E" opacity="0.8" fill="none" stroke="url(#5)"/>
+  <use transform="matrix(0.2143384,0,0,0.2143384,34.652267,33.141547)" id="F" width="48" height="48" xlink:href="#9" fill="#fff"/>
+  <use transform="matrix(0.2143384,0,0,0.2143384,29.148388,24.531054)" id="G" width="48" height="48" xlink:href="#9" fill="#fff"/>
+  <use transform="matrix(0.2143384,0,0,0.2143384,33.196522,15.13712)" id="H" width="48" height="48" xlink:href="#9" fill="#fff"/>
+  <use transform="matrix(0.2143384,0,0,0.2143384,40.653742,20.650976)" id="I" width="48" height="48" xlink:href="#9" fill="#fff"/>
+  <use transform="matrix(0.1250307,0,0,0.1250307,37.352931,25.26461)" id="J" width="48" height="48" xlink:href="#8" fill="#fff"/>
+  <use transform="matrix(0.5745128,0,0,0.5745128,12.842591,31.876351)" id="K" width="48" height="48" xlink:href="#9" fill="#fff"/>
+  <path d="m 2.53125,10.03125 0,14.65625 c 11.943413,-3.638693 26.281715,-6.287584 42.9375,-8.375 l 0,-6.28125 -42.9375,0 z" id="L" opacity="0.6" fill="url(#7)"/>
+ </g>
+</svg>
