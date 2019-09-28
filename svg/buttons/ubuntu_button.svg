@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'>
+ <defs>
+ <radialGradient id='rGshadow'>
+ <stop stop-color='#000' stop-opacity='0' offset='0'/>
+ <stop stop-color='#000' stop-opacity='0' offset='0.9'/>
+ <stop stop-color='#000' offset='1'/>
+ </radialGradient>
+ <radialGradient id='rGlight' gradientTransform='translate(0,-0.7)'>
+ <stop stop-color='#FFF' offset='0'/>
+ <stop stop-color='#FFF' offset='0.5'/>
+ <stop stop-color='#fff' stop-opacity='0.3' offset='1'/>
+ </radialGradient>
+ <filter id='fblur'>
+ <feGaussianBlur stdDeviation='7'/>
+ </filter>
+<circle id='mastercircle' cx='145' cy='330' r='47'/>
+<circle id='base' cx='353' cy='347' r='320' />
+ </defs>
+<use xlink:href='#base' fill='#5c040f'/>
+<use xlink:href='#base' opacity='0.2' filter='url(#fblur)' fill='url(#rGshadow)'/>
+ <path id='emboss' opacity='0.6' d='m159,97c-80,58-133,154-133,261,0,178,143,321,319,321,87,0,166-35,224-92-53,38-117,61-187,61-176,0-319-144-319-321,0-90,37-171,96-229z' filter='url(#fblur)' fill='url(#rGlight)'/>
+ <g id='innerLogo'>
+<path fill='#ff6309' d='m282,159,40,71c13-5,27-7,41-7,58,0,105,40,114,93h78c-4-47-25-89-57-120-9,7-20,11-32,11-30,0-55-26-55-57v-3c-43.7-12-87.4-3.4-129,12z' />
+<path fill='#ffb515' d='m260,175c-36,24-63,60-75,102,18,9,31,29,31,51,0,23-13,43-32,52,12,46,42,86,81,111l34-71c-26-20-43-52-43-87,0-36,18-68,45-88l-40-71z' />
+<path fill='#c90016' d='m478,340c-8,54-56,95-115,95-15,0-30-3-43-8l-34,70c23,10,49,15,76,15,17,0,33-2,49-6v-3c0-32,25-57,55-57,12,0,23,4,32,11,31-31,52-72,57-118h-77z' />
+</g>
+ <use xlink:href='#mastercircle'  fill='#ff6309'/>
+ <use xlink:href='#mastercircle' transform='translate(327,-187)' fill='#c90016'/>
+ <use xlink:href='#mastercircle' transform='translate(328,183)'  fill='#ffb515'/>
+ <path id='spotlight' opacity='0.6' d='m339,71a185,84,0,1,1,-370,0,185,84,0,1,1,370,0z' transform='matrix(0.9,0.43,-0.43,0.9,341.6,11.17)' filter='url(#fblur)' fill='url(#rGlight)'/>
+</svg>

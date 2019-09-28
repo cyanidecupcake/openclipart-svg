@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg3292"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 2">
+  <defs
+     id="defs3294">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4159">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop4161" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop4163" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4151">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop4153" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop4155" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 32 : 1"
+       inkscape:persp3d-origin="32 : 21.333333 : 1"
+       id="perspective3300" />
+    <inkscape:perspective
+       id="perspective3252"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4494"
+       id="linearGradient4500"
+       x1="-78.586678"
+       y1="568.55853"
+       x2="-77.285095"
+       y2="504.75769"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4494">
+      <stop
+         style="stop-color:#ececec;stop-opacity:1;"
+         offset="0"
+         id="stop4496" />
+      <stop
+         style="stop-color:#ececec;stop-opacity:0;"
+         offset="1"
+         id="stop4498" />
+    </linearGradient>
+    <filter
+       id="filter4438"
+       inkscape:label="Desaturate"
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4440"
+         in="SourceAlpha"
+         stdDeviation="2.000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4442"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 " />
+      <feOffset
+         id="feOffset4444"
+         in="bluralpha"
+         dx="4.000000"
+         dy="4.000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge4446"
+         result="fbSourceGraphic">
+        <feMergeNode
+           id="feMergeNode4448"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode4450"
+           in="SourceGraphic" />
+      </feMerge>
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4482" />
+      <feColorMatrix
+         id="feColorMatrix4484"
+         type="saturate"
+         values="0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter4424"
+       inkscape:label="Desaturate"
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4426"
+         in="SourceAlpha"
+         stdDeviation="2.000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4428"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 " />
+      <feOffset
+         id="feOffset4430"
+         in="bluralpha"
+         dx="4.000000"
+         dy="4.000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge4432"
+         result="fbSourceGraphic">
+        <feMergeNode
+           id="feMergeNode4434"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode4436"
+           in="SourceGraphic" />
+      </feMerge>
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4486" />
+      <feColorMatrix
+         id="feColorMatrix4488"
+         type="saturate"
+         values="0"
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter4410"
+       inkscape:label="Desaturate"
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4412"
+         in="SourceAlpha"
+         stdDeviation="2.000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4414"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 " />
+      <feOffset
+         id="feOffset4416"
+         in="bluralpha"
+         dx="4.000000"
+         dy="4.000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge4418"
+         result="fbSourceGraphic">
+        <feMergeNode
+           id="feMergeNode4420"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode4422"
+           in="SourceGraphic" />
+      </feMerge>
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4490" />
+      <feColorMatrix
+         id="feColorMatrix4492"
+         type="saturate"
+         values="0"
+         in="fbSourceGraphic" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4151"
+       id="linearGradient4157"
+       x1="-74.426537"
+       y1="564.27435"
+       x2="-78.36731"
+       y2="476.8139"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4159"
+       id="linearGradient4165"
+       x1="-70.652588"
+       y1="538.50397"
+       x2="-72.512932"
+       y2="563.39941"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.3983809"
+     inkscape:cx="12.130788"
+     inkscape:cy="32"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="712"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3297">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:url(#linearGradient4157);fill-opacity:1;stroke:#6c6c7e;stroke-width:0.36296270000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4438)"
+       d="m -96.988856,586.68186 127.352103,0.50508 10.042855,-103.79318 c -19.806639,-22.61255 -38.5838687,-57.6551 -71.973369,-60.86169 -31.201513,-2.99646 -57.601647,27.57722 -73.488593,58.58885 l 8.067004,105.56094 z"
+       id="path4878"
+       sodipodi:nodetypes="cccscc"
+       transform="matrix(0.27439188,0,0,0.27663348,38.804437,-107.77628)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\logo.png"
+       inkscape:export-xdpi="28.66857"
+       inkscape:export-ydpi="28.66857" />
+    <path
+       style="fill:#7288ad;fill-opacity:1;stroke:#878a96;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:31.20000076;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter4424)"
+       d="m -114.14724,487.68691 c 0,0 48.924031,-66.34517 82.832511,-65.65992 33.029271,0.66748 78.539361,67.17515 78.539361,67.17515 l 14.647211,-0.50508 c 0,0 -71.8163979,-74.2156 -88.355028,-76.37921 -20.03307,-2.62076 -97.513045,75.11652 -97.513045,75.11652 l 9.84899,0.25254 z"
+       id="path4880"
+       transform="matrix(0.27439188,0,0,0.27663348,38.804437,-107.77628)"
+       sodipodi:nodetypes="csccscc"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\logo.png"
+       inkscape:export-xdpi="28.66857"
+       inkscape:export-ydpi="28.66857" />
+    <rect
+       y="537.02338"
+       x="-78.53936"
+       height="33.082497"
+       width="27.779196"
+       id="rect5428"
+       style="fill:url(#linearGradient4165);fill-opacity:1;stroke:#d5c4c4;stroke-width:0.87795460000000003;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter4410)"
+       transform="matrix(0.43593551,0,0,0.5700767,58.373573,-271.238)"
+       inkscape:export-filename="C:\Documents and Settings\Fastallow\Desktop\logo.png"
+       inkscape:export-xdpi="28.66857"
+       inkscape:export-ydpi="28.66857" />
+  </g>
+</svg>
