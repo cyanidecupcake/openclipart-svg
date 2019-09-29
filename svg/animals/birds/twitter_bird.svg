@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <defs>
+<filter id="blur">
+	<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+</filter>
+  <radialGradient id="rgblend">
+   <stop stop-color="#FFF" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="rGiris">
+   <stop stop-color="#000" offset="0"/>
+   <stop stop-color="#000" stop-opacity="0.75" offset="0.35"/>
+   <stop stop-color="#4b6399" offset="0.75"/>
+   <stop stop-color="#000" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="rGbird">
+   <stop stop-color="#42cafe" stop-opacity="0.4" offset="0"/>
+   <stop stop-color="#42cafe" offset="1"/>
+  </radialGradient>
+  <linearGradient id="lGwing">
+   <stop stop-color="#4b6399" offset="0"/>
+   <stop stop-color="#f2fbff" offset="1"/>
+  </linearGradient>
+  <radialGradient id="rgeye">
+   <stop stop-color="#FFF" offset="0"/>
+   <stop stop-color="#FFF" offset="0.85"/>
+   <stop stop-color="#DDD" offset="1"/>
+  </radialGradient>
+  <radialGradient id="rgbrow">
+   <stop stop-color="#4b6399" offset="0"/>
+   <stop stop-color="#4b6399" stop-opacity="0.5" offset="1"/>
+  </radialGradient>
+  <linearGradient id="lgleg">
+   <stop stop-color="#ff7f2a" offset="0"/>
+   <stop stop-color="#ffbd92" offset="0.8"/>
+   <stop stop-color="#fffcfa" offset="1"/>
+  </linearGradient>
+  <linearGradient id="lgspout" y2="203" gradientUnits="userSpaceOnUse" x2="200" y1="266" x1="201">
+   <stop stop-color="#FC0" offset="0"/>
+   <stop stop-color="#ffe88d" offset="0.35"/>
+   <stop stop-color="#FC0" offset="1"/>
+  </linearGradient>
+ </defs>
+<g id="pixelfanstwitterbird" transform="scale(0.5)">
+ <path id="shadowbird" opacity="0.5" d="m350,435a154,24,0,1,1,-308,0,154,24,0,1,1,308,0z" transform="matrix(1.292,0,0,1,-32.69,-1.577)" fill="#803300" filter="url(#blur)"/>
+ <path id="mainbody" fill="url(#rGbird)"  d="m236,58c-8-0-35,28-34,36,1,6-9-23-14-34-1-2,4,31,2,32-13,5-26,14-37,21-24,18-37,36-42,60-5,22,6,39,19,51-0-0-1-1-2-1-5-3-18,10-29,28-11,14-23,32-33,44-15,17-31,46-22,67,1-4,10-31,8-25-7,28-0,46,19,54-3-18-11-37-6-47,1-3-3,40,20,45,7,0-12-41-13-45-1-5,20,52,25,45-1-2-1-8-0-16,22,25,56,36,99,36,62,0,97-11,105-63,3-16,0-39-5-60,15,5,31,8,42,8,32-2,76-16,88-33,3-4-22,1-37,5,18-7,41-25,42-33,2-6-20,3-36,12,15-11,35-26,33-31-2-4-27,9-44,20,17-14,41-34,33-39,1-4-62,32-67,36,3-4,17-33,8-50-22,32-43,77-79,59-4-7-7-11-10-11-1,0-6,2-12,4,21-8,39-30,38-60-1-28-27-53-49-68-3-2-15-5-11-10,5-8,24-18,21-22-3-4-38,11-39,17-5-2,13-33,16-32-0-0-0-0-1-0zm-192,304c-0,1-0,1,0,0-0,0-0-0-0-0zm211-128c-7,2-14,4-16,2,5,0,11-0,16-2z"/>
+ <path id="eyeL" fill="url(#rgeye)" d="m199,163a21,27,0,1,1,-43,0,21,27,0,1,1,43,0z"/>
+ <use id="eyeR" xlink:href="#eyeL" transform="matrix(0.97,0.21,-0.21,0.97,92.52,-31.28)"/>
+ <path id="irisL" fill="url(#rGiris)" d="m192,176a13,14,0,0,1,-26,0,13,14,0,1,1,26,0z"/>
+ <use id="irisR" xlink:href="#irisL" transform="translate(50,1)"/>
+ <path id="blendL" fill="url(#rgblend)" d="m183,172a7,8,0,1,1,-13,0,7,8,0,1,1,13,0z"/>
+ <use id="blendR" xlink:href="#blendL" transform="translate(50,1)"/>
+ <path id="browL" fill="url(#rgbrow)" d="m192,111c9,4-5,16-15,17-20,3-29,17-29,14-2-3,13-21,22-27,9-6,15-8,21-5z"/>
+ <path id="browR" fill="url(#rgbrow)" d="m219,116c-2,6,7,10,15,9,17-1,26,12,25,10,1-2-13-17-22-19s-17-6-19-0z"/>
+ <path id="spout" fill="#FC0"  d="m262,208c5,14-9,25-23,37-4,3-3,14-8,18-14,9-45,2-50,0-8-3-10-17-18-23-14-12-25-26-24-36,2-13,28-12,47-12,9,0,8-10,18-12,10-2,7,11,21,17,14,6,32-9,39,11z"/>
+ <path id="legL" fill="url(#lgleg)"  d="m134,382,11,5c3,1,10-1,9,2l-8,26,7,8-13,1c-1,3-39,24-56,20-10-2,41-21,42-23-2-1-52,23-58,17-6-8,22-11,38-18,2-1-48,15-43,4,4-8,52-15,63-14l6-21c1-3-1-8,2-7z"/>
+ <use id="legR" xlink:href="#legL" transform="matrix(-1,0,0,1,377.1,7.14)"/>
+ <path id="wingL" opacity="0.5" d="m124,229c-17,4-38,43-57,65-15,17-32,46-22,67-2,5,10-32,8-25-7,28-1,46,19,54-3-18-11-37-6-47,1-3-3,40,20,45,7,0-12-41-13-45-1-5,20,52,25,45-2-3-0-21,2-38,1-10-6-21-7-21-4,1,30,27,50,23-13-14-49-32-24-88" fill="url(#lGwing)"/>
+ <path id="spoutlight" d="m257,217c-14,10-20,22-24,31-2,5-3,12-7,15-12,8-30,7-43,0-7-4-9-13-12-20-6-14-18-26-21-27-32-14,128-18,107,2z" fill="url(#lgspout)"/>
+</g>
+</svg>
