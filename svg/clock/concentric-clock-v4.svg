@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    id="svg3002"
+    onload="startup(evt)"
+    version="1.1"
+    viewBox="-5 -5 410 410"
+  >
+  <script
+    >var svgDocument=null;
+             var T,D,ASG;
+             var lMA = -1;
+             var numCopies = 7;
+             var updateTimeMillis = 20;
+             var shapeArray = new Array(numCopies);
+             var pathArray = new Array(numCopies);
+             var sInHD = 60*60*12;
+             function pad2(number) {
+               var str = "" + ~~number;
+               while(str.length &lt; 2){
+                 str = "0" + str;
+               }
+               return(str);
+             }
+             function startup(evt){
+               svgDocument=evt.target.ownerDocument;
+               T = svgDocument.getElementById("tTime");
+               D = svgDocument.getElementById("tDate");
+               for(i = 1; i &lt; numCopies; i++){
+                 shapeArray[i] = svgDocument.getElementById("gC"+i);
+                 pathArray[i] = svgDocument.getElementById("pC"+i);
+               }
+               window.setInterval("changeTime()",updateTimeMillis);
+               changeTime();
+             }
+             function changeTime(){
+               var currentDate = new Date();
+               var dateSeconds = (currentDate.getTime() / 1000) % (sInHD);
+               var secInt = ~~dateSeconds;
+               var secFrac =
+                  (1 - Math.sin((0.5 - (dateSeconds - secInt)) * Math.PI))/2;
+               var hourPart = currentDate.getHours();
+               var minPart = currentDate.getMinutes();
+               if(lMA != minPart){
+                 lMA = minPart;
+                 T.firstChild.nodeValue =
+                   pad2(hourPart) + ":" +
+                  pad2(minPart);
+                 D.firstChild.nodeValue = currentDate.getFullYear() + "-" +
+                   pad2(currentDate.getMonth()+1) + "-" +
+                   pad2(currentDate.getDate());
+               }
+               var sAng = ((secInt + secFrac) % 60) / 60 * 720;
+               for(i = 1; i &lt; numCopies; i++){
+                 shapeGroup = shapeArray[i];
+                 pathElement = pathArray[i];
+                 var loopAngle = ((60/i) * sAng) % 720;
+                 var loopMod = loopAngle % 360;
+                 var lA = 0; // large arc flag
+                 var sF = 0; // sweep flag
+                 if(loopAngle &lt; 360){
+                   sF = 1;
+                 } else {
+                   lA = 1;
+                 }
+                 if(loopMod &gt;= 180){
+                   lA = (1 - lA);
+                 }
+                 var lR = 30 * i; // loop radius
+                 if(Math.abs(loopAngle - 360) &lt;= 1){ // fix annoying flicker bug
+                   loopAngle = 361;
+                   sF = 0;
+                 }
+                 moveX = Math.cos((loopAngle+180) * (Math.PI/180)) * lR;
+                 moveY = Math.sin((loopAngle+180) * (Math.PI/180)) * lR;
+                 pathElement.setAttribute("d",
+                 "M -"+lR+",0 A "+lR+" "+lR+" "+(-loopAngle)+" "+
+                   lA+" "+sF+" "+(moveX)+","+(moveY));
+               }
+             }
+             //</script
+  >
+  <text
+      id="tTime"
+      y="20"
+      x="30"
+      text-anchor="middle"
+      fill="grey"
+    >09:26</text
+  >
+  <text
+      id="tDate"
+      y="390"
+      x="350"
+      text-anchor="middle"
+      fill="grey"
+    >2014-07-19</text
+  >
+  <g
+      transform="translate(200 200)"
+    >
+    <g
+        id="gC0"
+      >
+      <circle
+          cy="0"
+          cx="0"
+          r="10"
+          fill="grey"
+      />
+    </g
+    >
+    <g
+        id="gC1"
+      >
+      <path
+          id="pC1"
+          d="m-30 0a30 30 -719.83 0 0 0 0.091143"
+          stroke="grey"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="gC2"
+      >
+      <path
+          id="pC2"
+          d="m-60 0a60 60 -719.91 0 0 0 0.091143"
+          stroke="grey"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="gC3"
+      >
+      <path
+          id="pC3"
+          d="m-90 0a90 90 -719.94 0 0 0 0.091143"
+          stroke="grey"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="gC4"
+      >
+      <path
+          id="pC4"
+          d="m-120 0a120 120 -361 1 0 0.02 -2.0943"
+          stroke="grey"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="gC5"
+      >
+      <path
+          id="pC5"
+          d="m-150 0a150 150 -143.97 0 1 271.3 -88.242"
+          stroke="grey"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+    <g
+        id="gC6"
+      >
+      <path
+          id="pC6"
+          d="m-180 0a180 180 -719.97 0 0 0 0.091143"
+          stroke-linecap="round"
+          stroke-width="20"
+          fill="none"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

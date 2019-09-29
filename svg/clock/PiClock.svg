@@ -1,0 +1,235 @@
+<svg width="100%" height="100%" viewBox="0 0 600 600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+  <desc><![CDATA[
+    Pi Clock
+    PI symbol from openclipart: https://openclipart.org/detail/88501/pi-by-bnielsen
+    
+    Jay Nick
+    steamcoded.org
+  ]]>
+  </desc>
+
+  <script type="application/x-javascript"><![CDATA[
+    var PiClock = new function()
+    {
+      window.addEventListener("load",init);
+      var frame = 0;
+      
+      function init()
+      {
+        setClock();
+      }
+      
+      function setClock()
+      {
+        var dt = new Date();
+        
+        var hours = dt.getHours() % 12;
+        var min = dt.getMinutes();
+        var sec = dt.getSeconds();
+        
+        var node = document.getElementById("hours");
+        var cir = 2 * Math.PI * 220;
+        var dash = cir * (hours)/12;
+        var gap = cir - dash;
+        if(dash==0) dash=cir;
+        node.setAttribute("style","stroke-dasharray:"+dash+","+gap);
+
+        node = document.getElementById("minutes");
+        cir = 2 * Math.PI * 250;
+        dash = cir * (min)/60;
+        gap = cir - dash;
+        if(dash==0) dash=cir;
+        node.setAttribute("style","stroke-dasharray:"+dash+","+gap);
+
+        node = document.getElementById("seconds");
+        cir = 2 * Math.PI * 280;
+        dash = cir * sec/60;
+        gap = cir - dash;
+        if(dash==0) dash=cir;
+        node.setAttribute("style","stroke-dasharray:"+dash+","+gap);
+        
+        node = document.getElementById("hhand");
+        var deg = 30*(hours + min/60);
+        node.setAttribute("transform","rotate("+deg+",300,300)");
+
+        node = document.getElementById("mhand");
+        deg = 6*(min + sec/60);
+        node.setAttribute("transform","rotate("+deg+",300,300)");
+        
+        node = document.getElementById("shand");
+        deg = 6*sec;
+        node.setAttribute("transform","rotate("+deg+",300,300)");
+                
+        setTimeout(setClock,1000);
+      }
+    }();
+  ]]>
+  </script>
+  
+  <style type="text/css"><![CDATA[
+    @import url('https://fonts.googleapis.com/css?family=Lobster+Two:700');
+
+    #hours {stroke:cyan;}
+    #hhand {fill:cyan;stroke:purple;}
+    #minutes {stroke:lime;}
+    #mhand {fill:lime;stroke:purple;}
+    #seconds {stroke:magenta;}
+    #shand {fill:magenta;stroke:purple;}
+    .tics {stroke:purple;stroke-width:2px;}
+    .dots {fill:purple;stroke:none;}
+    text {fill:cyan;stroke:purple;stroke-width:0.75px;}
+    text {font-family:'Lobster Two',Arial;font-size:40px;font-weight:700;text-anchor:middle;}
+  ]]>
+  </style>
+  
+  <defs>
+    <radialGradient id="rg1">
+      <stop offset="0%" stop-color="magenta" />
+      <stop offset="100%" stop-color="purple" />
+    </radialGradient>
+
+    <symbol id="pi" viewBox="0 0 24 24" overflow="visible" style="fill:cyan;"> 
+      <g transform="translate(-5,-47) scale(0.04)">
+        <path d="m669.08 247.6c-124.67 0.7349-249.35-0.1383-374.02 0.3307-33.876 0.2722-40.957 1.2158-46.264 2.0755-32.004 5.1843-45.23 11.38-65.094 30.594-22.937 22.186-38.61 46.048-52.5 79.875-4.477 10.903-12.027 32.811-15.5 44.938l-1.5 5.25 17.375-0.031 6.3438-10.281c15.054-24.471 33.057-45.134 47.469-54.5 17.984-11.688 41.997-17.162 75.562-17.188h11.344c-2.5989 29.804-4.5922 59.661-6.75 89.5-6.7028 93.243-6.803 94.425-10.562 118.5-10.954 70.149-20.595 96.734-49.812 137.38-26.329 36.623-30.848 45.184-33.031 62.594-3.0318 24.18 9.6834 44.375 33.031 52.5 10.888 3.5794 23.552 3.6494 34.031-1.2187v0.031c12.054-5.9343 26.101-22.343 34.844-40.688 15.985-33.541 33.797-126.34 46-239.59 1.0341-9.5973 13.031-174.36 13.031-178.79l140.25-0.2062c-9.2089 64.187-14.802 128.9-20.312 193.5-1.7146 22.465-2.3431 96.724-1 117.16 3.7518 57.075 12.989 92.631 29.906 115 14.68 19.411 32.214 31.323 52.812 35.906 9.2392 2.0555 28.464 1.5225 37.844-1.0625 15.806-4.3559 32.792-14.858 47.062-29.094 18.537-18.492 30.485-41.756 39.469-76.906 3.464-13.553 8.9688-42.819 8.9688-47.594l-17.406 0.3437c-2.9839 14.493-4.1572 19.007-6.4688 24.688-6.6041 16.228-19.404 28.301-36.125 34.156-20.731 6.1896-42.772 3.0609-61.188-7.8124-17.898-11.691-28.855-31.322-33.406-59.875-4.7688-99.638 6.7697-199.58 20.594-298.16l135-0.25v-81.062z" />
+      </g>
+    </symbol>
+    <symbol id="divide" viewBox="0 0 24 24" overflow="visible" style="stroke:cyan;stroke-width:2px;"> 
+      <path d="M0,24L24,24" />
+    </symbol>
+  </defs>
+
+  <circle cx="300" cy="300" r="295" style="fill:purple;stroke:#ccc;stroke-width:4px;" />
+  <circle cx="300" cy="300" r="265" style="fill:none;stroke:#ccc;stroke-width:4px;" />
+  <circle cx="300" cy="300" r="235" style="fill:none;stroke:#ccc;stroke-width:4px;" />
+  <circle cx="300" cy="300" r="205" style="fill:url(#rg1);;stroke:#ccc;stroke-width:4px;" />
+  
+  <g style="fill:none;stroke-width:20px;stroke-linecap:round;" transform="rotate(-90,300,300)">
+    <circle id="hours" cx="300" cy="300" r="220" style="stroke-dasharray:0.1,1759.3;" />
+    <circle id="minutes" cx="300" cy="300" r="250" style="stroke-dasharray:0.1,1759.3;" />
+    <circle id="seconds" cx="300" cy="300" r="280" style="stroke-dasharray:0.1,1759.3;" />
+  </g>
+  
+  <g class="dots">
+    <circle class="round" cx="300" cy="80" r="6" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(30,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(60,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(90,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(120,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(150,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(180,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(210,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(240,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(270,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(300,300,300)" />
+    <circle class="round" cx="300" cy="80" r="6" transform="rotate(330,300,300)" />
+  </g>
+  
+  <g id="ts" class="tics">
+    <circle class="dots" cx="300" cy="20" r="6" />
+    <path d="M300,14l0,12" transform="rotate(6,300,300)" />
+    <path d="M300,14l0,12" transform="rotate(12,300,300)" />
+    <path d="M300,14l0,12" transform="rotate(18,300,300)" />
+    <path d="M300,14l0,12" transform="rotate(24,300,300)" />
+  </g>
+  <use xlink:href="#ts" transform="rotate(30,300,300)" />
+  <use xlink:href="#ts" transform="rotate(60,300,300)" />
+  <use xlink:href="#ts" transform="rotate(90,300,300)" />
+  <use xlink:href="#ts" transform="rotate(120,300,300)" />
+  <use xlink:href="#ts" transform="rotate(150,300,300)" />
+  <use xlink:href="#ts" transform="rotate(180,300,300)" />
+  <use xlink:href="#ts" transform="rotate(210,300,300)" />
+  <use xlink:href="#ts" transform="rotate(240,300,300)" />
+  <use xlink:href="#ts" transform="rotate(270,300,300)" />
+  <use xlink:href="#ts" transform="rotate(300,300,300)" />
+  <use xlink:href="#ts" transform="rotate(330,300,300)" />
+  
+  <g id="tm" class="tics">
+    <circle class="dots" cx="300" cy="50" r="6" />
+    <path d="M300,44l0,12" transform="rotate(6,300,300)" />
+    <path d="M300,44l0,12" transform="rotate(12,300,300)" />
+    <path d="M300,44l0,12" transform="rotate(18,300,300)" />
+    <path d="M300,44l0,12" transform="rotate(24,300,300)" />
+  </g>
+  <use xlink:href="#tm" transform="rotate(30,300,300)" />
+  <use xlink:href="#tm" transform="rotate(60,300,300)" />
+  <use xlink:href="#tm" transform="rotate(90,300,300)" />
+  <use xlink:href="#tm" transform="rotate(120,300,300)" />
+  <use xlink:href="#tm" transform="rotate(150,300,300)" />
+  <use xlink:href="#tm" transform="rotate(180,300,300)" />
+  <use xlink:href="#tm" transform="rotate(210,300,300)" />
+  <use xlink:href="#tm" transform="rotate(240,300,300)" />
+  <use xlink:href="#tm" transform="rotate(270,300,300)" />
+  <use xlink:href="#tm" transform="rotate(300,300,300)" />
+  <use xlink:href="#tm" transform="rotate(330,300,300)" />
+
+  <g>  
+    <text x="300" y="130" style="text-anchor:end">2</text>
+    <use x="300" y="145" width="24" height="24" xlink:href="#pi" />
+
+    <use x="300" y="130" width="16" height="16" xlink:href="#pi" transform="translate(-12,-3) rotate(30,300,300) rotate(-30,300,115)" />
+    <use x="300" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-13,2) rotate(30,300,300) rotate(-30,300,115)" />
+    <text x="300" y="130" transform="translate(-5,8) rotate(30,300,300) rotate(-30,300,115)" style="font-size:24px;">6</text>
+
+    <use x="300" y="130" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(60,300,300) rotate(-60,300,115)" />
+    <use x="300" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(60,300,300) rotate(-60,300,115)" />
+    <text x="300" y="130" transform="translate(-2,6) rotate(60,300,300) rotate(-60,300,115)" style="font-size:24px;">3</text>
+
+    <use x="300" y="130" width="16" height="16" xlink:href="#pi" transform="translate(-7,-5) rotate(90,300,300) rotate(-90,300,115)" />
+    <use x="300" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-8,0) rotate(90,300,300) rotate(-90,300,115)" />
+    <text x="300" y="130" transform="translate(0,6) rotate(90,300,300) rotate(-90,300,115)" style="font-size:24px;">2</text>
+
+    <text x="300" y="130" transform="translate(-10,-18) rotate(120,300,300) rotate(-120,300,115)" style="font-size:24px;">2</text>
+    <use x="308" y="128" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(120,300,300) rotate(-120,300,115)" />
+    <use x="292" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(120,300,300) rotate(-120,300,115)" />
+    <use x="308" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(120,300,300) rotate(-120,300,115)" />
+    <text x="300" y="130" transform="translate(-2,6) rotate(120,300,300) rotate(-120,300,115)" style="font-size:24px;">3</text>
+
+    <text x="300" y="126" transform="translate(-10,-18) rotate(150,300,300) rotate(-150,300,115)" style="font-size:24px;">5</text>
+    <use x="308" y="124" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(150,300,300) rotate(-150,300,115)" />
+    <use x="292" y="96" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(150,300,300) rotate(-150,300,115)" />
+    <use x="308" y="96" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(150,300,300) rotate(-150,300,115)" />
+    <text x="300" y="126" transform="translate(-2,6) rotate(150,300,300) rotate(-150,300,115)" style="font-size:24px;">6</text>
+
+    <use x="300" y="145" width="24" height="24" xlink:href="#pi" transform="translate(-10,0) rotate(180,300,300) rotate(-180,300,115)" />
+
+    <text x="300" y="126" transform="translate(-10,-18) rotate(210,300,300) rotate(-210,300,115)" style="font-size:24px;">7</text>
+    <use x="308" y="124" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(210,300,300) rotate(-210,300,115)" />
+    <use x="292" y="96" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(210,300,300) rotate(-210,300,115)" />
+    <use x="308" y="96" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(210,300,300) rotate(-210,300,115)" />
+    <text x="300" y="126" transform="translate(-2,6) rotate(210,300,300) rotate(-210,300,115)" style="font-size:24px;">6</text>
+
+    <text x="300" y="130" transform="translate(-10,-18) rotate(240,300,300) rotate(-240,300,115)" style="font-size:24px;">4</text>
+    <use x="308" y="128" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(240,300,300) rotate(-240,300,115)" />
+    <use x="292" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(240,300,300) rotate(-240,300,115)" />
+    <use x="308" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(240,300,300) rotate(-240,300,115)" />
+    <text x="300" y="130" transform="translate(-2,6) rotate(240,300,300) rotate(-240,300,115)" style="font-size:24px;">3</text>
+
+    <text x="305" y="130" transform="translate(-10,-18) rotate(270,300,300) rotate(-270,300,115)" style="font-size:24px;">3</text>
+    <use x="313" y="128" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(270,300,300) rotate(-270,300,115)" />
+    <use x="297" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(270,300,300) rotate(-270,300,115)" />
+    <use x="313" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(270,300,300) rotate(-270,300,115)" />
+    <text x="305" y="130" transform="translate(-2,6) rotate(270,300,300) rotate(-270,300,115)" style="font-size:24px;">2</text>
+
+    <text x="305" y="130" transform="translate(-10,-18) rotate(300,300,300) rotate(-300,300,115)" style="font-size:24px;">5</text>
+    <use x="313" y="128" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(300,300,300) rotate(-300,300,115)" />
+    <use x="297" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(300,300,300) rotate(-300,300,115)" />
+    <use x="313" y="100" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(300,300,300) rotate(-300,300,115)" />
+    <text x="305" y="130" transform="translate(-2,6) rotate(300,300,300) rotate(-300,300,115)" style="font-size:24px;">3</text>
+
+    <text x="310" y="135" transform="translate(-10,-18) rotate(330,300,300) rotate(-330,300,115)" style="font-size:24px;">11</text>
+    <use x="318" y="133" width="16" height="16" xlink:href="#pi" transform="translate(-9,-5) rotate(330,300,300) rotate(-330,300,115)" />
+    <use x="302" y="105" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(330,300,300) rotate(-330,300,115)" />
+    <use x="318" y="105" width="16" height="16" xlink:href="#divide" transform="translate(-10,0) rotate(330,300,300) rotate(-330,300,115)" />
+    <text x="310" y="135" transform="translate(-2,6) rotate(330,300,300) rotate(-330,300,115)" style="font-size:24px;">6</text>
+
+  </g>
+  
+  <path id="hhand" d="M291,300l9,-130l9,130l-9,40,-9,-40" />
+  <path id="mhand" d="M292,300l8,-150l8,150l-8,50,-8,-50" />
+  <path id="shand" d="M293,300l7,-170l7,170l-7,60,-7,-60" />
+  <circle cx="300" cy="300" r="4" style="fill:url(#rg1);" />
+   
+</svg>

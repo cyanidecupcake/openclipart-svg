@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" xml:space="preserve">
+       
+  <desc>
+    Using SVG to promoting Math and Art while learning to code.
+    
+    Use SVG to create Art and improve Math skills.
+    A free and easy way to get started learning to code!
+    
+    Written by Jay Nick
+    Author and Illustrator - STEAM Coded String Art - and other free eBooks (visit http://cattocreations.com)
+    handcoding SVG since 2001
+    http://steamcoded.org
+  </desc>
+       
+  <defs>
+    <script type="application/x-javascript"><![CDATA[
+      var Clock = new function()
+      {
+        var dt = new Date();
+        var deg=0;
+
+        window.addEventListener("load", function(e) {DisplayTime(); }, false);
+
+        function DisplayTime()
+        {
+          setClock();
+        }
+        
+        function setClock()
+        {
+          var sec;
+          var min;
+          var hr;
+          var deg;
+          var node;
+
+          dt = new Date();
+        
+          min = dt.getMinutes();
+          sec = dt.getSeconds();
+          deg = (360/3600)*(60*min+sec);
+          node = document.getElementById("minutes");
+          node.setAttribute("transform","rotate("+deg+",150,150)");
+          
+          hr = dt.getHours();
+          deg = 30*hr + 30/60*min;
+          var node = document.getElementById("hours");
+          node.setAttribute("transform","rotate("+deg+",150,150)");
+          
+          setTimeout(setClock,(15-dt.getSeconds()%15)*1000);
+        }
+      }();
+    ]]>
+    </script>
+  
+    <style type="text/css"><![CDATA[
+      .fb {fill:black;}
+      .fy {fill:#ffdf01;}
+      .sy {stroke:#ffdf01;stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:10;}
+
+      .gf {font-family:Arial;}
+      #minutes {stroke-width:0.5px;fill:#ffdf01;stroke:#cccccc;}
+      #hours {stroke-width:0.5px;fill:#ffdf01;stroke:#cccccc;}
+      .numbers {fill:black;font-size:28px;font-weight:bold;text-anchor:middle;}
+      .ticks {fill:#ffdf01;stroke:#ffdf01;stroke-width:3;}
+      .rim {fill:#ffdf01;stroke:#ffdf01;stroke-width:4;}
+      .face {fill:blackstroke:black;stroke-width:4;}
+      
+      .show {display:default;}
+      .hide {display:none;}
+    ]]>
+    </style>
+  </defs>
+  
+  <g transform="translate(0,0) scale(1)">
+  
+    <rect width="500" height="500" rx="250" class="fb"/>
+    <circle cx="250" cy="250" r="205" class="fy"/>
+
+    <g transform="translate(250,250)">
+      <g id="p3" class="fb sy">
+        <path id="p1" d="M0,-240L46,0L-46,0z"/>
+        <use xlink:href="#p1" transform="rotate(30)"/>
+        <use xlink:href="#p1" transform="rotate(60)"/>
+      </g>
+      <use xlink:href="#p3" transform="rotate(90)"/>
+      <use xlink:href="#p3" transform="rotate(180)"/>
+      <use xlink:href="#p3" transform="rotate(270)"/>
+
+      <g id="p4" class="fb">
+        <path id="p2" d="M0,-190L54,0L-54,0z" transform="rotate(15)"/>
+        <use xlink:href="#p2" transform="rotate(30)"/>
+        <use xlink:href="#p2" transform="rotate(60)"/>
+      </g>
+      <use xlink:href="#p4" transform="rotate(90)"/>
+      <use xlink:href="#p4" transform="rotate(180)"/>
+      <use xlink:href="#p4" transform="rotate(270)"/>
+      
+      <circle r="125" class="fy"/>
+      <circle r="95" class="fb"/>
+    </g>
+    
+
+    <g class="gf" transform="translate(125,125) scale(0.833)">
+      <circle cx="150" cy="150" r="147" class="rim"/>
+      <circle cx="150" cy="150" r="110" class="face"/>
+      
+      <g class="numbers show">
+        <text x="215" y="51">1</text>
+        <text x="262" y="99">2</text>
+        <text x="277" y="161">3</text>
+        <text x="260" y="222">4</text>
+        <text x="215" y="271">5</text>
+        <text x="150" y="289">6</text>
+        <text x="85" y="270">7</text>
+        <text x="38" y="222">8</text>
+        <text x="23" y="161">9</text>
+        <text x="38" y="98">10</text>
+        <text x="85" y="50">11</text>
+        <text x="150" y="32">12</text>
+      </g>
+
+      <g class="ticks show">
+        <path d="M150,43L150,50"/>
+        <path d="M150,43L150,50" transform="rotate(30,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(60,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(90,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(120,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(150,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(180,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(210,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(240,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(270,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(300,150,150)"/>
+        <path d="M150,43L150,50" transform="rotate(330,150,150)"/>
+      </g>
+      <g class="ticks show" style="stroke-width:0.5;">
+        <circle cx="150" cy="47" r="1" transform="rotate(6,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(12,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(18,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(24,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(36,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(42,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(48,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(54,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(66,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(72,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(78,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(84,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(96,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(102,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(108,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(114,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(126,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(132,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(138,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(144,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(156,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(162,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(168,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(174,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(186,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(192,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(198,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(204,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(216,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(222,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(228,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(234,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(246,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(252,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(258,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(264,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(276,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(282,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(288,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(294,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(306,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(312,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(318,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(324,150,150)"/>
+
+        <circle cx="150" cy="47" r="1" transform="rotate(336,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(342,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(348,150,150)"/>
+        <circle cx="150" cy="47" r="1" transform="rotate(354,150,150)"/>
+      </g>
+      
+      <path id="hours" d="M145,170L155,170L150,85z" transform="rotate(270,150,150)"/>
+      <path id="minutes" d="M146,180L154,180L150,52z" transform="rotate(0,150,150)"/>
+    </g>
+  </g>
+
+</svg>
